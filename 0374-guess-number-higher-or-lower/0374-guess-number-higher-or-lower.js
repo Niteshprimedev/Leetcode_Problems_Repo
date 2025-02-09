@@ -18,11 +18,11 @@ var guessNumber = function(n) {
 
     let leftNum = 0;
     let rightNum = n;
-    let midNum = Math.floor((leftNum + rightNum) / 2);
-    
+    let midNum = leftNum + (rightNum - leftNum) / 2;
+
     pickedNum = guess(midNum);
 
-    while(true){
+    while(leftNum <= rightNum){
         if(pickedNum === 0){
             return midNum;
         }
@@ -32,7 +32,7 @@ var guessNumber = function(n) {
         else if(pickedNum === -1){
             rightNum = midNum;
         }
-        midNum = Math.floor((leftNum + rightNum) / 2);
+        midNum = leftNum + (rightNum - leftNum) / 2;
         pickedNum = guess(midNum);
     }
 };
