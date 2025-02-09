@@ -39,6 +39,9 @@
 
  // Solution using AdjacencyList;
 var findCircleNum = function(isConnected) {
+    // [Logic: Build an adjacencyList of a bi-directional graph where each cityVertex is connected with another cityVertex those are considered as our city edges/connections & cityVertex are considered as vertices. 
+    // Do a component wise DFS/BFS traversal as long as the component is not been visited, and number of times the DFS/BFS traversal
+    // will be called for the individual vertices, the number of provinces will increment.
     // Pseudocode &
     // Solution using Graph DS + Graph DFS method
     // Create a provincesBDGraph (Bi-Dir) variable and initialize it to a new graph
@@ -111,42 +114,31 @@ var findCircleNum = function(isConnected) {
     const visitedCityVerticesHashmap = new Map();
 
     for(let rowCityVertex = 0; rowCityVertex < rowCitiesVertices; rowCityVertex++){
-        const isCityVertexNotPresent = adjacencyList[rowCityVertex] === undefined;
         const isCityVertexNotVisited = visitedCityVerticesHashmap.has(rowCityVertex) !== true;
 
-        if(isCityVertexNotPresent){
-            // Group of directly self connected provinces
-            totalNumOfProvinces++;
-        }
-        else if(isCityVertexNotVisited){
+        if(isCityVertexNotVisited){
             // Group of directly & indirectly connected provinces
             totalNumOfProvinces++;
-            graphDFSIve(rowCityVertex);
+            recGraphDFSIve(rowCityVertex);
         }
     }
 
-    function graphDFSIve(cityVertex){
-        
-        const stack = [];
-        let currCityVertex = cityVertex;
+    function recGraphDFSIve(cityVertex){
 
-        stack.push(currCityVertex);
+        const adjCityVertices = adjacencyList[cityVertex];
 
-        while(stack.length){
-            currCityVertex = stack.pop();
+        // Base Case;
+        if(adjCityVertices === undefined) return;
 
-            visitedCityVerticesHashmap.set(currCityVertex, 'visited');
+        visitedCityVerticesHashmap.set(cityVertex, 'visited');
 
-            const adjCityVertices = adjacencyList[currCityVertex];
+        adjCityVertices.forEach(adjCityVertex => {
+            const isAdjCityVertexNotVisited = visitedCityVerticesHashmap.has(adjCityVertex) !== true;
 
-            adjCityVertices.forEach(adjCityVertex => {
-                const isAdjCityVertexNotVisited = visitedCityVerticesHashmap.has(adjCityVertex) !== true;
-
-                if(isAdjCityVertexNotVisited){
-                    stack.push(adjCityVertex);
-                }
-            });
-        }
+            if(isAdjCityVertexNotVisited){
+                recGraphDFSIve(adjCityVertex);
+            }
+        });
     }
 
     // console.log('SOLVED USING DFS & ADJACENCYLIST');
@@ -157,68 +149,3 @@ var findCircleNum = function(isConnected) {
     return totalNumOfProvinces;
 }
  
-/**
-var findCircleNum = function(isConnected) {
-    const adjacencyList = {};
-
-    // Solution using DFS;
-    // 0, 1, 7, 8, 6, 3, 5, 10, 4, 9, 11, 14, 13, 
-    // 2
-    // 12 so total is 3;
-    // Need to figure out a way to traverse through the adj matrix
-
-    const rowCitiesVertices = isConnected.length;
-    const colCitiesVertices = isConnected[0].length;
-    const connectedCitiesGroupsArr = [];
-    // const visitedCitiesConnections = new Map();
-
-    for(let rowCityVertex = 0; rowCityVertex < rowCitiesVertices; rowCityVertex++){
-
-        const rowCityNeighbors = isConnected[rowCityVertex];
-        let rowCityConnectedNeighbor = rowCityNeighbors.indexOf(1);
-
-        // Reset the connections value to -1 to avoid the loop;
-        rowCityNeighbors[rowCityConnectedNeighbor] = -1;
-
-        let stack = [];
-        
-        stack.push(rowCityConnectedNeighbor);
-        const colConnectedCities = [];
-        rowCityVertex--;
-
-        while(stack.length){
-            rowCityConnectedNeighbor = stack.pop();
-
-            // let isConnectedCityNotVisited = visitedCitiesConnections.has(rowCityConnectedNeighbor) !== true;
-            if(isConnectedCityNotVisited){
-                rowCityVertex++;
-                colConnectedCities.push(rowCityConnectedNeighbor);
-
-                // Mark city as connected;
-                // visitedCitiesConnections.set(rowCityConnectedNeighbor, true);
-                
-                // Construct the object for neighbors;
-                for(let colCityVertex = 0; colCityVertex < colCitiesVertices; colCityVertex++){
-                    const areRowColCitiesConnected = isConnected[rowCityVertex][colCityVertex] === 1;
-                    // isConnectedCityNotVisited = visitedCitiesConnections.has(colCityVertex) !== true;
-
-                    if(areRowColCitiesConnected && isConnectedCityNotVisited){
-                        stack.push(colCityVertex);
-                    }
-                }
-            }
-        }   
-        connectedCitiesGroupsArr.push({'ConnectedCityProvinces': colConnectedCities});
-    }
-
-    console.log(connectedCitiesGroupsArr);
-    console.log(isConnected);
-    return connectedCitiesGroupsArr.length;
-};
- */
-
-
-
-/**
-
- */
