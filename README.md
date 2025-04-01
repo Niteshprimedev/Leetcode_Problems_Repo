@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
+| [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Sorting
 |  |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
+| [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
