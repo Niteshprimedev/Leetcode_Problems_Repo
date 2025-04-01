@@ -12,25 +12,25 @@ var climbStairs = function(n) {
         // Get the already computed result;
         if(memo[stepIdx] > 0) return memo[stepIdx];
 
-        if(stepIdx > n){
+        if(stepIdx < 0){
             return 0;
         }
         // Base Case:
-        if(stepIdx === n){
+        if(stepIdx === 0){
             memo[stepIdx] = 1;
             return 1;
         }
         // Step 1;
-        const step1Ways = calcClimbSteps(stepIdx + 1, memo);
+        const step1Ways = calcClimbSteps(stepIdx - 1, memo);
         // Step 2;
-        const step2Ways = calcClimbSteps(stepIdx + 2, memo);
+        const step2Ways = calcClimbSteps(stepIdx - 2, memo);
 
         memo[stepIdx] = step1Ways + step2Ways;
         // console.log(memo);
         return memo[stepIdx];
     }
 
-    return calcClimbSteps(0, memo);
+    return calcClimbSteps(n, memo);
 
     // return totalDisWays;
 
