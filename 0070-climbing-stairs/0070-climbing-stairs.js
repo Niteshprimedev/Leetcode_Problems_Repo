@@ -4,8 +4,23 @@
  */
 var climbStairs = function(n) {
     
+    // Bottom Up Approach: Using Fibonacci Example
+    // Tabulation Approach;
     const memo = new Array(n + 1).fill(0);
     // console.log(memo, n, memo.length);
+    memo[0] = 1;
+    memo[1] = 1;
+
+    for(let stepIdx = 2; stepIdx <= n; stepIdx++){
+        memo[stepIdx] = memo[stepIdx - 1] + memo[stepIdx - 2];
+    }
+
+    return memo[n];
+
+    /**
+    // Top Down Approach -> Memoization Recursive Approach
+
+    const memo = new Array(n + 1).fill(0);
 
     function calcClimbSteps(stepIdx, memo){
 
@@ -31,8 +46,7 @@ var climbStairs = function(n) {
     }
 
     return calcClimbSteps(n, memo);
-
-    // return totalDisWays;
+    */
 
     /** 
     // Brute Force Solution:
