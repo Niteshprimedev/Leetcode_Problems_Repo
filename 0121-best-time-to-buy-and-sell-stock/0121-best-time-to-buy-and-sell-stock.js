@@ -22,6 +22,7 @@ var maxProfit = function(prices) {
     // then we can easily figure out which of the day would give us the maximum profit out of 
     // all these days?
 
+    /** 
     // Bottom Up Approach:
 
     const lastDayPriceIdx = prices.length - 1;
@@ -40,4 +41,35 @@ var maxProfit = function(prices) {
     }
 
     return maxStockBuySellProfit;
+    */
+
+    // Top Down Approach
+    const lastDayPriceIdx = prices.length - 1;
+
+    function buyOrSell(buyPriceIdx, sellPriceIdx, prices, maxProfit){
+        // Base Case 
+        if(sellPriceIdx > lastDayPriceIdx) return maxProfit;
+
+        const stockBuyPrice = prices[buyPriceIdx];
+        const stockSellPrice = prices[sellPriceIdx];
+
+        let noSellProfit = 0;
+        let sellProfit = 0;
+
+        // We buy the stock if the price is low
+        if(stockBuyPrice >= stockSellPrice){
+            noSellProfit = buyOrSell(sellPriceIdx, sellPriceIdx + 1, prices, maxProfit);
+        }
+        // We sell the stock if the price is high
+        else{
+            sellProfit = stockSellPrice - stockBuyPrice;
+            sellProfit = Math.max(sellProfit, buyOrSell(buyPriceIdx, sellPriceIdx + 1, prices, maxProfit));
+        }
+
+        // console.log(buyPriceIdx, sellPriceIdx, noSellProfit, sellProfit, maxProfit);
+
+        maxProfit = Math.max(noSellProfit, sellProfit);
+        return maxProfit;
+    }
+    return buyOrSell(0, 1, prices, 0);
 };
