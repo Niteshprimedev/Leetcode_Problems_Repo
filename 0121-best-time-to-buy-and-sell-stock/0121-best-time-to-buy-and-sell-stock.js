@@ -3,6 +3,7 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
+    // Note: You need to buy on a single day & sell on a different day;
     // Logic: To maximize the profit, I need to buy att the minimum possible cost
     // and sell at maximum possible cost
 
@@ -28,7 +29,7 @@ var maxProfit = function(prices) {
 
     let maxStockBuySellProfit = 0;
 
-    for(let priceIdx = lastDayPriceIdx; priceIdx >= 0; priceIdx--){
+    for(let priceIdx = lastDayPriceIdx - 1; priceIdx >= 0; priceIdx--){
         const currStockBuyPrice = prices[priceIdx];
         const newMaxStockSellPrice = currStockBuyPrice;
 
