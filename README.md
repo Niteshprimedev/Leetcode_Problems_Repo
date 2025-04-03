@@ -33,12 +33,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 ## Union Find
@@ -127,9 +129,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
+| [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
