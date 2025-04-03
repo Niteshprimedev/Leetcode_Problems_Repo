@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 ## Breadth-First Search
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
@@ -122,4 +124,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0713-subarray-product-less-than-k) |
+## Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
