@@ -36,4 +36,23 @@ var canConstruct = function(ransomNote, magazine) {
     
     const canRansomNoteBeConstructed = ransomNoteCharsFreqHashmap.size === 0 ? true : false;
     return canRansomNoteBeConstructed;
+
+    /**
+    // Brute Force Solution;
+    let canRansomNoteBeConstructed = true;
+    for(let ransomNoteChar of ransomNote){
+        const firstIdx = magazine.indexOf(ransomNoteChar);
+
+        if(firstIdx === -1){
+            canRansomNoteBeConstructed = false;
+            break;
+        }
+        else{
+            magazine = magazine.replace(ransomNoteChar, '');
+        }
+        // console.log(firstIdx);
+    }
+
+    return canRansomNoteBeConstructed;
+    */
 };
