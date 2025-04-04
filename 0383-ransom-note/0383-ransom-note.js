@@ -15,7 +15,7 @@ var canConstruct = function(ransomNote, magazine) {
     }
 
     // console.log(ransomNoteCharsFreqHashmap);
-
+    let canRansomNoteBeConstructed = false;
     for(let magazineChar of magazine){
         const hashKey = magazineChar;
 
@@ -30,11 +30,16 @@ var canConstruct = function(ransomNote, magazine) {
                 ransomNoteCharsFreqHashmap.set(hashKey, hashValue - 1);
             }
         }
+        // Optimized when all the chars are present and the hashmap is empty;
+        if(ransomNoteCharsFreqHashmap.size === 0){
+            canRansomNoteBeConstructed = true;
+            break;
+        }
     }
 
     // console.log(ransomNoteCharsFreqHashmap);
     
-    const canRansomNoteBeConstructed = ransomNoteCharsFreqHashmap.size === 0 ? true : false;
+    // const canRansomNoteBeConstructed = ransomNoteCharsFreqHashmap.size === 0 ? true : false;
     return canRansomNoteBeConstructed;
 
     /**
