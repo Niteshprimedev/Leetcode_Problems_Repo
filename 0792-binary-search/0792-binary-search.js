@@ -13,14 +13,11 @@ var search = function(nums, target) {
     while(leftIdx < rightIdx){
         middleIdx = leftIdx + Math.floor((rightIdx - leftIdx) / 2);
 
-        if(nums[middleIdx] < target){
-            leftIdx = middleIdx + 1;
-        }
-        else if(nums[middleIdx] > target){
-            rightIdx = middleIdx - 1;
+        if(nums[middleIdx] >= target){
+            rightIdx = middleIdx;
         }
         else{
-            return middleIdx;
+            leftIdx = middleIdx + 1;
         }
     }
 
