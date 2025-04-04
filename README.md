@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 ## Breadth-First Search
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
@@ -138,12 +140,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
 ## Recursion
 |  |
 | ------- |
