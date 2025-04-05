@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0020-valid-parentheses) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
+| [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
@@ -172,4 +173,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
