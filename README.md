@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
+| [2383-add-two-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2383-add-two-integers) |
 ## Dynamic Programming
 |  |
 | ------- |
