@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0206-reverse-linked-list) |
 ## Doubly-Linked List
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 ## Greedy
 |  |
