@@ -7,12 +7,13 @@
  * @param {string} digits - Input string consisting of digits from 2 to 9
  * @returns {string[]} - All possible letter combinations
  */
- 
+
 var letterCombinations = function(digits) {
-    const allCombinations = [];
+    // Backtracking Solution with Pure Recursion & Functional code;
+    // const allCombinations = [];
 
     // Edge Case: Return empty array if no digits are provided
-    if (digits.length === 0) return allCombinations;
+    if (digits.length === 0) return [];
 
     // Mapping from digits to corresponding letters on a phone keypad
     const digitToLettersMap = {
@@ -35,21 +36,25 @@ var letterCombinations = function(digits) {
     function backtrackCombos(currIdx, currStrCombo) {
         // Base Case: If the combination length matches digits length, store it
         if (currStrCombo.length === digits.length) {
-            allCombinations.push(currStrCombo);
-            return;
+            // allCombinations.push(currStrCombo);
+            return [currStrCombo];
         }
 
+        const allCombinations = [];
         // Get the letters that the current digit can represent
         const currentDigit = digits[currIdx];
         const possibleLetters = digitToLettersMap[currentDigit];
 
         // Try each letter and recurse to the next digit
         for (let letter of possibleLetters) {
-            backtrackCombos(currIdx + 1, currStrCombo + letter);
+            const nextCombo = backtrackCombos(currIdx + 1, currStrCombo + letter);
+            allCombinations.push(...nextCombo);
         }
+
+        return allCombinations;
     }
 
     // Kick off the recursion from the first digit
-    backtrackCombos(0, '');
-    return allCombinations;
+    return backtrackCombos(0, '');
+    // return allCombinations;
 };
