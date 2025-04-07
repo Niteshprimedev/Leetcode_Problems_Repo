@@ -3,27 +3,29 @@
  * @return {number[][]}
  */
 var subsets = function(nums) {
-    const allSubsets = [];
+    // const allSubsets = [];
 
-    function generateSubsetsBacktrack(currIdx, currSubset, nums){
+    function generateSubsetsBacktrack(currIdx, nums){
         // Base Case:
         if(currIdx === nums.length){
-            allSubsets.push([...currSubset]);
-            return;
+            return [[]];
         }
 
-        // const allSubsets = [];
+        const nextSubsets = generateSubsetsBacktrack(currIdx + 1, nums);
 
-        currSubset.push(nums[currIdx]);
-        const subsetsWithCurrEl = generateSubsetsBacktrack(currIdx + 1, currSubset, nums);
+        const allSubsets = [];
+        for(let subset of nextSubsets){
+            // [1, 2, 3]
+            // [[]] => results [[], [3]] => idx2
+            // [[],[3]] => results [[], [2], [3], [2,3]] => idx1
+            // [[], [2], [3], [2,3]] => results [[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]] => idx1
+            allSubsets.push(subset);
+            allSubsets.push([nums[currIdx], ...subset]);
+        }
 
-        // Backtrack and revert back the changes:
-        currSubset.pop();
-        const subsetsWithoutCurrEl = generateSubsetsBacktrack(currIdx + 1, currSubset, nums);
-
-        // return allSubsets;
+        return allSubsets;
     }
-    generateSubsetsBacktrack(0, [], nums);
+    return generateSubsetsBacktrack(0, nums);
 
-    return allSubsets;
+    // return allSubsets;
 };
