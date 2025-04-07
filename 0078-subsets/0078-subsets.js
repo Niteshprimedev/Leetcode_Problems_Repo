@@ -3,29 +3,30 @@
  * @return {number[][]}
  */
 var subsets = function(nums) {
-    // const allSubsets = [];
-
-    function generateSubsetsBacktrack(currIdx, nums){
-        // Base Case:
-        if(currIdx === nums.length){
-            return [[]];
+    function generateSubsetsBacktrack(currIdx) {
+        // \U0001f501 Base Case:
+        // When we've considered all elements, return a list with one empty subset.
+        // This acts as the building block for combining subsets while backtracking.
+        if (currIdx === nums.length) {
+            return [[]]; // ➕ base: one empty subset to build from
         }
 
-        const nextSubsets = generateSubsetsBacktrack(currIdx + 1, nums);
-
+        // \U0001f9e0 Recursive Step:
+        // Get all subsets formed from the remaining elements (currIdx + 1 to end)
+        const subsetsFromNext = generateSubsetsBacktrack(currIdx + 1);
         const allSubsets = [];
-        for(let subset of nextSubsets){
-            // [1, 2, 3]
-            // [[]] => results [[], [3]] => idx2
-            // [[],[3]] => results [[], [2], [3], [2,3]] => idx1
-            // [[], [2], [3], [2,3]] => results [[], [1], [2], [1,2], [3], [1,3], [2,3], [1,2,3]] => idx1
-            allSubsets.push(subset);
-            allSubsets.push([nums[currIdx], ...subset]);
+
+        // \U0001fa84 For every subset we get from the next step:
+        // We do two things —
+        // 1. Push it as it is (not picking current element)
+        // 2. Create a new subset by including current element (picking it)
+        for (const subset of subsetsFromNext) {
+            allSubsets.push(subset);                      // ❌ not including current element
+            allSubsets.push([nums[currIdx], ...subset]);      // ✅ including current element
         }
 
+        // \U0001f680 Return the complete list of subsets built with and without current element
         return allSubsets;
     }
-    return generateSubsetsBacktrack(0, nums);
-
-    // return allSubsets;
-};
+    return generateSubsetsBacktrack(0);
+}
