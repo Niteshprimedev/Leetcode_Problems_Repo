@@ -4,6 +4,7 @@
  */
 var rob = function(nums) {
 
+    /**
     // Bottom Up Approach:
     const lastHouseIdx = nums.length;
     const memoDP = new Array(lastHouseIdx).fill(0);
@@ -25,8 +26,8 @@ var rob = function(nums) {
 
     maxRobberyAmount = memoDP[lastHouseIdx - 1];
     return maxRobberyAmount;
+    */
 
-    /** 
     // Top Down Approach;
     let maxMoneyRobbery = 0;
     const lastHouseIdx = nums.length;
@@ -64,5 +65,4 @@ var rob = function(nums) {
 
     // Return the maxAmount of Robbery that can be done without alerting the police;
     return maxMoneyRobbery;
-    */
 };
