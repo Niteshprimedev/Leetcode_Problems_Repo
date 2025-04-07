@@ -3,91 +3,45 @@
  * @return {boolean}
  */
 var canPartition = function(nums) {
-    // Logic: Trying Pick and Not Pick Technique
-    // And a sum hashmap;
-    const partitionEqualSubsetSumMemoMap = new Map();
+    // \U0001f9e0Logic/Intuition Trying Pick and Not Pick technique using recursion + memoization
+    // Top Down - Memoization DP Appraoch
+
     const lastIdx = nums.length;
-    const totalNumsArrSum = nums.reduce((acc, currEl) => acc + currEl);
+    const totalNumsArrSum = nums.reduce((acc, curr) => acc + curr);
 
-    if(totalNumsArrSum % 2 !== 0) return false;
+    // \U0001f6ab If the total sum is odd, we can’t split it into 2 equal subsets
+    if (totalNumsArrSum % 2 !== 0) return false;
 
-    const targetPartitionSumK = totalNumsArrSum / 2;
+    const targetPartitionEqualSumK = totalNumsArrSum / 2;
     const memoMap = new Map();
 
-    function subsetEqualsTargetDFS(currIdx, currSubsetSum, nums){
-        // Base Case:
-        if(currSubsetSum === targetPartitionSumK) return true;
-        if(currIdx === lastIdx || currSubsetSum > targetPartitionSumK){
-            return false;
-        }
+    // \U0001f501 DFS Function to try out pick / not pick combinations
+    function subsetEqualsTargetDFS(currIdx, currSubsetSum, nums) {
+        // ✅ Base Case: Found a subset with target sum
+        if (currSubsetSum === targetPartitionEqualSumK) return true;
 
+        // \U0001f6ab Base Case: Out of bounds or sum exceeded target
+        if (currIdx === lastIdx || currSubsetSum > targetPartitionEqualSumK) return false;
+
+        // \U0001f9fe Memoization key
         const hashKey = `${currIdx}-${currSubsetSum}`;
-        if(memoMap.has(hashKey)) return memoMap.get(hashKey);
+        if (memoMap.has(hashKey)) return memoMap.get(hashKey);
 
-        // Recursive case:
-        // including the current element
-        currSubsetSum = currSubsetSum + nums[currIdx];
-        currIdx = currIdx + 1;
-        const isPickElPartitionEqualSum = subsetEqualsTargetDFS(currIdx, currSubsetSum, nums);
+        // ✅ Pick the current element
+        const isPickElEqualsSum = subsetEqualsTargetDFS(currIdx + 1, currSubsetSum + nums[currIdx], nums);
 
-        if(isPickElPartitionEqualSum){
-            return true;
-        }
-        // not including the current element; backtrack
-        currSubsetSum = currSubsetSum - nums[currIdx - 1];
-        const isNotPickElPartitionEqualSum = subsetEqualsTargetDFS(currIdx, currSubsetSum, nums);
+        // \U0001f501 If picking worked, return early
+        if (isPickElEqualsSum) return true;
 
-        // Store the already explored paths:
-        const isPickOrNotPickBool = isPickElPartitionEqualSum || isNotPickElPartitionEqualSum
-        memoMap.set(hashKey, isPickOrNotPickBool);
-        return isPickOrNotPickBool;
+        // ❌ Skip (not pick) the current element
+        const isSkipElEqualsSum = subsetEqualsTargetDFS(currIdx + 1, currSubsetSum, nums);
+
+        // \U0001f9e0 Store the result in memoMap
+        const isPickElOrNotPickElEqualsSum = isPickElEqualsSum || isSkipElEqualsSum;
+        memoMap.set(hashKey, isPickElOrNotPickElEqualsSum);
+
+        return isPickElOrNotPickElEqualsSum;
     }
+
     return subsetEqualsTargetDFS(0, 0, nums);
-
-    /** 
-    // Brainstorming;
-    // Logic: Trying Pick and Not Pick Technique
-    // And a sum hashmap;
-    const partitionEqualSubsetSumMemoMap = new Map();
-    const lastIdx = nums.length;
-
-    function subsetDFS(currIdx, currSubsetSum, currSubsetEls, nums, hashMap){
-        // Base Case:
-        if(currIdx === lastIdx){
-            const isPartitionSumFound = hashMap.has(currSubsetSum);
-            if(isPartitionSumFound){
-                const hashValue = hashMap.get(currSubsetSum);
-                const totalElsCount = currSubsetEls + hashValue;
-
-                if(totalElsCount === lastIdx) return true;
-                return false;
-            }
-            else{
-                hashMap.set(currSubsetSum, currSubsetEls);
-                return false;   
-            }
-        }
-        // if(currIdx === lastIdx){
-            
-        // }
-
-        // Recursive case:
-        // including the current element
-        currSubsetSum = currSubsetSum + nums[currIdx];
-        currIdx = currIdx + 1;
-        currSubsetEls = currSubsetEls + 1;
-        const isPickElPartitionEqualSum = subsetDFS(currIdx, currSubsetSum, currSubsetEls, nums, hashMap);
-
-        if(isPickElPartitionEqualSum){
-            return true;
-        }
-        // not including the current element; backtrack
-        currSubsetSum = currSubsetSum - nums[currIdx - 1];
-        currSubsetEls = currSubsetEls - 1;
-        const isNotPickElPartitionEqualSum = subsetDFS(currIdx, currSubsetSum, currSubsetEls, nums, hashMap);
-
-        return isPickElPartitionEqualSum || isNotPickElPartitionEqualSum;
-    }
-    return subsetDFS(0, 0, 0, nums, partitionEqualSubsetSumMemoMap);
-    */
 };
