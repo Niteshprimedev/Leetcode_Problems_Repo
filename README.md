@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0001-two-sum) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
