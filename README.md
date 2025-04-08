@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
