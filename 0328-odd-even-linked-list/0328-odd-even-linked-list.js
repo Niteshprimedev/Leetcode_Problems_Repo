@@ -10,33 +10,34 @@
  * @return {ListNode}
  */
 var oddEvenList = function(head) {
-    if(head === null || head.next === null) return head;
+    // 1-based Indexing for odd and even linked list;
+    let dummyList1 = new ListNode(-1);
+    let dummyList2 = new ListNode(-1);
 
-    let oddNodesList = head;
-    let evenNodesList = head.next;
+    let oddNodesList = dummyList1;
+    let evenNodesList = dummyList2;
 
-    let oddListPointer = oddNodesList;
-    let evenListPointer = evenNodesList;
+    let currentNode = head;
+    let indices = 1;
 
-    let currentNode = evenNodesList.next;
     while(currentNode){
-        oddListPointer.next = currentNode;
-        oddListPointer = currentNode;
-
-        currentNode = currentNode.next;
-
-        evenListPointer.next = currentNode;
-
-        if(currentNode){
-            evenListPointer = currentNode;
-            currentNode = currentNode.next;
+        if(indices % 2 !== 0){
+            // Indice is odd; and odd starts from index 1
+            oddNodesList.next = currentNode;
+            oddNodesList = currentNode;
         }
+        else{
+            // When indice is even; and odd starts from index 2
+            evenNodesList.next = currentNode;
+            evenNodesList = currentNode;
+        }
+        indices += 1;
+        currentNode = currentNode.next;
     }
 
-    evenListPointer.next = null;
-    oddListPointer.next = evenNodesList;
+    evenNodesList.next = null;
+    oddNodesList.next = dummyList2.next;
 
-    head = oddNodesList;
-
+    head = dummyList1.next;
     return head;
 };
