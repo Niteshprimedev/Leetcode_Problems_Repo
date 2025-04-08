@@ -11,47 +11,31 @@
  */
 var pairSum = function(head) {
     // Using the reverse logic;
-    let prevNode = head;
+    let maxTwinSum = 0;
+    let prevNode = null;
     let slowNode = head;
     let fastNode = head;
-    let maxTwinSum = 0;
+    let currentNode = head;
 
     while(fastNode && fastNode.next){
-        prevNode = slowNode;
+        // Move slowNode to the middle node
         slowNode = slowNode.next;
         fastNode = fastNode.next.next;
+
+        // Start reversing the first half of the linked list
+        currentNode.next = prevNode;
+        prevNode = currentNode;
+        currentNode = slowNode;
     }
 
-    prevNode.next = null;
-    const reversedListHead = reverseList(slowNode);
-
-    // console.log(reversedListHead, slowNode.next, slowNode, prevNode);
-    function reverseList(newHead){
-        
-        let newPrevNode = null;
-        let newCurrentNode = newHead;
-        let newNextNode = newCurrentNode.next;
-
-        while(newCurrentNode){
-            newNextNode = newCurrentNode.next;
-            newCurrentNode.next = newPrevNode;
-            newPrevNode = newCurrentNode;
-            newCurrentNode = newNextNode;
-        }
-
-        // console.log(newHead, newPrevNode);
-        return newPrevNode;
-    }
-
-    slowNode = head;
-    fastNode = reversedListHead;
-
+    // Loop through the second half of the list and get + check the twins sum;
     while(slowNode){
-        const newMaxTwinSum = slowNode.val + fastNode.val;
+        const newMaxTwinSum = prevNode.val + slowNode.val;
         maxTwinSum = Math.max(maxTwinSum, newMaxTwinSum);
 
+        // Update the slowNode & prevNode to keep the loop going till the end node;
         slowNode = slowNode.next;
-        fastNode = fastNode.next;
+        prevNode = prevNode.next;
     }
 
     return maxTwinSum;
