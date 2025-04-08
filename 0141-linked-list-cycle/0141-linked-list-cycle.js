@@ -12,7 +12,7 @@
  */
 var hasCycle = function(head) {
     let slowNode = head;
-    let fastNode = head;
+    let fastNode =head;
 
     while(fastNode && fastNode.next){
         slowNode = slowNode.next;
