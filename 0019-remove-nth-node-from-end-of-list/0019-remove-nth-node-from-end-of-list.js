@@ -11,6 +11,7 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
+    /** 
     let slowNode = head;
     let fastNode = head;
     let prevNode = null;
@@ -31,8 +32,7 @@ var removeNthFromEnd = function(head, n) {
     slowNode.next = null;
 
     return head;
-    /** 
-    if(n === 1 && head.next === null) return null;
+    */
 
     let linkedListLen = 0;
     let currentNode = head;
@@ -41,6 +41,8 @@ var removeNthFromEnd = function(head, n) {
         currentNode = currentNode.next;
         linkedListLen += 1;
     }
+
+    if(linkedListLen === n) return head.next;
 
     let deletingNodeIdx = linkedListLen - n;
     let prevNode = head;
@@ -57,5 +59,4 @@ var removeNthFromEnd = function(head, n) {
     currentNode.next = null;
 
     return head;
-    */
 };
