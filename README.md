@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0061-rotate-list) |
 | [0086-partition-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0086-partition-list) |
