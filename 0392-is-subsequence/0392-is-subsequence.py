@@ -1,28 +1,12 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
+        str_s_idx = 0
+        str_t_idx = 0
+
+        while str_s_idx < len(s) and str_t_idx < len(t):
+            if s[str_s_idx] == t[str_t_idx]:
+                str_s_idx += 1
+            
+            str_t_idx += 1
         
-        if len(s) == 0:
-            return True
-            
-        is_sub_seq = False
-
-        str_len = 1
-
-        loop_idx = 0
-        while loop_idx < str_len:
-            str_s_idx = 0
-            
-            for idx_i in range(len(t)):
-                char_s = s[str_s_idx]
-                char_t = t[idx_i]
-
-                if char_s == char_t:
-                    str_s_idx += 1
-                
-                if str_s_idx == len(s):
-                    is_sub_seq = True
-                    break
-            
-            loop_idx += 1
-        
-        return is_sub_seq
+        return str_s_idx == len(s)
