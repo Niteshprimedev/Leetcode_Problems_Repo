@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 ## Stack
 |  |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 | [2383-add-two-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2383-add-two-integers) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
+| [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Memoization
 |  |
 | ------- |
