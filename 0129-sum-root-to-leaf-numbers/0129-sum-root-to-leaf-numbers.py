@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        '''
         # Post Order Traversal:
         total_sum = 0
 
@@ -58,3 +57,4 @@ class Solution:
                 stack.append((current_node.left, curr_path_sum))
             
         return total_sum
+        '''
