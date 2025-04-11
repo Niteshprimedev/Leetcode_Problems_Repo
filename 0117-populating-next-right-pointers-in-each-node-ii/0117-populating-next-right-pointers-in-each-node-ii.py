@@ -10,6 +10,22 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
+
+        def print_levels(root):
+            while root:
+                curr = root
+                while curr:
+                    print(curr.val, end=" -> ")
+                    curr = curr.next
+                print("None")
+                # Go to next level (find first left or right child)
+                if root.left:
+                    root = root.left
+                elif root.right:
+                    root = root.right
+                else:
+                    break
+
         if not root:
             return root
         
@@ -19,6 +35,8 @@ class Solution:
         while True:
             next_level_head = None # Will point to first node of next level
             next_level_tail = None # Will keep linking nodes at next level
+
+            # print_levels(prev_level_root)
 
             # Traverse current level using .next pointers
             while prev_level_root:
