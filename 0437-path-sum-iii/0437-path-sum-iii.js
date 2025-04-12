@@ -48,7 +48,6 @@ var pathSum = function(root, targetSum) {
 
         const updatedValue = (oldPathSumFreqMap.get(currPathSum) || 0) - 1;
         oldPathSumFreqMap.set(currPathSum, updatedValue);
-        // console.log('after', oldPathSumFreqMap, totalNumOfPaths);
     }
     traverse(root, 0);
 
@@ -114,73 +113,5 @@ var pathSum = function(root, targetSum) {
     traverse(root);
 
     return totalNumOfPaths;
-    */
-
-    /**
-    // Morris Iterative Preorder;
-    // Brainstorming:::
-    let currPathSum = 0;
-    while(currentNode){
-        if(currentNode.left === null){
-            // Check the current Path sum equals to targetSum or not;
-            currPathSum += currentNode.val;
-
-            const oldPathSum = currPathSum - targetSum;
-            totalNumOfPaths += oldPathSumFreqMap.get(oldPathSum) || 0;
-
-            const hashValue = (oldPathSumFreqMap.get(currPathSum) || 0) + 1;
-            oldPathSumFreqMap.set(currPathSum, hashValue);
-
-            currentNode = currentNode.right;
-        }
-        
-        else{
-            let prevNode = currentNode.left;
-
-            while(prevNode.right !== null && prevNode.right !== currentNode){
-                prevNode = prevNode.right;
-            }
-
-            if(prevNode.right === null){
-                prevNode.right = currentNode;
-
-                // Check the current Path sum equals to targetSum or not;
-                currPathSum += currentNode.val;
-                const oldPathSum = currPathSum - targetSum;
-
-                totalNumOfPaths += oldPathSumFreqMap.get(oldPathSum) || 0;
-                
-                const hashValue = (oldPathSumFreqMap.get(currPathSum) || 0) + 1;
-                oldPathSumFreqMap.set(currPathSum, hashValue);
-
-                currentNode = currentNode.left;
-            }
-            else{
-                prevNode.right = null;
-                prevNode = currentNode.left;
-
-                let depthSum =  prevNode.val;
-
-                const hashValue = (oldPathSumFreqMap.get(currPathSum) || 0) - 1;
-                oldPathSumFreqMap.set(currPathSum, hashValue);
-                while(prevNode.right !== null){
-                    prevNode = prevNode.right;
-                    currPathSum -= depthSum;
-                    depthSum =  prevNode.val;
-
-                    const hashValue = (oldPathSumFreqMap.get(currPathSum) || 0) - 1;
-                    oldPathSumFreqMap.set(currPathSum, hashValue);
-                }
-                
-                currPathSum -= depthSum;
-                currentNode = currentNode.right;
-            }
-        }
-    }
-
-    console.log(oldPathSumFreqMap);
-
-    return totalNumOfPaths;
-    
     */
 };
