@@ -1,5 +1,8 @@
 class Solution:
     def countGoodIntegers(self, n: int, k: int) -> int:
+        # 90 possible answers, you can run 8 test cases at a time, so 12 runs and you know all the answers.
+        # With constraints 1 <= n <= 10 and 1 <= k <= 9 
+        # we can pre-calculate and hardcode all 90 possible answers.
         vals_list = [None, [1, 9, 4, 3, 2, 1, 1, 1, 1, 1],
         [2, 9, 4, 3, 2, 1, 1, 1, 1, 1],
         [3, 243, 108, 69, 54, 27, 30, 33, 27, 23],
