@@ -33,12 +33,8 @@ var countNodes = function(root) {
         if(leftHeight === rightHeight){
             return nodesCount;
         }
-        else{
-            const leftTreeHeight = traverse(currentNode.left);
-            const rightTreeHeight = traverse(currentNode.right);
-            nodesCount = 1 + leftTreeHeight + rightTreeHeight;
-            return nodesCount;
-        }
+        
+        return 1 + traverse(currentNode.left) + traverse(currentNode.right);
     }
     return traverse(root);
 
