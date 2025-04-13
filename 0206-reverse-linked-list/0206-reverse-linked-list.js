@@ -12,12 +12,14 @@
 var reverseList = function(head) {
     function traverse(currentNode, nodesVal){
         if(currentNode === null) return nodesVal;
+        traverse(currentNode.next, nodesVal);
+
         nodesVal.push(currentNode.val);
-        return traverse(currentNode.next, nodesVal);
+        return nodesVal;
     }
     
     const nodesVal = traverse(head, []);
-    nodesVal.reverse();
+    // nodesVal.reverse();
     // console.log(nodesVal);
 
     let newHead = new ListNode(-1);
