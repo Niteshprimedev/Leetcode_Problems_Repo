@@ -17,23 +17,43 @@ var compress = function(chars) {
             chars[compressedIdx] = chars[groupStrtIdx];
             compressedIdx += 1;
             
-            if(groupLen > 1){
-                const lenStr = groupLen.toString();
-                for(let lenNum of lenStr){
-                    chars[compressedIdx] = lenNum;
-                    compressedIdx += 1;
-                }
-            }
-
             // if(groupLen > 1){
-            //     while(groupLen > 0){
-            //         const digit = groupLen % 10;
-            //         chars[compressedIdx] = digit.toString();
+            //     const lenStr = groupLen.toString();
+            //     for(let lenNum of lenStr){
+            //         chars[compressedIdx] = lenNum;
             //         compressedIdx += 1;
-
-            //         groupLen = Math.floor(groupLen / 10);
             //     }
             // }
+            // Follow up: if we don't have toString function or ability then?
+
+            if(groupLen > 1){
+                let digitsLen = groupLen;
+                let totalDigits = 0;
+
+                while(digitsLen > 0){
+                    digitsLen = Math.floor(digitsLen / 10);
+                    totalDigits += 1;
+                }
+
+                let idxI = 0;
+
+                while(groupLen > 0){
+                    const digit = groupLen % 10;
+
+                    if(totalDigits > 1){
+                        chars[compressedIdx + totalDigits - 1] = digit.toString();
+                        idxI += 1;
+                    }
+                    else{
+                        chars[compressedIdx] = digit.toString();
+                        compressedIdx += 1;
+                    }
+
+                    totalDigits -= 1;
+                    groupLen = Math.floor(groupLen / 10);
+                }
+                compressedIdx += idxI;
+            }
             
             groupStrtIdx = groupEndIdx;
         }
