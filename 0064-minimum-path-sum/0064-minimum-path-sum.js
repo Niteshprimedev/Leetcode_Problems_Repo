@@ -3,6 +3,7 @@
  * @return {number}
  */
 var minPathSum = function(grid) {
+    /** 
     // Logic: Recurrence Relation:
     // Step1: Express the problem in terms of indices
     // Step2: Do all the stuff on that index;
@@ -45,4 +46,45 @@ var minPathSum = function(grid) {
     // console.log(memoDP, memoDP[0][0])
 
     return minPathSum;
+    */
+
+    // Bottom Up Approach:
+    // To convert TOP DOWN TO BOTTOM UP:
+    // You need to follow below steps:
+    // 1) Declare Base Case First as it is and probably intialize DP at that indices
+    // 2) Express all states in for loops
+    // 3) Copy the recurrence and write it in terms of DP;
+    
+    const mRows = grid.length;
+    const nCols = grid[0].length;
+    const memoDP = new Array(mRows).fill(0).map(() => new Array(nCols).fill(-1));
+
+    memoDP[0][0] = grid[0][0];
+
+    for(let rowIdx = 0; rowIdx < mRows; rowIdx++){
+        for(let colIdx = 0; colIdx < nCols; colIdx++){
+            if(rowIdx === 0 && colIdx === 0){
+                memoDP[rowIdx][colIdx] = grid[0][0];
+            }
+            else{
+                // Top Path: The top 
+                let topPathSum = Infinity;
+                // Left Path:
+                let leftPathSum = Infinity;
+
+                if(rowIdx > 0){
+                    topPathSum = grid[rowIdx][colIdx] + memoDP[rowIdx - 1][colIdx];
+                }
+                if(colIdx > 0){
+                    leftPathSum = grid[rowIdx][colIdx] + memoDP[rowIdx][colIdx - 1];
+                }
+
+                memoDP[rowIdx][colIdx] = Math.min(topPathSum, leftPathSum);
+            }
+
+        }
+    }
+
+    // console.log(memoDP);
+    return memoDP[mRows - 1][nCols - 1];
 };
