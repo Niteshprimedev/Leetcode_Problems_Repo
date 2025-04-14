@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
+| [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -344,4 +346,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
+## Matrix
+|  |
+| ------- |
+| [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 <!---LeetCode Topics End-->
