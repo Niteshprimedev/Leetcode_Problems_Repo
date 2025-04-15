@@ -83,7 +83,7 @@ var minimumTotal = function(triangle) {
 
     for(let rowIdx = rowsLen - 2; rowIdx >= 0; rowIdx--){
         const currDP = new Array(rowIdx + 1).fill(0);
-        console.log(currDP.length, rowIdx, currDP);
+        // console.log(currDP.length, rowIdx, currDP);
 
         for(colIdx = rowIdx; colIdx >= 0; colIdx--){
             // Choose the currentIdx 
