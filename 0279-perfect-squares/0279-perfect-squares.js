@@ -3,7 +3,42 @@
  * @return {number}
  */
 var numSquares = function(n) {
+    // Bottom Up Approach:
+    const isPerfectSquare = Number.isInteger(Math.sqrt(n));
+    if(isPerfectSquare){
+        return 1;
+    }
 
+    const perfectSquares = [];
+
+    let sqIdx = 1;
+    let squareVal = 1;
+
+    while(squareVal < n){
+        squareVal = sqIdx ** 2;
+        if(squareVal < n){
+            perfectSquares.push(squareVal);
+        }
+
+        sqIdx += 1;
+    }
+
+    const memoDP = new Array(n + 1).fill(Infinity);
+    memoDP[0] = 0 // It takes zero numbers to sum to 0 → that's our base!
+
+    for(let idxI = 1; idxI <= n; idxI++){
+        for(let square of perfectSquares){
+            if(idxI - square >= 0){
+                memoDP[idxI] = Math.min(memoDP[idxI], 1 + memoDP[idxI - square]);
+            }
+        }
+    }
+
+    // console.log(memoDP, perfectSquares);
+    return memoDP[n];
+    
+    /** 
+    // Top Down Approach:
     const isPerfectSquare = Number.isInteger(Math.sqrt(n));
     if(isPerfectSquare){
         return 1;
@@ -50,7 +85,6 @@ var numSquares = function(n) {
 
         // Picking current element square sum;
         const pickingElsCount = 1 + allNumSquaresSum(currIdx, currSqSum + square);
-        */
 
         for(let idxI = 0; idxI < perfectSquares.length; idxI++){
             const square = perfectSquares[idxI];
@@ -65,4 +99,5 @@ var numSquares = function(n) {
 
     // console.log(memoDP);
     return minPerfectSqSumCount;
+    */
 };
