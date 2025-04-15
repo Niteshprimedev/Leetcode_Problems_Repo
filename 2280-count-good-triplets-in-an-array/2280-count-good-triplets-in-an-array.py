@@ -1,5 +1,6 @@
 class Solution:
     def goodTriplets(self, nums1: List[int], nums2: List[int]) -> int:
+        # solution ref: https://leetcode.com/problems/count-good-triplets-in-an-array/solutions/6653459/beats-100-algorithm-pattern-reverse-iteration-with-binary-search-python3
         count = 0
 
         indices = [0] * len(nums1)
