@@ -1,15 +1,26 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        num_els_map = {}
+        visited_nums_map = dict()
 
-        while(n not in num_els_map):
-            num_els_map[n] = True
+        def get_next_number(n):
             digits_sum = 0
-            while(n > 0):
+
+            while n > 0:
                 digit = n % 10
                 digits_sum += digit ** 2
                 n = n // 10
-            n = digits_sum
+            
+            return digits_sum
         
+        slow = get_next_number(n)
+        fast = get_next_number(get_next_number(n))
+
+        while slow != fast:
+            if fast == 1:
+                return True
+            
+            slow = get_next_number(slow)
+            fast = get_next_number(get_next_number(fast))
+
         # print(n)
-        return True if n == 1 else False
+        return True if slow == 1 else False
