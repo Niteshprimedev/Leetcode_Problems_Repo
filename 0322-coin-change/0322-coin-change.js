@@ -31,7 +31,9 @@ var coinChange = function(coins, amount) {
     minNumOfCoins = allCoinsSumDFS(totalCoins - 1, amount);
     return minNumOfCoins === Infinity ?  -1 : minNumOfCoins;
     */
-
+    
+    /**
+    // Top Down Approach:
     if(amount === 0) return 0;
 
     const totalCoins = coins.length;
@@ -68,4 +70,32 @@ var coinChange = function(coins, amount) {
 
     // console.log(memoDP);
     return minNumOfCoins === Infinity ?  -1 : minNumOfCoins;
+    
+    */
+    // Bottom Up Approach:
+    if(amount === 0) return 0;
+
+    const totalCoins = coins.length;
+    let minNumOfCoins;
+    
+    // Base Case:
+    // The minimum Amount is Infinity;
+    const memoDP = new Array(amount + 1).fill(Infinity);
+    memoDP[0] = 0; // It takes 0 coins to make 0 amount
+
+    for(let amountIdx = 1; amountIdx <= amount; amountIdx++){
+
+        for(let coin of coins){
+
+            // We can only make a amount using the coins smaller
+            // than or equal to my current amount:
+            // For amount 3, I can't use coin 5 right? because it will never be possible;
+            if(amountIdx - coin >= 0){
+                memoDP[amountIdx] = Math.min(memoDP[amountIdx], 1 + memoDP[amountIdx - coin]);
+            }
+        }
+    }
+
+    minNumOfCoins = memoDP[amount];
+    return minNumOfCoins === Infinity ? -1 : minNumOfCoins;
 };
