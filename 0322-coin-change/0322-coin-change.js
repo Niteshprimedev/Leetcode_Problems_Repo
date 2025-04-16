@@ -72,7 +72,47 @@ var coinChange = function(coins, amount) {
     return minNumOfCoins === Infinity ?  -1 : minNumOfCoins;
     
     */
+
     // Bottom Up Approach:
+    let minNumOfCoins = Infinity;
+    const memoDP = new Array(amount + 1).fill(Infinity);
+
+    // Base Case:
+    for(let amountIdx = 0; amountIdx <= amount; amountIdx++){
+        if(amountIdx === amount){
+            memoDP[amountIdx] = 0;
+        }
+        else{
+            memoDP[amountIdx] = Infinity;
+        }
+    }
+
+    memoDP[0] = 0;
+    // console.log(memoDP);
+
+    for(let amountIdx = 1; amountIdx <= amount; amountIdx++){
+
+        let minCoinsCount = Infinity;
+        for(let coin of coins){
+            let newCount = Infinity;
+
+            if(amountIdx - coin >= 0){
+                newCount = 1 + memoDP[amountIdx - coin];
+            }
+            minCoinsCount = Math.min(minCoinsCount, newCount);
+        }
+
+        memoDP[amountIdx] = minCoinsCount;
+    }
+
+    // console.log(memoDP);
+    minNumOfCoins = memoDP[amount];
+
+    return minNumOfCoins === Infinity ? -1 : minNumOfCoins;
+    
+    /**
+    // Bottom Up Approach:
+    // Chat GPT Version:
     if(amount === 0) return 0;
 
     const totalCoins = coins.length;
@@ -98,4 +138,5 @@ var coinChange = function(coins, amount) {
 
     minNumOfCoins = memoDP[amount];
     return minNumOfCoins === Infinity ? -1 : minNumOfCoins;
+    */
 };
