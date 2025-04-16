@@ -51,11 +51,11 @@ var coinChange = function(coins, amount) {
     */
 
     // Striver's Version: Using Pick and Not Pick Technique:
-    // Bottom Up Approach:
+    // Space Optimized Bottom Up Approach:
 
     let minNumOfCoins = Infinity;
     const totalCoins = coins.length;
-    const memoDP = new Array(totalCoins).fill(0).map(() => new Array(amount + 1).fill(-1));
+    let prevDP = new Array(amount + 1).fill(-1);
 
     let currAmount = amount;
 
@@ -67,30 +67,34 @@ var coinChange = function(coins, amount) {
         if(isFirstCoinCanTaken){
             // how many denominations?
             const coinsDenominations = amountIdx / firstCoin;
-            memoDP[0][amountIdx] = coinsDenominations;
+            prevDP[amountIdx] = coinsDenominations;
         }
         else{
-            memoDP[0][amountIdx] = Infinity;
+            prevDP[amountIdx] = Infinity;
         }
     }
 
     for(let coinIdx = 1; coinIdx < totalCoins; coinIdx++){
+        const currDP = new Array(amount + 1).fill(-1);
+
         for(let amountIdx = 0; amountIdx <= amount; amountIdx++){
             // Pick Case:
             let pickCurrCoinCounts = Infinity;
             const coin = coins[coinIdx];
 
             if(coin <= amountIdx){
-                pickCurrCoinCounts = 1 + memoDP[coinIdx][amountIdx - coin];
+                pickCurrCoinCounts = 1 + currDP[amountIdx - coin];
             }
 
             // Not Pick Case:
-            const skipCurrCoinCounts = 0 + memoDP[coinIdx - 1][amountIdx];
+            const skipCurrCoinCounts = 0 + prevDP[amountIdx];
 
-            memoDP[coinIdx][amountIdx] = Math.min(pickCurrCoinCounts, skipCurrCoinCounts);
+            currDP[amountIdx] = Math.min(pickCurrCoinCounts, skipCurrCoinCounts);
         }
+
+        prevDP = currDP;
     }
 
-    minNumOfCoins = memoDP[totalCoins - 1][amount];
+    minNumOfCoins = prevDP[amount];
     return minNumOfCoins === Infinity ? -1 : minNumOfCoins;
 };
