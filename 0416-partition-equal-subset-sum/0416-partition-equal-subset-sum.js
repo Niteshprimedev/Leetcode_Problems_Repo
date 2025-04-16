@@ -3,6 +3,8 @@
  * @return {boolean}
  */
 var canPartition = function(nums) {
+    /** 
+    // Top Down Approach:
     // \U0001f9e0Logic/Intuition Trying Pick and Not Pick technique using recursion + memoization
     // Top Down - Memoization DP Appraoch
 
@@ -44,4 +46,30 @@ var canPartition = function(nums) {
     }
 
     return subsetEqualsTargetDFS(0, 0, nums);
+    */
+    // Bottom Up Approach:
+    // \U0001f9e0Logic/Intuition Trying Pick and Not Pick technique using recursion + memoization
+    // Bottom Up - Memoization DP Appraoch
+
+    const lastIdx = nums.length;
+    const totalNumsArrSum = nums.reduce((acc, curr) => acc + curr);
+
+    // \U0001f6ab If the total sum is odd, we can’t split it into 2 equal subsets
+    if (totalNumsArrSum % 2 !== 0) return false;
+
+    const targetPartitionEqualSumK = totalNumsArrSum / 2;
+    const memoDP = new Array(targetPartitionEqualSumK + 1).fill(false);
+    // Base Case:
+    memoDP[0] = true;
+
+    let currSubsetSum = targetPartitionEqualSumK;
+
+    for(let idxI = lastIdx - 1; idxI >= 0; idxI--){
+        const currEl = nums[idxI];
+        for(let sum = currSubsetSum; sum >= currEl; sum--){
+            memoDP[sum] = memoDP[sum] || memoDP[sum - currEl];
+        }
+    }
+
+    return memoDP[currSubsetSum];
 };
