@@ -11,16 +11,20 @@ class Solution:
                 n = n // 10
             
             return digits_sum
-        
-        slow = get_next_number(n)
-        fast = get_next_number(get_next_number(n))
 
-        while slow != fast:
-            if fast == 1:
-                return True
+        while True:
+            slow = get_next_number(n)
+            fast = get_next_number(get_next_number(n))
+
+            while slow != fast:
+                if fast == 1:
+                    return True
+                
+                slow = get_next_number(slow)
+                fast = get_next_number(get_next_number(fast))
             
-            slow = get_next_number(slow)
-            fast = get_next_number(get_next_number(fast))
+            if slow == fast or fast == 1:
+                break
 
         # print(n)
         return True if slow == 1 else False
