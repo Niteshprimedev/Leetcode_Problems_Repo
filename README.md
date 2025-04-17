@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
+| [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 ## Binary Indexed Tree
 |  |
 | ------- |
