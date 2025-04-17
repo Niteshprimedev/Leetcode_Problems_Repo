@@ -22,6 +22,7 @@ var countPairs = function(nums, k) {
 
     */
 
+    // Optimal Solution:
     let countArrPairs = 0;
     function calcGCD(num1, num2){
         while(num2 !== 0){
@@ -54,26 +55,6 @@ var countPairs = function(nums, k) {
 
     // console.log(numsElsHashmap, calcGCD(2, 0));
 
-    // for(let [key, value] of numsElsHashmap){
-    //     const indicesHashValuesMap = value;
-
-    //     for(let [idxKey, idxValue] of indicesHashValuesMap){
-    //         const gdcVal = calcGCD(idxKey, k);
-
-    //         let idxJ = k / gdcVal;
-    //         let tableIdx = 1;
-
-    //         for(idxJ; idxJ < nums.length; idxJ *= tableIdx){
-
-    //             const isValuePresent = idxValue.has(idxJ);
-    //             if(isValuePresent && idxJ > idxKey){
-    //                 const value = idxValue.get(idxJ);
-    //             }  
-    //             tableIdx += 1
-    //         }
-    //     }
-    // }
-
     for(let numIdx = 0; numIdx < nums.length; numIdx++){
         const currNum = nums[numIdx];
         const gcdVal = calcGCD(numIdx, k);
@@ -95,4 +76,24 @@ var countPairs = function(nums, k) {
     }
 
     return countArrPairs;
+
+    // for(let [key, value] of numsElsHashmap){
+    //     const indicesHashValuesMap = value;
+
+    //     for(let [idxKey, idxValue] of indicesHashValuesMap){
+    //         const gdcVal = calcGCD(idxKey, k);
+
+    //         let idxJ = k / gdcVal;
+    //         let tableIdx = 1;
+
+    //         for(idxJ; idxJ < nums.length; idxJ *= tableIdx){
+
+    //             const isValuePresent = idxValue.has(idxJ);
+    //             if(isValuePresent && idxJ > idxKey){
+    //                 const value = idxValue.get(idxJ);
+    //             }  
+    //             tableIdx += 1
+    //         }
+    //     }
+    // }
 };
