@@ -11,7 +11,6 @@ var maximalSquare = function(matrix) {
         const heightsLen = sqHeights.length;
 
         const prefixLeft = [];
-        let suffixRight = [];
 
         let prevSmallerElStack = []
 
@@ -44,6 +43,9 @@ var maximalSquare = function(matrix) {
         for(let idxI = heightsLen - 1; idxI >= 0; idxI--){
             const currHeight = sqHeights[idxI];
 
+            const leftSmallerElIdx = prefixLeft[idxI];
+            let rightSmallerElIdx;
+
             if(prevSmallerElStack.length > 0){
                 let prevIdx = prevSmallerElStack.pop();
                 while(sqHeights[prevIdx] >= currHeight && prevSmallerElStack.length > 0){
@@ -51,33 +53,24 @@ var maximalSquare = function(matrix) {
                 }
 
                 if(sqHeights[prevIdx] < currHeight){
-                    suffixRight.push(prevIdx - 1);
+                    rightSmallerElIdx = prevIdx - 1;
                     prevSmallerElStack.push(prevIdx);
                 }
                 else{
-                    suffixRight.push(heightsLen - 1);
+                    rightSmallerElIdx = heightsLen - 1;
                 }
             }
             else{
-                suffixRight.push(heightsLen - 1);
+                rightSmallerElIdx = heightsLen - 1;
             }
 
-            prevSmallerElStack.push(idxI);
-        }
-
-        suffixRight = suffixRight.reverse();
-
-        for(let heightIdx = 0; heightIdx < heightsLen; heightIdx++){
-            const currHeight = sqHeights[heightIdx];
-
-            const leftSmallerElIdx = prefixLeft[heightIdx];
-            const rightSmallerElIdx = suffixRight[heightIdx];
             const currWidth = Math.abs(leftSmallerElIdx - rightSmallerElIdx) + 1;
 
             const sqAreaVal = Math.min(currHeight, currWidth);
             const newMaxSqArea = sqAreaVal ** 2;
 
             maxSqArea = Math.max(maxSqArea, newMaxSqArea);
+            prevSmallerElStack.push(idxI);
         }
 
         return maxSqArea;
