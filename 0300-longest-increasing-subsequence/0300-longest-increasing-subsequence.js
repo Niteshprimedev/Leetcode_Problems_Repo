@@ -38,6 +38,7 @@ var lengthOfLIS = function(nums) {
     return allSubSeqsLen(numsArrLen - 1, numsArrLen);
     */
 
+    /**
     // Bottom Up Approach:
     if(nums.length === 1) return 1;
     
@@ -70,6 +71,42 @@ var lengthOfLIS = function(nums) {
     }
 
     return memoDP[numsArrLen - 1][numsArrLen];
+    */
+
+    // Space Optimized Bottom Up Approach:
+    if(nums.length === 1) return 1;
+    
+    const numsArrLen = nums.length;
+    let prevDP = new Array(numsArrLen + 1).fill(0);
+    
+    // Base Case:
+    for(let prevElIdx = 1; prevElIdx <= numsArrLen; prevElIdx++){
+        if(prevElIdx < numsArrLen && nums[0] < nums[prevElIdx]){
+            prevDP[prevElIdx] = 1;
+        }
+        else{
+            prevDP[prevElIdx] = 0;
+        }
+    }
+
+    for(let currIdx = 1; currIdx < numsArrLen; currIdx++){
+        const currDP = new Array(numsArrLen + 1).fill(0);
+
+        for(let prevElIdx = 1; prevElIdx <= numsArrLen; prevElIdx++){
+            let pick = 0;
+
+            if(prevElIdx === numsArrLen || nums[currIdx] < nums[prevElIdx]){
+                pick = 1 + prevDP[currIdx];
+            }
+
+            const notPick = 0 + prevDP[prevElIdx];
+            currDP[prevElIdx] = Math.max(pick, notPick);
+        }
+
+        prevDP = currDP;
+    }
+
+    return prevDP[numsArrLen];
     /**
     // Top Down Approach Without (n + 1) 2D Array memoization:
     // Striver Video: https://www.youtube.com/watch?v=ekcwMsSIzVc&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=42&t=269s
