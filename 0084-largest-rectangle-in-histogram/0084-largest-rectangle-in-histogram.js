@@ -3,31 +3,8 @@
  * @return {number}
  */
 var largestRectangleArea = function(heights) {
-    /**
-    Did not actually work: Wrong Thought Process::: D
-    // Area: Height * Width
-    let maxRectArea = 0;
-    let minHeight = Infinity;
-    let maxWidth = 0;
-
-    for(height of heights){ 
-        if(height === 0){
-            maxWidth = 0;
-        }
-        else{
-            maxWidth += 1;
-        }
-        minHeight = Math.min(minHeight, height);
-        const newMaxRectArea = minHeight * maxWidth;
-
-        maxRectArea = Math.max(maxRectArea, newMaxRectArea);
-    }
-
-    return maxRectArea;
-    */
-
     /** 
-    // Brute Force Solution:
+    // Brute Force Solution: For Interview and then the Extra Space Solution;
     let maxRectArea = -Infinity;
 
     for(let heightIdx = 0; heightIdx < heights.length; heightIdx++){
