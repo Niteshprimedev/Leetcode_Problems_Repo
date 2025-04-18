@@ -3,7 +3,9 @@
  * @return {number}
  */
 var lengthOfLIS = function(nums) {
-    /**
+    // Top Down Approach
+    if(nums.length === 1) return 1;
+    
     const numsArrLen = nums.length;
     const memoDP = new Array(numsArrLen).fill(-1).map(() => new Array(numsArrLen + 1).fill(-1));
 
@@ -32,8 +34,8 @@ var lengthOfLIS = function(nums) {
         return memoDP[currIdx][prevElIdx];
     }
     return allSubSeqsLen(numsArrLen - 1, numsArrLen);
-    */
 
+    /**
     // Top Down Approach Without (n + 1) 2D Array memoization:
     // Striver Video: https://www.youtube.com/watch?v=ekcwMsSIzVc&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=42&t=269s
 
@@ -43,7 +45,7 @@ var lengthOfLIS = function(nums) {
     // just n will be enough.
 
     if(nums.length === 1) return 1;
-    
+
     const numsArrLen = nums.length;
     const memoDP = new Array(numsArrLen).fill(-1).map(() => new Array(numsArrLen).fill(-1));
 
@@ -76,6 +78,7 @@ var lengthOfLIS = function(nums) {
         return memoDP[currIdx][prevElIdx];
     }
     return allSubSeqsLen(numsArrLen - 1, numsArrLen - 1);
+    */
 
     /** 
     // Did not work cause,  memoization was the problem???
