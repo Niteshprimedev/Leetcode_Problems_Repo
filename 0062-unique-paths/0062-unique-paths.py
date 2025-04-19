@@ -1,5 +1,6 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
+        '''
         # Bottom Up Approach:
         # Notes: Robot can move up, and left only
         # Base Case: when the robot is reached (0,0) cell
@@ -34,3 +35,39 @@ class Solution:
                     memo_dp[row_idx][col_idx] = moving_up_paths_count + moving_left_paths_count
         
         return memo_dp[m_rows - 1][n_cols - 1]
+        '''
+
+        # Space Optimized Bottom Up Approach:
+        # Notes: Robot can move up, and left only
+        # Base Case: when the robot is reached (0,0) cell
+        # we found a unique path
+
+        m_rows = m
+        n_cols = n
+
+        prev_dp = [0 for _ in range(n_cols)]
+
+        # base case:
+        prev_dp[0] = 1
+
+        for row_idx in range(m_rows):
+            curr_dp = [0 for _ in range(n_cols)]
+            
+            for col_idx in range(n_cols):
+                if row_idx == 0 and col_idx == 0:
+                    curr_dp[0] = 1
+                else:
+                    moving_up_paths_count = 0
+                    moving_left_paths_count = 0
+
+                    if row_idx > 0:
+                        moving_up_paths_count = prev_dp[col_idx]
+                    
+                    if col_idx > 0:
+                        moving_left_paths_count = curr_dp[col_idx - 1]
+                    
+                    curr_dp[col_idx] = moving_up_paths_count + moving_left_paths_count
+        
+            prev_dp = curr_dp
+            
+        return prev_dp[n_cols - 1]
