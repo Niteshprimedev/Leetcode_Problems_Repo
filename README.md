@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0120-triangle) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0062-unique-paths) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
 ## Matrix
 |  |
