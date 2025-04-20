@@ -4,6 +4,9 @@
  * @return {number}
  */
 var minDistance = function(word1, word2) {
+    /** 
+    // Top Down Approach:
+    // With -1 to n - 1 iteration;
     const str1Len = word1.length;
     const str2Len = word2.length;
 
@@ -47,4 +50,53 @@ var minDistance = function(word1, word2) {
         return allOpsMinOps;
     }
     return allStrOps(str1Len - 1, str2Len - 1);
+    */
+
+    // Top Down Approach:
+    // With the right shift of indices by 1;
+    const str1Len = word1.length;
+    const str2Len = word2.length;
+
+    const memoDP = new Array(str1Len + 1).fill(-1).map(() => new Array(str2Len + 1).fill(-1));
+
+    function allStrOps(str1Idx, str2Idx){   
+        // Base Case:
+        if(str2Idx === 0){
+            return str1Idx; // Idx are now 1 based;
+        }
+        
+        if(str1Idx === 0 && str2Idx >= 0){
+            return str2Idx; // Idx are now 1 based;
+        }
+
+
+        if(memoDP[str1Idx][str2Idx] !== -1){
+            return memoDP[str1Idx][str2Idx];
+        }
+
+        // Now the last indicess are available at str1Idx - 1
+        // str2Idx - 1
+        if(word1[str1Idx - 1] === word2[str2Idx - 1]){
+            const matchCaseOps = 0 + allStrOps(str1Idx - 1, str2Idx - 1);
+            memoDP[str1Idx][str2Idx] = matchCaseOps;
+            return matchCaseOps;
+        }
+
+        // Insert a char Operation:
+        const insertOpsCase = 1 + allStrOps(str1Idx, str2Idx - 1);
+
+        // Delete a char Operation:
+        const deleteOpsCase = 1 + allStrOps(str1Idx - 1, str2Idx);
+
+        // Repalce a char Operation:
+        const replaceOpsCase = 1 + allStrOps(str1Idx - 1, str2Idx - 1);
+
+        let allOpsMinOps = Math.min(insertOpsCase, deleteOpsCase);
+        allOpsMinOps = Math.min(allOpsMinOps, replaceOpsCase);
+
+        // console.log(memoDP);
+        memoDP[str1Idx][str2Idx] = allOpsMinOps;
+        return allOpsMinOps;
+    }
+    return allStrOps(str1Len, str2Len);
 };
