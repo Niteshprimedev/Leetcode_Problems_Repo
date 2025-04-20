@@ -102,6 +102,7 @@ var minDistance = function(word1, word2) {
     return allStrOps(str1Len, str2Len);
     */
 
+    /**
     // Bottom Up Approach:
     // With the right shift of indices by 1;
     const str1Len = word1.length;
@@ -146,4 +147,65 @@ var minDistance = function(word1, word2) {
 
     // console.log(memoDP);
     return memoDP[str1Len][str2Len];
+    */
+    
+    // Space Optimized Bottom Up Approach:
+    // With the right shift of indices by 1;
+    const str1Len = word1.length;
+    const str2Len = word2.length;
+
+    // const memoDP = new Array(str1Len + 1).fill(-1).map(() => new Array(str2Len + 1).fill(-1));
+    // Initialize the first row: "" to word2 (insert all chars)
+    let prevDP = new Array(str2Len + 1).fill(0);
+
+    // Base Case:
+    // for(let str1Idx = 0; str1Idx <= str1Len; str1Idx++){
+    //     prevDP[str1Idx] = str1Idx;
+    // }
+
+     // Loop over each character in word1 (rows)
+    for(let str2Idx = 0; str2Idx <= str2Len; str2Idx++){
+        prevDP[str2Idx] = str2Idx; // Only Column data to be updated for base case
+    }
+
+    // For Loops:
+    for(let str1Idx = 1; str1Idx <= str1Len; str1Idx++){
+        const currDP = new Array(str2Len + 1).fill(0);
+
+        // First col: from word1[0..i-1] to "" => i deletions
+        currDP[0] = str1Idx; // \U0001f448 Base case for column-0 (delete all chars from word1[0..str1Idx-1])
+        for(let str2Idx = 1; str2Idx <= str2Len; str2Idx++){
+
+            if(word1[str1Idx - 1] === word2[str2Idx - 1]){
+                const matchCaseOps = prevDP[str2Idx - 1];
+
+                // Characters match, no operation needed
+                currDP[str2Idx] = matchCaseOps;
+            }
+            else{
+                // We can do Insert (←), Delete (↑), or Replace (↖)
+                // Insert a char Operation:
+                const insertCaseOps = 1 + currDP[str2Idx - 1]; // insert ch2 into word1
+
+                // Delete a char Operation:
+                const deleteCaseOps = 1 + prevDP[str2Idx]; // delete ch1 from word1
+
+                // Repalce a char Operation:
+                const replaceCaseOps = 1 + prevDP[str2Idx - 1]; // replace ch1 with ch2
+
+                let allOpsMinOps = Math.min(insertCaseOps, deleteCaseOps);
+                allOpsMinOps = Math.min(allOpsMinOps, replaceCaseOps);
+
+                // Characters don't match, calculate min num of operations needed
+                currDP[str2Idx] = allOpsMinOps;
+            }
+        }
+
+        // After this row is done, update prevDP to currDP
+        prevDP = currDP;
+    }
+
+    // Final answer is the last cell (full word1 → full word2)
+    // console.log(prevDP);
+    return prevDP[str2Len];
 };
