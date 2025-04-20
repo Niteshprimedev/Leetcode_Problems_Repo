@@ -52,6 +52,7 @@ var minDistance = function(word1, word2) {
     return allStrOps(str1Len - 1, str2Len - 1);
     */
 
+    /**
     // Top Down Approach:
     // With the right shift of indices by 1;
     const str1Len = word1.length;
@@ -99,4 +100,50 @@ var minDistance = function(word1, word2) {
         return allOpsMinOps;
     }
     return allStrOps(str1Len, str2Len);
+    */
+
+    // Bottom Up Approach:
+    // With the right shift of indices by 1;
+    const str1Len = word1.length;
+    const str2Len = word2.length;
+
+    const memoDP = new Array(str1Len + 1).fill(-1).map(() => new Array(str2Len + 1).fill(-1));
+
+    // Base Case:
+    for(let str1Idx = 0; str1Idx <= str1Len; str1Idx++){
+        memoDP[str1Idx][0] = str1Idx;
+    }
+
+    for(let str2Idx = 0; str2Idx <= str2Len; str2Idx++){
+        memoDP[0][str2Idx] = str2Idx;
+    }
+
+    // For Loops:
+    for(let str1Idx = 1; str1Idx <= str1Len; str1Idx++){
+        for(let str2Idx = 1; str2Idx <= str2Len; str2Idx++){
+            
+            if(word1[str1Idx - 1] === word2[str2Idx - 1]){
+                const matchCaseOps = memoDP[str1Idx - 1][str2Idx - 1];
+                memoDP[str1Idx][str2Idx] = matchCaseOps;
+            }
+            else{
+                // Insert a char Operation:
+                const insertCaseOps = 1 + memoDP[str1Idx][str2Idx - 1];
+
+                // Delete a char Operation:
+                const deleteCaseOps = 1 + memoDP[str1Idx - 1][str2Idx];
+
+                // Repalce a char Operation:
+                const replaceCaseOps = 1 + memoDP[str1Idx - 1][str2Idx - 1];
+
+                let allOpsMinOps = Math.min(insertCaseOps, deleteCaseOps);
+                allOpsMinOps = Math.min(allOpsMinOps, replaceCaseOps);
+
+                memoDP[str1Idx][str2Idx] = allOpsMinOps;
+            }
+        }
+    }
+
+    // console.log(memoDP);
+    return memoDP[str1Len][str2Len];
 };
