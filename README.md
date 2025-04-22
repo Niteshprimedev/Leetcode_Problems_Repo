@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
+| [0516-longest-palindromic-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0516-longest-palindromic-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0416-partition-equal-subset-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0516-longest-palindromic-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
