@@ -3,6 +3,7 @@
  * @return {number}
  */
 var longestPalindromeSubseq = function(s) {
+    /** 
     // Top Down Solution1 :
     // Logic: Find the Longest Common Subsequence 
     // in the  string s and reverse string revS
@@ -43,9 +44,10 @@ var longestPalindromeSubseq = function(s) {
     // They are already palindromes so we just need to find the longest common
     // subsequences;
     return allSubseqsLen(str1Len - 1, str2Len - 1);
+    */
 
-    /** 
-    // Top Down Solution:
+    // Top Down Solution 2:
+    // With shifting 1 index to the right
     // Logic: Find the Longest Common Subsequence 
     // in the  string s and reverse string revS
 
@@ -85,5 +87,4 @@ var longestPalindromeSubseq = function(s) {
     // They are already palindromes so we just need to find the longest common
     // subsequences;
     return allSubseqsLen(str1Len, str2Len);
-    */
 };
