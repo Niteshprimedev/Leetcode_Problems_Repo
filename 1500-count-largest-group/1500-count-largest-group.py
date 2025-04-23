@@ -1,0 +1,38 @@
+class Solution:
+    def countLargestGroup(self, n: int) -> int:
+        if n < 10:
+            return n
+        
+        def digits_sum(num):
+            sum = 0
+
+            while (num > 0):
+                sum += num % 10
+                num = num // 10
+            
+            return sum
+        
+        largest_groups_count = 0
+        largest_group = 0
+
+        largest_groups_map = {}
+
+        for num in range(1, n + 1):
+            digit = 1
+
+            if n > 9:
+                digit = digits_sum(num)
+            largest_groups_map[digit] = largest_groups_map.get(digit, 0) + 1
+        
+        # print(largest_groups_map)
+
+        for key, value in largest_groups_map.items():
+            largest_group = max(largest_group, value)
+
+        for key, value in largest_groups_map.items():
+            if value == largest_group:
+                largest_groups_count += 1
+    
+        return largest_groups_count
+        
+
