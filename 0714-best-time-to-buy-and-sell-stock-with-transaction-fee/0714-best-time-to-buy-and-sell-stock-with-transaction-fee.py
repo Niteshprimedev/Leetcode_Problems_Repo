@@ -76,6 +76,7 @@ class Solution:
         return memo_dp[0][1]
         '''
 
+        '''
         # Space Optimized Bottom Up Solution:
 
         total_days = len(prices)
@@ -108,3 +109,36 @@ class Solution:
                 prev_dp[buy_flag] = max_profit
 
         return prev_dp[1]
+        '''
+
+        # Space Optimized Variables Bottom Up Solution:
+
+        total_days = len(prices)
+
+        # Base Case:
+        ahead_not_buy = 0
+        ahead_buy = 0
+
+        for curr_price_idx in range(total_days - 1, -1, -1):
+
+            # Buying case:
+            curr_buy = 0
+
+            chose_to_buy = -prices[curr_price_idx] + ahead_not_buy
+
+            skip_to_buy = ahead_buy
+
+            curr_buy = max(chose_to_buy, skip_to_buy)
+
+            # Selling Case:
+            curr_not_buy = 0
+            chose_to_sell = (prices[curr_price_idx] - fee) + ahead_buy
+
+            skip_to_sell = ahead_not_buy
+
+            curr_not_buy = max(chose_to_sell, skip_to_sell)
+
+            ahead_not_buy = curr_not_buy 
+            ahead_buy = curr_buy 
+
+        return ahead_buy
