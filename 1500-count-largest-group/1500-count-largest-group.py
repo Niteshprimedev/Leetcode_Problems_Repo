@@ -13,7 +13,7 @@ class Solution:
             return sum
         
         largest_groups_count = 0
-        largest_group = 0
+        largest_group_size = 0
 
         largest_groups_map = {}
 
@@ -27,10 +27,10 @@ class Solution:
         # print(largest_groups_map)
 
         for key, value in largest_groups_map.items():
-            largest_group = max(largest_group, value)
+            largest_group_size = max(largest_group_size, value)
 
         for key, value in largest_groups_map.items():
-            if value == largest_group:
+            if value == largest_group_size:
                 largest_groups_count += 1
     
         return largest_groups_count
