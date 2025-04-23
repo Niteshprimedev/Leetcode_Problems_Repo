@@ -4,6 +4,8 @@ class Solution:
         # a Transaction fees is included
         # Ref: Buy & Sell Sstock Part II
 
+        # Top Down Solution:
+
         total_days = len(prices)
 
         memo_dp = [[-1 for _ in range(2)] for _ in range(total_days + 1)]
@@ -36,3 +38,4 @@ class Solution:
             return memo_dp[curr_price_idx][buy_flag]
         
         return all_days_buy_sell_profits(0, 1)
+
