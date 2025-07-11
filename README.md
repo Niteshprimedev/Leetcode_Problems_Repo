@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
+| [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
