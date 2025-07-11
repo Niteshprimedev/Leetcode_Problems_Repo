@@ -1,34 +1,40 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        triplets_sum_equals_zero = []
+        n = len(nums)
 
         nums.sort()
-        arr_len = len(nums)
 
-        for first_num_idx in range(arr_len - 2):
-            first_num = nums[first_num_idx]
-            if first_num_idx > 0 and nums[first_num_idx - 1] == first_num:
+        unique_triplets_list = []
+
+        # Using 3 Sum Logic here;
+        for second_idx in range(n):
+            second_num = nums[second_idx]
+
+            if second_idx > 0 and second_num == nums[second_idx - 1]:
                 continue
             
-            second_num_idx = first_num_idx + 1
-            third_num_idx = arr_len - 1
+            third_idx = second_idx + 1
+            forth_idx = n - 1
 
-            while second_num_idx < third_num_idx:
-                second_num = nums[second_num_idx]
-                third_num = nums[third_num_idx]
+            while third_idx < forth_idx:
+                third_num = nums[third_idx]
+                forth_num = nums[forth_idx]
 
-                triplets_sum = first_num + second_num + third_num
+                triplets_sum = second_num + third_num + forth_num
+                # print(triplets_sum, third_idx)
+
                 if triplets_sum == 0:
-                    triplets_sum_equals_zero.append([first_num, second_num, third_num])
-                    second_num_idx += 1
-                    third_num_idx -= 1
+                    unique_triplets_list.append([second_num, third_num, forth_num])
+                    third_idx += 1
+                    forth_idx -= 1
 
-                    while second_num_idx < third_num_idx and nums[second_num_idx] == second_num:
-                        second_num_idx += 1
-                    
-                if triplets_sum < 0:
-                    second_num_idx += 1
-                if triplets_sum > 0:
-                    third_num_idx -= 1
+                    while third_idx < forth_idx and nums[third_idx] == third_num:
+                        third_idx += 1
+                
+                elif triplets_sum < 0:
+                    third_idx += 1
+                elif triplets_sum > 0: 
+                    forth_idx -= 1
         
-        return triplets_sum_equals_zero
+        return unique_triplets_list
+        
