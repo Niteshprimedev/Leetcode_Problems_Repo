@@ -39,12 +39,11 @@ var rotateRight = function(head, k) {
 
     const currentNodeNextNode = currentNode.next;
     currentNode.next = null;
-    currentNode = currentNodeNextNode;
 
-    newHead = reverseList(tailNode);
-    prevNode = reverseList(currentNode);
+    newHead = reverseList(head);
+    const nextNode = reverseList(currentNodeNextNode);
 
-    tailNode.next = prevNode;
+    tailNode.next = nextNode;
 
     newHead = reverseList(newHead);
 
