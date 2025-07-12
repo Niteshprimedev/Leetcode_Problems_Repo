@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0094-binary-tree-inorder-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0113-path-sum-ii) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 ## Enumeration
@@ -434,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 ## Binary Indexed Tree
