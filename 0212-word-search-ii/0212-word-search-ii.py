@@ -38,16 +38,6 @@ class Solution:
         
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
-        # # Edge Case:
-        # if m_rows == 1 and n_cols == 1:
-        #     char = board[0][0]
-        #     char_idx = ord(char) - ord('a')
-
-        #     current_node = my_trie.root
-
-        #     if current_node.children[char_idx] != None and current_node.children[char_idx].is_word_end:
-        #         all_matched_board_words.add(char)
-
         def board_search(row_idx, col_idx, current_node):
             # Base Case:
             char = board[row_idx][col_idx]
