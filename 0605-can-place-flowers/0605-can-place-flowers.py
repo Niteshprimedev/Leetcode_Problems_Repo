@@ -1,7 +1,6 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         
-        '''
         # Solution1:
         can_plant_flowers = False
 
@@ -25,8 +24,8 @@ class Solution:
                 n -= 1
         
         return n == 0
-        '''
 
+        '''
         # Solution2: Just count the possible flowers planting;
         total_empty_plots = 0
 
@@ -54,3 +53,4 @@ class Solution:
             can_plant_flowers = True
 
         return can_plant_flowers
+        '''
