@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Math
 |  |
 | ------- |
@@ -407,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0908-middle-of-the-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Greedy
 |  |
 | ------- |
@@ -416,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0797-rabbits-in-forest](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0797-rabbits-in-forest) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Bit Manipulation
 |  |
 | ------- |
