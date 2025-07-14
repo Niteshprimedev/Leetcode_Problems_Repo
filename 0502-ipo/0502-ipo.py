@@ -38,7 +38,8 @@ class Solution:
 
         return total_capital
         '''
-
+        
+        '''
         n = len(profits)
         projects = [(capital[i], profits[i]) for i in range(n)]
         projects.sort()
@@ -51,5 +52,23 @@ class Solution:
             if not maxHeap:
                 break
             w -= heapq.heappop(maxHeap)
+
+        return w
+        '''
+
+        n = len(profits)
+        min_capital = [(capital[i], profits[i]) for i in range(n)]
+        heapq.heapify(min_capital)
+
+        maxProfit = []
+        i = 0
+
+        for _ in range(k):
+            while min_capital and min_capital[0][0] <= w:
+                c, p = heapq.heappop(min_capital)
+                heapq.heappush(maxProfit, -1 * p)
+            if not maxProfit:
+                break
+            w += -1 * heapq.heappop(maxProfit)
 
         return w
