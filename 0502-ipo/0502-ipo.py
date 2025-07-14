@@ -1,5 +1,6 @@
 class Solution:
     def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
+        '''
         # Logic: Push all the profits which has the minimum capital
         # and then get the max profit, again push the profits for the
         # new minimum capital;
@@ -36,3 +37,19 @@ class Solution:
             total_projects -= 1
 
         return total_capital
+        '''
+
+        n = len(profits)
+        projects = [(capital[i], profits[i]) for i in range(n)]
+        projects.sort()
+        maxHeap = []
+        i = 0
+        for _ in range(k):
+            while i < n and projects[i][0] <= w:
+                heapq.heappush(maxHeap, -projects[i][1])
+                i += 1
+            if not maxHeap:
+                break
+            w -= heapq.heappop(maxHeap)
+
+        return w
