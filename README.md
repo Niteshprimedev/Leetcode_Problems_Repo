@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 | [1916-find-center-of-star-graph](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1916-find-center-of-star-graph) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0437-path-sum-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0437-path-sum-iii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
@@ -200,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0334-increasing-triplet-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0334-increasing-triplet-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0416-partition-equal-subset-sum) |
@@ -281,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0416-partition-equal-subset-sum) |
@@ -297,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 ## Counting
 |  |
@@ -494,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Binary Indexed Tree
 |  |
@@ -538,4 +545,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
