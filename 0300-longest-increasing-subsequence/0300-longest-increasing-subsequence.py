@@ -111,7 +111,7 @@ class Solution:
 
         return memo_dp[n - 1][n]
         '''
-
+        
         # Solution 4: Space Optimized Bottom Up Approach;
         if len(nums) == 1:
             return 1
@@ -141,3 +141,43 @@ class Solution:
             prev_dp = curr_dp
 
         return prev_dp[n]
+
+        '''
+        # Top Down Approach Without (n + 1) 2D Array memoization:
+
+        if len(nums) == 1:
+            return 1
+
+        n = len(nums)
+        memo_dp = [[-1 for _ in range(n)] for _ in range(n)]
+
+        def all_inc_subseq(curr_idx, next_el_idx):
+            # Base Case:
+            if curr_idx == 0:
+                if nums[curr_idx] < nums[next_el_idx]:
+                    return 1
+                else:
+                    return 0
+            
+            if memo_dp[curr_idx][next_el_idx] != -1:
+                return memo_dp[curr_idx][next_el_idx]
+            
+            pick_case = 0
+            not_pick_case = 0
+
+            if curr_idx == next_el_idx:
+                pick_case = 1 + all_inc_subseq(curr_idx - 1, curr_idx)
+                not_pick_case = 0 + all_inc_subseq(curr_idx - 1, curr_idx - 1)
+            else:
+                # pick case
+                if nums[curr_idx] < nums[next_el_idx]:
+                    pick_case = 1 + all_inc_subseq(curr_idx - 1, curr_idx)
+
+                # not pick case
+                not_pick_case = 0 + all_inc_subseq(curr_idx - 1, next_el_idx)
+
+            memo_dp[curr_idx][next_el_idx] = max(pick_case, not_pick_case)
+            return memo_dp[curr_idx][next_el_idx]
+
+        return all_inc_subseq(n - 1, n - 1)
+        '''
