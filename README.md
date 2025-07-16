@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
+| [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0797-rabbits-in-forest) |
+| [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1656-count-good-triplets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
@@ -503,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Binary Indexed Tree
 |  |
