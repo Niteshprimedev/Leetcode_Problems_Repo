@@ -1,5 +1,6 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
+        '''
         # code here
         # Binary Search Solution:
         # Intuition:
@@ -47,3 +48,64 @@ class Solution:
                 longest_els_len[found_idx] = nums[curr_idx]
         
         return longest_inc_subseq_len
+        '''
+
+        '''
+        # Solution 2:
+        # Top Down Solution: TLE in Python
+
+        if len(nums) == 1:
+            return 1
+
+        n = len(nums)
+        memo_dp = [[-1 for _ in range(n + 1)] for _ in range(n)]
+
+        def all_inc_subseq(curr_idx, next_el_idx):
+            # Base Case:
+            if curr_idx == 0:
+                if next_el_idx < n and nums[curr_idx] < nums[next_el_idx]:
+                    return 1
+                else:
+                    return 0
+            
+            if memo_dp[curr_idx][next_el_idx] != -1:
+                return memo_dp[curr_idx][next_el_idx]
+            
+            pick_case = 0
+            if next_el_idx == n or nums[curr_idx] < nums[next_el_idx]:
+                pick_case = 1 + all_inc_subseq(curr_idx - 1, curr_idx)
+
+            not_pick_case = 0 + all_inc_subseq(curr_idx - 1, next_el_idx)
+
+            memo_dp[curr_idx][next_el_idx] = max(pick_case, not_pick_case)
+            return memo_dp[curr_idx][next_el_idx]
+
+        return all_inc_subseq(n - 1, n)
+        '''
+
+        # Solution 3: Bottom Up Approach;
+        if len(nums) == 1:
+            return 1
+
+        n = len(nums)
+        memo_dp = [[0 for _ in range(n + 1)] for _ in range(n)]
+
+        # Base Case:
+        for next_el_idx in range(1, n + 1):
+            if next_el_idx < n and nums[0] < nums[next_el_idx]:
+                memo_dp[0][next_el_idx] = 1
+            else:
+                memo_dp[0][next_el_idx] = 0
+        
+        for curr_idx in range(1, n):
+            for next_el_idx in range(curr_idx + 1, n + 1):
+                pick_case = 0
+
+                if next_el_idx == n or (nums[curr_idx] < nums[next_el_idx]):
+                    pick_case = 1 + memo_dp[curr_idx - 1][curr_idx]
+                
+                not_pick_case = 0 + memo_dp[curr_idx - 1][next_el_idx]
+
+                memo_dp[curr_idx][next_el_idx] = max(pick_case, not_pick_case)
+
+        return memo_dp[n - 1][n]
