@@ -74,6 +74,7 @@ class Solution:
         return memo_dp[0][0][0]
         '''
 
+        '''
         # Solution 3:
         # Observation based: Even, Odd, and Alternates;
 
@@ -98,4 +99,33 @@ class Solution:
             parity_flag = num % 2
 
         return max(even_count, odd_count, alternate_count)
+        '''
+
+        # Solution 4:
+        # Observation Even, odd, and alterantes;
+
+        patterns = [[0,0], [1,1], [0,1], [1, 0]]
+        max_subs_len = 0
+
+        for pattern in patterns:
+            # count is basically gives 0 & 1 when % with 2
+            # so we check the pattern at count = 0 or 1
+            curr_max_subs = 0
+            
+            for num in nums:
+                idx = curr_max_subs % 2
+                # Here we check for [0, 0]
+                # Here we check for [0, 1]
+                # Here we check for [1, 1]
+                # Here we check for [1, 0] 
+                # 0th index and then 1st index using the count;
+                # this way we ensure the parities are all even
+                # all odd or alternates;
+                if num % 2 == pattern[idx]:
+                    curr_max_subs += 1
+        
+            max_subs_len = max(max_subs_len, curr_max_subs)
+        
+        return max_subs_len
+
         
