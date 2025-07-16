@@ -1,7 +1,7 @@
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
         '''
-        # Observation:
+        # Observation: TLE with TOP DOWN
         # Subsequences can either start with
         # (odd, odd), (odd, even), (even, odd), and (even, even)
         
@@ -101,6 +101,7 @@ class Solution:
         return max(even_count, odd_count, alternate_count)
         '''
 
+        '''
         # Solution 4:
         # Observation Even, odd, and alterantes;
 
@@ -125,6 +126,40 @@ class Solution:
                     curr_max_subs += 1
         
             max_subs_len = max(max_subs_len, curr_max_subs)
+        
+        return max_subs_len
+        '''
+
+        # Solution 5:
+        # Observation Even, odd, and alterantes;
+        n = len(nums)
+        patterns = [[0,0], [1,1], [0,1], [1, 0]]
+        max_subs_len = 0
+
+        def count_subs_with_pattern(curr_idx, need_idx, parity_states):
+            if curr_idx == n:
+                return 0
+
+            if memo_dp[curr_idx][need_idx] != -1:
+                return memo_dp[curr_idx][need_idx]
+
+            # Pick case
+            pick_case = 0
+
+            if (nums[curr_idx] % 2) == parity_states[need_idx]:
+                new_need_idx = 1 if need_idx == 0 else 0 #alternate b/w 1 and 0 indices;
+                pick_case = 1 + count_subs_with_pattern(curr_idx + 1, new_need_idx, parity_states)
+            
+            # Skip case
+            not_pick_case = count_subs_with_pattern(curr_idx + 1, need_idx, parity_states)
+
+            memo_dp[curr_idx][need_idx] = max(pick_case, not_pick_case)
+            return max(pick_case, not_pick_case)
+
+        for parity_states in patterns:
+            memo_dp = [[-1 for _ in range(2)] for _ in range(n)]
+            new_max_subs_len = count_subs_with_pattern(0, 0, parity_states)
+            max_subs_len = max(max_subs_len, new_max_subs_len)
         
         return max_subs_len
 
