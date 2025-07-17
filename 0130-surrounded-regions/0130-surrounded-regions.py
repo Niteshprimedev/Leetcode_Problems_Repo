@@ -59,6 +59,7 @@ class Solution:
         return board
         '''
 
+        '''
         # Solution 1: Capturing the regions that are not
         # connected to boundary first, and then updating 
         # them with 'X' to mark as surrounded;
@@ -145,6 +146,7 @@ class Solution:
                         if is_valid_pos:
                             if board[new_row_idx][new_col_idx] == 'O' and visited_regions_map[new_row_idx][new_col_idx] == -1:
                                 regions_stack.append((new_row_idx, new_col_idx))
+        '''
 
         '''
         # Solution 2: Similar Solution to Number of Enclaves
@@ -213,6 +215,98 @@ class Solution:
         
         return board
         '''
+
+        # Solution 1 Optimized: Capturing the regions that are not
+        # connected to boundary first, and then updating 
+        # them with 'X' to mark as surrounded;
+
+        # let's do it! so need to modify and capture the Os if
+        # it is surrounded by Xs horizontally and vertically;
+        # Create a captured regions array and do a dfs traversal
+        # to see if the Os cell are connected to the boundary or not;
+        # if it is not connected then we can capture all the Os regions;
+
+        m_rows = len(board)
+        n_cols = len(board[0])
+
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+        visited_regions_map = [[-1 for _ in range(n_cols)] for _ in range(m_rows)]
+
+        captured_regions = []
+
+        def graphDFSIve(curr_region):
+            regions_stack = []
+
+            regions_stack.append(curr_region)
+
+            is_region_edge_not_connected = True
+            pot_captured_regions = []
+            pot_captured_regions.append(curr_region)
+
+            while len(regions_stack) > 0:
+                curr_region = regions_stack.pop()
+
+                row_idx, col_idx = curr_region
+
+                if visited_regions_map[row_idx][col_idx] == -1:
+                    visited_regions_map[row_idx][col_idx] = 1
+
+                    if board[row_idx][col_idx] == 'O' and (row_idx == 0 or col_idx == 0 or row_idx == (m_rows - 1) or col_idx == (n_cols - 1)):
+                        # print('Hello', row_idx, col_idx)
+                        is_region_edge_not_connected = False
+
+                    # curr region's neighbors;
+                    for direction in directions:
+                        new_row_idx = row_idx + direction[0]
+                        new_col_idx = col_idx + direction[1]
+
+                        is_valid_pos = new_row_idx >= 0 and new_row_idx < m_rows and new_col_idx >= 0 and new_col_idx < n_cols
+                        if is_valid_pos:
+                            if board[new_row_idx][new_col_idx] == 'O' and visited_regions_map[new_row_idx][new_col_idx] == -1:
+                                pot_captured_regions.append((new_row_idx, new_col_idx))
+                                regions_stack.append((new_row_idx, new_col_idx))
+            
+            if is_region_edge_not_connected == True:
+                for row_idx, col_idx in pot_captured_regions:
+                    captured_regions.append((row_idx, col_idx))
+                    visited_regions_map[row_idx][col_idx] = 1
+
+
+        for row_idx in range(m_rows):
+            for col_idx in range(n_cols):
+                if board[row_idx][col_idx] == 'O' and visited_regions_map[row_idx][col_idx] == -1:
+                    graphDFSIve((row_idx, col_idx))
+        
+        # print(captured_regions)
+
+        # Caputre the regions;
+
+        visited_regions_map = [[-1 for _ in range(n_cols)] for _ in range(m_rows)]
+
+        for region in captured_regions:
+            regions_stack = []
+
+            regions_stack.append(region)
+
+            while len(regions_stack) > 0:
+                curr_region = regions_stack.pop()
+
+                row_idx, col_idx = curr_region
+
+                if visited_regions_map[row_idx][col_idx] == -1:
+                    visited_regions_map[row_idx][col_idx] = 1
+                    board[row_idx][col_idx] = 'X'
+
+                    # curr region's neighbors;
+                    for direction in directions:
+                        new_row_idx = row_idx + direction[0]
+                        new_col_idx = col_idx + direction[1]
+
+                        is_valid_pos = new_row_idx >= 0 and new_row_idx < m_rows and new_col_idx >= 0 and new_col_idx < n_cols
+                        if is_valid_pos:
+                            if board[new_row_idx][new_col_idx] == 'O' and visited_regions_map[new_row_idx][new_col_idx] == -1:
+                                regions_stack.append((new_row_idx, new_col_idx))
         
 
         
