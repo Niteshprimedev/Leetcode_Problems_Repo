@@ -173,23 +173,26 @@ class Solution:
         patterns = [[0,0], [1,1], [0,1], [1, 0]]
         max_subs_len = 0
 
-        def count_subs_with_pattern(curr_idx, need_idx, first_parity, second_parity):
+        def count_subs_with_pattern(curr_idx, flip_flag, first_parity, second_parity):
             if curr_idx == n:
                 return 0
 
-            if memo_dp[curr_idx][need_idx] != -1:
-                return memo_dp[curr_idx][need_idx]
+            if memo_dp[curr_idx][flip_flag] != -1:
+                return memo_dp[curr_idx][flip_flag]
 
             # Pick case
             pick_case = 0
 
-            if (nums[curr_idx] % 2) == first_parity:
-                pick_case = 1 + count_subs_with_pattern(curr_idx + 1, need_idx, second_parity, first_parity)
+            expected_parity = first_parity if flip_flag == 0 else second_parity
+
+            if (nums[curr_idx] % 2) == expected_parity:
+                new_flip_flag = 1 - flip_flag
+                pick_case = 1 + count_subs_with_pattern(curr_idx + 1, new_flip_flag, first_parity, second_parity)
             
             # Skip case
-            not_pick_case = count_subs_with_pattern(curr_idx + 1, need_idx, first_parity, second_parity)
+            not_pick_case = count_subs_with_pattern(curr_idx + 1, flip_flag, first_parity, second_parity)
 
-            memo_dp[curr_idx][need_idx] = max(pick_case, not_pick_case)
+            memo_dp[curr_idx][flip_flag] = max(pick_case, not_pick_case)
             return max(pick_case, not_pick_case)
 
         for parity_states in patterns:
