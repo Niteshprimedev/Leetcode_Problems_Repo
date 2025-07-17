@@ -139,6 +139,7 @@ class Solution:
         return priority_q[0]
         '''
 
+        '''
         # Solution 4: Single Loop SOLUTION;
         # Pop the element from the priority_q when the pq size
         # becomes equals to the k elements and then push the max
@@ -154,5 +155,20 @@ class Solution:
                 curr_num = max(curr_min, curr_num)
 
             heapq.heappush(priority_q, curr_num)
+        
+        return priority_q[0]
+        '''
+
+        # Solution 5: Single Loop SOLUTION;
+        # Pop the min element from the priority_q when the pq size
+        # greater than the k elements 
+
+        priority_q = []
+
+        for num in nums:
+            heapq.heappush(priority_q, num)
+
+            if len(priority_q) > k:
+                heapq.heappop(priority_q)
         
         return priority_q[0]
