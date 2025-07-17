@@ -59,7 +59,6 @@ class Solution:
         return board
         '''
 
-        '''
         # Solution 1: Capturing the regions that are not
         # connected to boundary first, and then updating 
         # them with 'X' to mark as surrounded;
@@ -146,8 +145,8 @@ class Solution:
                         if is_valid_pos:
                             if board[new_row_idx][new_col_idx] == 'O' and visited_regions_map[new_row_idx][new_col_idx] == -1:
                                 regions_stack.append((new_row_idx, new_col_idx))
-        '''
 
+        '''
         # Solution 2: Similar Solution to Number of Enclaves
         # Same as Striver Version and one of the Comments on the Discussion;
 
@@ -213,6 +212,7 @@ class Solution:
                     board[row_idx][col_idx] = 'X'
         
         return board
+        '''
         
 
         
