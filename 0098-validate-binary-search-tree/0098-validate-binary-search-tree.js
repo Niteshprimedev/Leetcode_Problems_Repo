@@ -49,7 +49,6 @@ var isValidBST = function(root) {
     return isValidBinarySearchTree;
     */
     
-    /**
     // Solution 2: Using curr and prev element comparison
     const inOrderTraversal = [];
     let isValidBinarySearchTree = true;
@@ -80,7 +79,6 @@ var isValidBST = function(root) {
     }
 
     return isValidBinarySearchTree;
-    */
 
     /**
     // Solution 3: Using Morris Traversal
@@ -134,6 +132,7 @@ var isValidBST = function(root) {
     return isValidBinarySearchTree;
     */
 
+    /** 
     // Solution 4: Comparing with parent and children
     // Solution using constant space by leveraging
     // the Binary Search Properties;
@@ -162,4 +161,5 @@ var isValidBST = function(root) {
         }
     }
     return traverse(root, -Infinity, Infinity);
+    */
 };
