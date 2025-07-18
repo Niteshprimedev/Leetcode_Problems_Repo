@@ -4,8 +4,43 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+def helper(root):
+    if not root:
+        return 0
+    if root.left == None and root.right == None:
+        return 1
+    
+    left_height = helper(root.left)
+    right_height = helper(root.right)
+    
+    return 1 + max(left_height, right_height)
+
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        if root is None:
+        '''
+        if root == None:
             return 0
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        
+        max_depth = 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        
+        return max_depth
+        '''
+        # Solved during DSA Session 11 on June 7
+
+        return helper(root)
+
+        '''
+        # Solution 3: Using DFS
+        # max_tree_depth = 0
+
+        def traverse(current_node):
+            if current_node is None:
+                return 0
+            left_depth = 1 + traverse(current_node.left)
+            right_depth = 1 + traverse(current_node.right)
+
+            return max(left_depth, right_depth)            
+        return traverse(root)
+        '''
+        
