@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1236-n-th-tribonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
