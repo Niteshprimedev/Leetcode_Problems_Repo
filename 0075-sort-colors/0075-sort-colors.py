@@ -102,7 +102,7 @@ class Solution:
         '''
 
         '''
-        # Solution using Quick Sort & Pivot as end;
+        # Solution 4: using Quick Sort & Pivot as end;
         def partition(nums, low, high):
             pivot_el = nums[high]
 
@@ -133,7 +133,8 @@ class Solution:
         return quick_sort(nums, 0, len(nums) - 1)
         '''
         
-        # Solution using Quick Sort & Pivot as mid;
+        '''
+        # Solution 5: using Quick Sort & Pivot as mid;
         def partition(nums, low, high):
             mid = low + (high - low) // 2
 
@@ -165,6 +166,38 @@ class Solution:
 
                 return nums
         
+        
+        return quick_sort(nums, 0, len(nums) - 1)
+        '''
+        
+        # Solution 6: using Quick Sort & Pivot as start;
+        def partition(nums, low, high):
+            pivot_el = nums[low]
+
+            # Shift mid element to the end temporarily;
+            nums[low], nums[high] = nums[high], nums[low]
+
+            idx_i = low - 1
+
+            for idx_j in range(low, high):
+                if nums[idx_j] <= pivot_el:
+                    idx_i += 1
+                    nums[idx_i], nums[idx_j] = nums[idx_j], nums[idx_i]
+            
+            idx_i += 1
+            nums[idx_i], nums[high] = nums[high], nums[idx_i]
+
+            return idx_i
+
+        def quick_sort(nums, low, high):
+            # if there are 2 or more elements to swap then swap it;
+            if low < high:
+                pivot_idx = partition(nums, low, high)
+
+                quick_sort(nums, low, pivot_idx - 1)
+                quick_sort(nums, pivot_idx + 1, high)
+
+                return nums
         
         return quick_sort(nums, 0, len(nums) - 1)
 
