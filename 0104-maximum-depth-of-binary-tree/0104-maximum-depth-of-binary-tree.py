@@ -35,6 +35,7 @@ class Solution:
         return helper(root)
         '''
 
+        '''
         # Solution 3: Using DFS
         # max_tree_depth = 0
 
@@ -46,3 +47,28 @@ class Solution:
 
             return max(left_depth, right_depth)            
         return traverse(root)
+        '''
+
+        # Solution 44: Using BFS
+
+        if not root:
+            return 0
+
+        max_tree_depth = 0
+        queue = []
+
+        queue.append((root, 1))
+
+        while queue:
+
+            for idx in range(len(queue)):
+                curr_node, curr_depth = queue.pop(0)
+
+                max_tree_depth = max(max_tree_depth, curr_depth)
+
+                if curr_node.left:
+                    queue.append((curr_node.left, curr_depth + 1))
+                if curr_node.right:
+                    queue.append((curr_node.right, curr_depth + 1))
+        
+        return max_tree_depth
