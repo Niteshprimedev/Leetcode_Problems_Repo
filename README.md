@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1500-count-largest-group](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1502-construct-k-palindrome-strings) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1656-count-good-triplets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Math
@@ -464,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0908-middle-of-the-linked-list) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
