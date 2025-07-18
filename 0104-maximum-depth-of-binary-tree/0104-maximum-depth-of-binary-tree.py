@@ -49,7 +49,8 @@ class Solution:
         return traverse(root)
         '''
 
-        # Solution 44: Using BFS
+        '''
+        # Solution 4: Using BFS
 
         if not root:
             return 0
@@ -70,5 +71,29 @@ class Solution:
                     queue.append((curr_node.left, curr_depth + 1))
                 if curr_node.right:
                     queue.append((curr_node.right, curr_depth + 1))
+        
+        return max_tree_depth
+        '''
+
+        # Solution 5: Using BFS
+
+        if not root:
+            return 0
+
+        max_tree_depth = 0
+        queue = []
+
+        queue.append(root)
+
+        while queue:
+            max_tree_depth += 1
+
+            for idx in range(len(queue)):
+                curr_node = queue.pop(0)
+
+                if curr_node.left:
+                    queue.append(curr_node.left)
+                if curr_node.right:
+                    queue.append(curr_node.right)
         
         return max_tree_depth
