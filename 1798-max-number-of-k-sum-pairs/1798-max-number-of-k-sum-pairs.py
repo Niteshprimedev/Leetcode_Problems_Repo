@@ -1,5 +1,6 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
+        '''
         # Logic: Sort the nums array using built-in or sorting algos
         # and then use two pointers technique to find k-sum pairs;
 
@@ -66,7 +67,32 @@ class Solution:
                 strt_idx += 1
 
         return max_pairs_count
+        '''
         
+        # Solution 2 using Built in Sort;
+        n = len(nums)
+
+        nums.sort()
+        # print(nums)
+
+        strt_idx = 0
+        end_idx = n - 1
+        max_pairs_count = 0
+
+        while strt_idx < end_idx:
+            curr_sum = nums[strt_idx]  + nums[end_idx]
+
+            if curr_sum == k:
+                max_pairs_count += 1
+                strt_idx += 1
+                end_idx -= 1
+            elif curr_sum > k:
+                end_idx -= 1
+            else:
+                strt_idx += 1
+
+        return max_pairs_count
+
         '''
         # Solution 3: Using Hashmap and No Sorting;
         # Just need to count unique pairs equal k-sum;
