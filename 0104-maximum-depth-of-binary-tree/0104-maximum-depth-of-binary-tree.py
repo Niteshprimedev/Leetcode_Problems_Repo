@@ -75,6 +75,7 @@ class Solution:
         return max_tree_depth
         '''
 
+        '''
         # Solution 5: Using BFS
 
         if not root:
@@ -90,6 +91,35 @@ class Solution:
 
             for idx in range(len(queue)):
                 curr_node = queue.pop(0)
+
+                if curr_node.left:
+                    queue.append(curr_node.left)
+                if curr_node.right:
+                    queue.append(curr_node.right)
+        
+        return max_tree_depth
+        '''
+
+        # Solution 6: Using BFS
+        # Optimized Queue & Time Complexity;
+
+        if not root:
+            return 0
+
+        max_tree_depth = 0
+        queue = []
+
+        queue.append(root)
+        node_idx = 0
+
+        while node_idx < len(queue):
+            max_tree_depth += 1
+
+            loop_len = len(queue)
+
+            for idx in range(node_idx, loop_len):
+                curr_node = queue[node_idx]
+                node_idx += 1
 
                 if curr_node.left:
                     queue.append(curr_node.left)
