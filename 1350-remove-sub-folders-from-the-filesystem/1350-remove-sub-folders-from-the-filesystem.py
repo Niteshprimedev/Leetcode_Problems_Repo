@@ -29,6 +29,13 @@ class TrieClass:
 
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
+        '''
+        # Solution 1: Without Sorting and inserting first
+        # then using logic to see if curr_dir is a subfolder?
+        # or not by checking if at any point the current_node
+        # says the end_folder and the current dir_char is "/"
+        # else not a subfolder and add to answer;
+
         my_file_sys_trie = TrieClass()
         # print(ord("/"))
 
@@ -61,5 +68,41 @@ class Solution:
                 
             if not is_subfolder:
                 new_file_system.append(folder_dir)
+
+        return new_file_system
+        '''
+
+        folder.sort()
+        # print(folder)
+        
+        my_file_sys_trie = TrieClass()
+        # print(ord("/"))
+
+        new_file_system = []
+
+        for folder_dir in folder:
+            is_subfolder = False
+
+            # search matching folder with this folder_dir;
+            dir_idx = 0
+            dir_char = folder_dir[dir_idx]
+            dir_char_idx = my_file_sys_trie.get_dir_char_idx(dir_char)
+
+            current_node = my_file_sys_trie.root
+
+            while current_node.children[dir_char_idx] != None and (dir_idx + 1) < len(folder_dir):
+                current_node = current_node.children[dir_char_idx]
+                
+                dir_idx += 1
+                dir_char = folder_dir[dir_idx]
+                dir_char_idx = my_file_sys_trie.get_dir_char_idx(dir_char)
+            
+            if current_node != None and current_node.is_folder_end:
+                if dir_idx < len(folder_dir) and (folder_dir[dir_idx] == "/"):
+                    is_subfolder = True
+                
+            if not is_subfolder:
+                new_file_system.append(folder_dir)
+                my_file_sys_trie.insert_dir(folder_dir)
 
         return new_file_system
