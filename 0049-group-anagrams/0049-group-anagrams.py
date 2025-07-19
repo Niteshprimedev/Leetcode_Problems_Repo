@@ -16,6 +16,7 @@ class Solution:
         return [value for hash_key, value in sorted_hashkey_group_value_map.items()]
         '''
 
+        '''
         # Solution 2: using map and array;
         str_group_map = defaultdict(list)
 
@@ -28,9 +29,8 @@ class Solution:
             str_group_map[tuple(chars_freq_arr)].append(curr_str)
         
         return list(str_group_map.values())
-        
-
         '''
+
         # Solution 3: Using Map and Merge_Sort;
         def merge(strt_idx, mid, end_idx, str_arr):
             merged_arr = []
@@ -70,14 +70,13 @@ class Solution:
 
             return str_arr
         
-        str_group_map = defaultdict(list)
+        sorted_hashkey_group_value_map = defaultdict(list)
 
         for curr_str in strs:
             sorted_str = merge_sort(0, len(curr_str) - 1, list(curr_str))
 
-            str_group_map[tuple(sorted_str)].append(curr_str) 
+            sorted_hashkey_group_value_map[tuple(sorted_str)].append(curr_str) 
 
         return [values for hash_key, values in sorted_hashkey_group_value_map.items()]
-        '''
 
         
