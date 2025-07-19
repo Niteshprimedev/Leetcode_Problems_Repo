@@ -1,5 +1,6 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        '''
         # Solution 1: using hashkeys and map;
         sorted_hashkey_group_value_map = {}
 
@@ -13,8 +14,8 @@ class Solution:
             sorted_hashkey_group_value_map[hash_key].append(word)
         
         return [value for hash_key, value in sorted_hashkey_group_value_map.items()]
-
         '''
+
         # Solution 2: using map and array;
         str_group_map = defaultdict(list)
 
@@ -27,8 +28,9 @@ class Solution:
             str_group_map[tuple(chars_freq_arr)].append(curr_str)
         
         return list(str_group_map.values())
-        '''
+        
 
+        '''
         # Solution 3: Using Map and Merge_Sort;
         def merge(strt_idx, mid, end_idx, str_arr):
             merged_arr = []
@@ -76,5 +78,6 @@ class Solution:
             str_group_map[tuple(sorted_str)].append(curr_str) 
 
         return [values for hash_key, values in sorted_hashkey_group_value_map.items()]
+        '''
 
         
