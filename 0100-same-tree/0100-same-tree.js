@@ -70,6 +70,28 @@ var isSameTree = function(p, q) {
     // console.log(rootPNodes, rootQNodes);
 
     return isTreeSame;
-    
      */
+
+    //  Solution 3: Using Many If Conditions:
+    function traverse(currentNode1, currentNode2){
+        if(currentNode1 === null && currentNode2 !== null){
+            return false;
+        }
+        else if(currentNode1 !== null && currentNode2 === null){
+            return false;
+        }
+        else if(currentNode1 && currentNode2 && currentNode1.val !== currentNode2.val){
+            return false;
+        }
+        
+        if(currentNode1 === null && currentNode2 === null){
+            return true
+        }
+
+        const leftTree = traverse(currentNode1.left, currentNode2.left);
+        const rightTree = traverse(currentNode1.right, currentNode2.right);
+
+        return leftTree && rightTree;
+    }
+    return traverse(p, q);
 };
