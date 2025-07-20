@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1502-construct-k-palindrome-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1502-construct-k-palindrome-strings) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -579,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 ## Number Theory
 |  |
 | ------- |
@@ -604,4 +608,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
+## Hash Function
+|  |
+| ------- |
+| [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 <!---LeetCode Topics End-->
