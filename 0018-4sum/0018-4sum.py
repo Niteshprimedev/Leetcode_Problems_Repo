@@ -1,6 +1,5 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
-        '''
         # Solution: O(N^3)
         # [2,2,2,2,2,2,2,2,2]
         # first = 0, second = 1
@@ -49,7 +48,6 @@ class Solution:
                         forth_idx -= 1
         
         return unique_quadruples_list
-        '''
 
         '''
         # Solution 3: Using Map and Merge_Sort;
@@ -134,6 +132,7 @@ class Solution:
         return unique_quadruples_list
         '''
 
+        '''
         # Since the input size is just 200 so we
         # use quick sort to sort array as quick can
         # go to O(N^2) in the worst case
@@ -210,3 +209,4 @@ class Solution:
                         forth_idx -= 1
         
         return unique_quadruples_list
+        '''
