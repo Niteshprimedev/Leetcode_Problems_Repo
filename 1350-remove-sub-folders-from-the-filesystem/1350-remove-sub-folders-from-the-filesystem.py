@@ -29,6 +29,7 @@ class TrieClass:
 
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
+        '''
         # Solution 1: Without Sorting and inserting first
         # then using logic to see if curr_dir is a subfolder?
         # or not by checking if at any point the current_node
@@ -69,6 +70,7 @@ class Solution:
                 new_file_system.append(folder_dir)
 
         return new_file_system
+        '''
 
         '''
         # Solution 2: With Sorting and checking if 
@@ -183,3 +185,19 @@ class Solution:
 
         return new_file_system
         '''
+
+        # Approach Sorting only;
+        folder.sort()
+
+        new_file_system = []
+
+        new_file_system.append(folder[0])
+
+        for idx in range(1, len(folder)):
+            last_folder = new_file_system[-1]
+            last_folder += "/"
+
+            if not folder[idx].startswith(last_folder):
+                new_file_system.append(folder[idx])
+        
+        return new_file_system
