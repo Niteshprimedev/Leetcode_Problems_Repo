@@ -12,6 +12,7 @@
  * @return {boolean}
  */
 var isSameTree = function(p, q) {
+    /**
     // Same Logic on May 29th During Tree Revision:
     // Logic: If both the trees are null then return True
     // And if both exists and their values are equal then True
@@ -32,8 +33,8 @@ var isSameTree = function(p, q) {
         return false;
     }
     return traverse(p, q);
-
-    /**
+    */
+    
     // Solution 2: Using Extra Space;
     const rootPNodes = traverse(p, []);
     const rootQNodes = traverse(q, []);
@@ -70,8 +71,8 @@ var isSameTree = function(p, q) {
     // console.log(rootPNodes, rootQNodes);
 
     return isTreeSame;
-     */
 
+    /**
     //  Solution 3: Using Many If Conditions:
     function traverse(currentNode1, currentNode2){
         if(currentNode1 === null && currentNode2 !== null){
@@ -94,4 +95,5 @@ var isSameTree = function(p, q) {
         return leftTree && rightTree;
     }
     return traverse(p, q);
+    */
 };
