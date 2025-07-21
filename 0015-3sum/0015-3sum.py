@@ -82,6 +82,7 @@ class Solution:
         return triplets_sum_equals_zero
         '''
 
+        '''
         # Solution 3: Using Map and Merge_Sort;
         def merge(strt_idx, mid, end_idx, nums):
             merged_arr = []
@@ -123,6 +124,74 @@ class Solution:
         
         n = len(nums)
         merge_sort(0, n - 1, nums)
+
+        triplets_sum_equals_zero = []
+
+        for first_idx in range(len(nums)):
+            first_num = nums[first_idx]
+            # Skipping all the duplicates where first_num
+            # is same as previous first_num value;
+            if(first_idx > 0 and first_num == nums[first_idx - 1]):
+                continue
+            
+            second_idx = first_idx + 1
+            third_idx = len(nums) - 1
+
+            while (second_idx < third_idx):
+                second_num = nums[second_idx]
+                third_num = nums[third_idx]
+
+                triplets_sum = first_num + second_num + third_num
+
+                if triplets_sum == 0:
+                    triplets_sum_equals_zero.append([first_num, second_num, third_num])
+                    second_idx +=1
+                    third_idx -= 1
+
+                    # Skipping all the duplicates where second_num
+                    # is same as previous second_num value; cause the
+                    # third num will also be repeating so it is important;
+                    while second_idx < third_idx and nums[second_idx] == second_num:
+                        second_idx += 1
+                elif triplets_sum > 0:
+                    third_idx -= 1
+                else:
+                    second_idx += 1
+        
+        return triplets_sum_equals_zero
+        '''
+
+        # Solution 4: Using Map and Quick_sort;
+        # Pivot as low or start element;
+        def partition(low, high, nums):
+            pivot_el = nums[low]
+
+            # temp swap the pivot with high val
+            nums[low], nums[high] = nums[high], nums[low]
+
+            idx_i = low - 1
+
+            for idx_j in range(low, high):
+                if nums[idx_j] <= pivot_el:
+                    idx_i += 1
+                    nums[idx_i], nums[idx_j] = nums[idx_j], nums[idx_i]
+                
+            idx_i += 1
+            nums[idx_i], nums[high] = nums[high], nums[idx_i]
+
+            return idx_i
+
+        def quick_sort(low, high, nums):
+            if low < high:
+                pivot_idx = partition(low, high, nums)
+
+                quick_sort(low, pivot_idx - 1, nums)
+                quick_sort(pivot_idx + 1, high, nums)
+
+            return nums
+        
+        n = len(nums)
+        quick_sort(0, n - 1, nums)
 
         triplets_sum_equals_zero = []
 
