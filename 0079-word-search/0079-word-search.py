@@ -1,6 +1,6 @@
+'''
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        '''
         # Solution 1: Using visited array and creating word
         m_rows = len(board)
         n_cols = len(board[0])
@@ -48,7 +48,6 @@ class Solution:
                 break
 
         return is_word_found[0]
-        '''
 
         # Solution2: The Better & Optimized Solution using Backtracking;
         m_rows = len(board)
@@ -91,8 +90,8 @@ class Solution:
                 break
 
         return is_word_found[0]
-
 '''
+
 # TRIE DS SOLUTION:
 class Node:
     def __init__(self):
@@ -165,6 +164,4 @@ class Solution:
                 board_search(row_idx, col_idx, current_node)
         
         return is_word_found[0]
-'''
-
         
