@@ -70,6 +70,7 @@ class Solution:
         return longest_substr_len
         '''
 
+        '''
         # Solution using Array Map and Sliding Window:
         # Optimized: Avoid deleting all the chars in hashmap;
 
@@ -100,5 +101,34 @@ class Solution:
             # Or length of unique characters in map;
             # total_unique_chars = len(unique_chars_arr)
             # longest_substr_len = max(longest_substr_len, total_unique_chars)
+
+        return longest_substr_len
+        '''
+
+        # Solution3: using Array Map and Sliding Window: & Freq
+        # Optimized: Avoid deleting all the chars in hashmap;
+
+        window_strt_idx = 0
+        unique_chars_arr = [0] * 256
+
+        longest_substr_len = 0
+
+        for window_end_idx in range(len(s)):
+            curr_char = s[window_end_idx]
+            char_ascii_val = ord(curr_char)
+
+            unique_chars_arr[char_ascii_val] += 1
+
+            while unique_chars_arr[char_ascii_val] > 1:
+                strt_char = s[window_strt_idx]
+                strt_char_ascii_val = ord(strt_char)
+
+                unique_chars_arr[strt_char_ascii_val] -= 1
+                window_strt_idx += 1
+                # print(curr_char, window_strt_idx)
+
+            window_size = window_end_idx - window_strt_idx + 1
+            longest_substr_len = max(longest_substr_len, window_size)
+            # print(unique_chars_arr)
 
         return longest_substr_len
