@@ -53,7 +53,8 @@ class Solution:
         return max_erasure_val
         '''
         
-        # Solution 2: Optimized using Nested loops
+        '''
+        # Solution 2: Optimized using Nested loops & Freq
         # Logic: Sliding Window -> Expand the window
         # as long asa you have unique elements in window
         # else shrink the window;
@@ -83,6 +84,45 @@ class Solution:
                 curr_erasure_val -= strt_num
                 hash_map_arr[strt_num] -= 1
                 strt_idx += 1
+
+            # Update the max_window_size if a new max is found;
+            max_erasure_val = max(max_erasure_val, curr_erasure_val)
+
+        return max_erasure_val
+        '''
+
+        # Solution 3: Optimized using Nested loops & Indexing
+        # Simiilar to Longest Substring without Repeating chars;
+        # Logic: Sliding Window -> Expand the window
+        # as long asa you have unique elements in window
+        # else shrink the window;
+
+        if len(nums) == 0:
+            return 0
+        elif len(nums) == 1:
+            return nums[0]
+
+        hash_map_arr = [-1] * (10**4 + 1)
+        max_erasure_val = 0
+        curr_erasure_val = 0
+
+        strt_idx = 0
+
+        for end_idx in range(len(nums)):
+            curr_num = nums[end_idx]
+          
+            # Shrink the window as duplicate encountered
+            if hash_map_arr[curr_num] != -1:
+                while strt_idx <= hash_map_arr[curr_num]:
+                    strt_num = nums[strt_idx]
+
+                    curr_erasure_val -= strt_num
+                    hash_map_arr[strt_num] -= 1
+                    strt_idx += 1
+            
+            # Expand the window as unique window so far
+            curr_erasure_val += curr_num
+            hash_map_arr[curr_num] = end_idx
 
             # Update the max_window_size if a new max is found;
             max_erasure_val = max(max_erasure_val, curr_erasure_val)
