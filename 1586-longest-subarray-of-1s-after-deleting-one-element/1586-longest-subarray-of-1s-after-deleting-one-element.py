@@ -1,5 +1,6 @@
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
+        '''
         # Logic: using total flips count logic
         # and if all the elements are one then delete one 1 element
 
@@ -25,8 +26,8 @@ class Solution:
             longest_subarr_len = max(longest_subarr_len, window_size)
 
         return longest_subarr_len
-
         '''
+
         # Solution 2: Optimal Solution;
         # Logic: Expand the window as long as the condition is valid
         # and then maintain the longest window as long as the condition is invalid
@@ -56,4 +57,3 @@ class Solution:
             longest_subarr_len = max(longest_subarr_len, window_size)
         
         return longest_subarr_len
-        '''
