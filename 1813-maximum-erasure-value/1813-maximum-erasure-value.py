@@ -91,7 +91,6 @@ class Solution:
         return max_erasure_val
         '''
 
-        '''
         # Solution 3: Optimized using Nested loops & Indexing
         # Simiilar to Longest Substring without Repeating chars;
         # Logic: Sliding Window -> Expand the window
@@ -124,44 +123,6 @@ class Solution:
             # Expand the window as unique window so far
             curr_erasure_val += curr_num
             hash_map_arr[curr_num] = end_idx
-
-            # Update the max_window_size if a new max is found;
-            max_erasure_val = max(max_erasure_val, curr_erasure_val)
-
-        return max_erasure_val
-        '''
-
-        # Solution 4: Optimized using Nested loops & Duplicates arr
-        # Simiilar to Longest Substring without Repeating chars;
-        # Logic: Sliding Window -> Expand the window
-        # as long asa you have unique elements in window
-        # else shrink the window;
-
-        if len(nums) == 0:
-            return 0
-        elif len(nums) == 1:
-            return nums[0]
-
-        is_duplicate = [False] * (10**4 + 1)
-        max_erasure_val = 0
-        curr_erasure_val = 0
-
-        strt_idx = 0
-
-        for end_idx in range(len(nums)):
-            curr_num = nums[end_idx]
-          
-            # Shrink the window as duplicate encountered
-            while is_duplicate[curr_num]:
-                strt_num = nums[strt_idx]
-
-                curr_erasure_val -= strt_num
-                is_duplicate[strt_num] = False
-                strt_idx += 1
-            
-            # Expand the window as unique window so far
-            curr_erasure_val += curr_num
-            is_duplicate[curr_num] = True
 
             # Update the max_window_size if a new max is found;
             max_erasure_val = max(max_erasure_val, curr_erasure_val)
