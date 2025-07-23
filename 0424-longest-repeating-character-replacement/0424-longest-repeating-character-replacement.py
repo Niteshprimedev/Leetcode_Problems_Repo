@@ -13,6 +13,8 @@ class Solution:
         # Shrink the window as soon as total_freq - max_freq > k
         # Else expand the window as long as total_freq - max_freq <= k
         # replaced_chars = total_chars - max_char_freq
+        # Maintaining a window is fine but finding the max_freq
+        # is looping through the loop again and again for 26 chars
 
         longest_substr_len = 0
         max_char_freq = 0
@@ -23,6 +25,7 @@ class Solution:
             total_chars = end_idx - strt_idx + 1
             max_freq = 0
 
+            # Loop at most 26 times;
             if total_chars < 26:
                 for strt_idx in range(end_idx + 1):
                     curr_char = s[strt_idx]
@@ -38,12 +41,14 @@ class Solution:
             curr_char = s[window_end_idx]
             char_idx = ord(curr_char) - ord('A')
 
+            # Expand the window to replace more chars;
             chars_arr_map[char_idx] += 1
 
             max_char_freq = max(max_char_freq, chars_arr_map[char_idx])
             total_chars = window_end_idx - window_strt_idx + 1
             replaced_chars = total_chars - max_char_freq
 
+            # Shrink the window as replaced_chars count is reached
             if replaced_chars > k:
                 strt_char = s[window_strt_idx]
                 strt_char_idx = ord(strt_char) - ord('A')
@@ -51,8 +56,10 @@ class Solution:
                 chars_arr_map[strt_char_idx] -= 1
                 window_strt_idx += 1
                 
+                # count the next max freq of the window chars
                 max_char_freq = calculate_max_freq(window_strt_idx, window_end_idx, chars_arr_map)
             
+            # Update the longest substring length
             window_size = window_end_idx - window_strt_idx + 1
             longest_substr_len = max(longest_substr_len, window_size)
         
