@@ -54,7 +54,8 @@ class Solution:
         return all_parenthe_combs
         '''
 
-        # Solution 2:
+        # Solution 2: Solution Ref:
+        # https://leetcode.com/problems/generate-parentheses/solutions/6048157/video-increase-number-of-open-parentheses-until-we-reach-n-at-first
         all_parenthe_combs = []
 
         def dfs(open_pare, close_pare, s):
