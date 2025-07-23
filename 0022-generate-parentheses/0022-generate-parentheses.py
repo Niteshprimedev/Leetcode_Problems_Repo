@@ -1,5 +1,6 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
+        '''
         # Logic: Similar to Generate IP Address with four blocks of 
         # array elements and then you try the first 3 blocks as full
         # and the last block as empty or as many nums as possible;
@@ -49,6 +50,25 @@ class Solution:
                 curr_comb[curr_idx] = ''                
 
         generate_parenthe_combs(1, curr_comb)
+
+        return all_parenthe_combs
+        '''
+
+        # Solution 2:
+        all_parenthe_combs = []
+
+        def dfs(open_pare, close_pare, s):
+            if open_pare == close_pare and open_pare + close_pare == n * 2:
+                all_parenthe_combs.append(s)
+                return
+            
+            if open_pare < n:
+                dfs(open_pare + 1, close_pare, s + "(")
+            
+            if close_pare < open_pare:
+                dfs(open_pare, close_pare + 1, s + ")")
+
+        dfs(0, 0, "")
 
         return all_parenthe_combs
 
