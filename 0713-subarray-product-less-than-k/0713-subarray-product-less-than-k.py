@@ -36,6 +36,7 @@ class Solution:
         return total_k_subarrs_product
         '''
 
+        '''
         # Solution 2: Modifying the while condition;
         if k < 2:
             return 0
@@ -62,6 +63,36 @@ class Solution:
             return total_subarrs_count
         
         total_k_subarrs_product = countSubArrs(nums, k)
+        return total_k_subarrs_product
+        '''
+
+        # Solution 3: Calculating the subarrs for k - 1 and > k;
+        # Calculate total subarrs less than k or target;
+        if k < 2:
+            return 0
+
+        def countSubArrs(nums, k):
+            if k < 0:
+                return 0
+            
+            total_subarrs_count = 0
+            window_strt_idx = 0
+            prefix_product = 1
+            
+            for window_end_idx in range(len(nums)):
+                curr_num = nums[window_end_idx]
+
+                prefix_product *= curr_num
+
+                while window_strt_idx <= window_end_idx and prefix_product > k:
+                    prefix_product /= nums[window_strt_idx]
+                    window_strt_idx += 1
+                
+                total_subarrs_count += window_end_idx - window_strt_idx + 1
+            
+            return total_subarrs_count
+        
+        total_k_subarrs_product = countSubArrs(nums, k - 1)
         return total_k_subarrs_product
 
 
