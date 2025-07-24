@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
