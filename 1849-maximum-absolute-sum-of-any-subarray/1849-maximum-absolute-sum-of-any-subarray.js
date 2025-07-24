@@ -4,6 +4,7 @@
  */
 var maxAbsoluteSum = function(nums) {
 
+    /**
     // Logic:
     // To figure out the maxAbsPrefixSum: It can be done by 
     // substracting the minimum prefixSum value from the currPrefixSum
@@ -31,9 +32,9 @@ var maxAbsoluteSum = function(nums) {
     }
 
     return maxAnySubArrAbsSum;
-    /**
+    */
 
-        // Logic: Hint 4
+    // Logic: Hint 4
     // Using Kadane's Algorithm to find the maxSubArrSum
     // Using Kadane's Algorithm to find the minSubArrSum
     // Return the absolute max sum;
@@ -61,7 +62,10 @@ var maxAbsoluteSum = function(nums) {
     // Finally, we will have the maximum absolute sum of any subarray in the 
     // maxAnySubArrAbsSum variable so will return it;
 
-
+    let currSubArrSum = 0;
+    let maxSubArrSum = -Infinity
+    let minSubArrSum = Infinity
+    
     // Kadane's Algorithm to calculate the maximum subArray sum;
     for(let num of nums){
         currSubArrSum += num;
@@ -99,5 +103,4 @@ var maxAbsoluteSum = function(nums) {
 
     return maxAnySubArrAbsSum;
 
- */
 };
