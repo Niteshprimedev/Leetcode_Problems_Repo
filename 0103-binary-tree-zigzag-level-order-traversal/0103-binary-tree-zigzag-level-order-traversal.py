@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        '''
         # Logic: BFS Traversal with each alternate level nodes reversed
 
         zig_zag_level_traversal = []
@@ -43,8 +42,8 @@ class Solution:
             zig_zag_level_traversal.append(curr_level_nodes)
         
         return zig_zag_level_traversal
-        '''
 
+        '''
         # Logic: BFS Traversal with each alternate level nodes reversed
         # Solution 2: Strategic Traversal from left & right when 
         # we are at odd and even levels in our traversal;
@@ -90,3 +89,4 @@ class Solution:
                 queue.append(curr_level_stack.pop())
         
         return zig_zag_level_traversal
+        '''
