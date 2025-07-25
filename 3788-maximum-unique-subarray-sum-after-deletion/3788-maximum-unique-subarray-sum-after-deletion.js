@@ -41,7 +41,8 @@ var maxSum = function(nums) {
 
     return maxSubArrSum;
     */
-
+    
+    /**
     // SOLUTION 2: Refactored and Improved lOGIC:
     let maxSubArrSum = 0;
     nums.sort((a, b) => a - b);
@@ -78,6 +79,42 @@ var maxSum = function(nums) {
         // we don't need this extra else condition
         // cause we are already breaking if we ever
         // encounter the maxEl as a negative number
+    }
+
+    return maxSubArrSum;
+    */
+
+    // SOLUTION 3: Refactored and Improved lOGIC:
+    // Handling the negative case first;
+    let maxSubArrSum = 0;
+    nums.sort((a, b) => a - b);
+    // console.log(nums)
+
+    n = nums.length;
+
+    // just return the last which is max amongst all negative elements
+    // if there are no elements greater than 0
+    if(nums[n - 1] <= 0){
+        maxSubArrSum = nums[n - 1];
+        return maxSubArrSum;
+    }
+
+    // Also, we don't need this newMaxSubArrSum var
+    // cause we are already accumulating the sum of all
+    // positive elements so any element added would be max;
+    for(let idxI = nums.length; idxI >= 0; idxI--){
+        const currEl = nums[idxI];
+
+        // SKip Duplicates using adjacent element check;
+        if(idxI > 0 && currEl === nums[idxI - 1]){
+            continue;
+        }
+
+        if(currEl > 0){
+            // just add the currEl which postive unique element
+            // & no need to take the max, cause this element addition is max
+            maxSubArrSum += currEl
+        }
     }
 
     return maxSubArrSum;
