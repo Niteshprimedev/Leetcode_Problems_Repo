@@ -42,6 +42,7 @@ class Solution:
         return max_sub_arr_sum
         '''
 
+        '''
         # Solution 3: Most Optimized Hint Solution: & Array Map
         unique_els = [0] * 101
         max_sub_arr_sum = -101
@@ -63,6 +64,34 @@ class Solution:
         for num in unique_els:
             if num > 0:
                 max_sub_arr_sum += num
+        
+        return max_sub_arr_sum
+        '''
+        
+        # Hint Comment: 
+        # Find the sum of all the unique positive elements first if your
+        # maxSum is still like -101 or float('-inf') then
+        # find the maxElement in the given nums arr & that is your ans.
+        # Solution 4: Most Optimized Hint Solution: & Array Map
+
+        unique_els = [0] * 101
+        max_sub_arr_sum = 0
+
+        for num in nums:
+            if num > 0 and unique_els[num] == 0:
+                max_sub_arr_sum += num
+                unique_els[num] = num
+
+        # if maxSum is not -101 or float('-inf') then
+        # this is the answ
+        if max_sub_arr_sum != 0:
+            return max_sub_arr_sum
+
+        max_sub_arr_sum = -101
+        # Otherwise, the max sum is the maxElement
+        # in the given nums arr 
+        for num in nums:
+            max_sub_arr_sum = max(max_sub_arr_sum, num)
         
         return max_sub_arr_sum
 
