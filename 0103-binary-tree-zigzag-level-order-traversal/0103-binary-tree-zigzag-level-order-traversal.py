@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        '''
         # Logic: BFS Traversal with each alternate level nodes reversed
 
         zig_zag_level_traversal = []
@@ -38,6 +39,57 @@ class Solution:
             
             if curr_level % 2 == 0:
                 curr_level_nodes = curr_level_nodes[::-1]
+
+            zig_zag_level_traversal.append(curr_level_nodes)
+        
+        return zig_zag_level_traversal
+        '''
+
+        # Logic: BFS Traversal with each alternate level nodes reversed
+
+        def reverse_arr(nodes_arr):
+            strt_idx = 0
+            end_idx = len(nodes_arr) - 1
+
+            while strt_idx < end_idx:
+                nodes_arr[strt_idx], nodes_arr[end_idx] = nodes_arr[end_idx], nodes_arr[strt_idx]
+
+                strt_idx += 1
+                end_idx -= 1
+            
+            return nodes_arr
+
+        zig_zag_level_traversal = []
+
+        if not root:
+            return zig_zag_level_traversal
+
+        queue = []
+        queue.append(root)
+        node_idx = 0
+        curr_level = 0
+
+        while(node_idx < len(queue)):   
+            curr_level += 1
+            level_len = len(queue)
+
+            curr_level_nodes = []
+
+            for idx_i in range(node_idx, level_len):
+                current_node = queue[node_idx]
+
+                node_idx += 1
+
+                if current_node.left:
+                    queue.append(current_node.left)
+                if current_node.right:
+                    queue.append(current_node.right)
+
+                curr_level_nodes.append(current_node.val)
+            
+            if curr_level % 2 == 0:
+                # reverse using two pointers;
+                curr_level_nodes = reverse_arr(curr_level_nodes)
 
             zig_zag_level_traversal.append(curr_level_nodes)
         
