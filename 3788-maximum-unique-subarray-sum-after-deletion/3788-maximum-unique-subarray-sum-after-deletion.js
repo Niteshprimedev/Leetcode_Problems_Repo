@@ -3,6 +3,7 @@
  * @return {number}
  */
 var maxSum = function(nums) {
+    /** 
     let maxSubArrSum = -101;
     nums.sort((a, b) => a - b);
 
@@ -36,6 +37,47 @@ var maxSum = function(nums) {
         else{
             break;
         }
+    }
+
+    return maxSubArrSum;
+    */
+
+    // SOLUTION 2: Refactored and Improved lOGIC:
+    let maxSubArrSum = 0;
+    nums.sort((a, b) => a - b);
+
+    // console.log(nums)
+    
+    // uniqueNumsSET Is Not required cause
+    // we already have elements sorted and we can
+    // skip duplicates using adjacent property
+    
+    // Also, we don't need this newMaxSubArrSum var
+    // cause we are already accumulating the sum of all
+    // positive elements so any element added would be max;
+    for(let idxI = nums.length; idxI >= 0; idxI--){
+        const currEl = nums[idxI];
+
+        // SKip Duplicates using adjacent element check;
+        if(idxI > 0 && currEl === nums[idxI - 1]){
+            continue;
+        }
+
+        if(currEl > 0){
+            // just add the currEl which postive unique element
+            // & no need to take the max, cause this element addition is max
+            maxSubArrSum += currEl
+        }
+        else if(currEl <= 0 && maxSubArrSum === 0){
+            // just assign the currEl which max amongst all negative elements
+            // & no need to take the max, cause this element is max
+            maxSubArrSum = currEl;
+            
+            break;
+        }
+        // we don't need this extra else condition
+        // cause we are already breaking if we ever
+        // encounter the maxEl as a negative number
     }
 
     return maxSubArrSum;
