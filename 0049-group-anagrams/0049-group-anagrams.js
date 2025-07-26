@@ -7,10 +7,10 @@ var groupAnagrams = function(strs) {
 
     for(let str of strs){
         const hashKey = str.split("").sort().join('');
-        
         let hashValue = [];
-        const isHashKeyNotPresent = sortedWordsKeyMap.has(hashKey) !== true;
-        if(isHashKeyNotPresent){
+
+        const isHashkeyNotPresent = sortedWordsKeyMap.has(hashKey) !== true;
+        if(isHashkeyNotPresent){
             sortedWordsKeyMap.set(hashKey, hashValue);
         }
 
