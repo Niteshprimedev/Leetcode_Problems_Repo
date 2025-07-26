@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0975-range-sum-of-bst) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0871-keys-and-rooms) |
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
+| [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Binary Search
 |  |
@@ -261,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1656-count-good-triplets) |
@@ -601,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
+| [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 ## Binary Indexed Tree
 |  |
