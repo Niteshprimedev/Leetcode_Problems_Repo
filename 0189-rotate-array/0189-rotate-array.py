@@ -3,6 +3,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        '''
         # Observation: K times clockwise rotation meaning
         # your resultant array will start from the kth element
         # from end till (k - 1)th element;
@@ -48,4 +49,9 @@ class Solution:
         reverse(k, n - 1)
 
         return nums
-        
+        '''
+
+        # Solution 2: Using Extra Space - 
+        k = k % len(nums)
+        if k != 0:
+            nums[:k], nums[k:] = nums[-k:], nums[:-k]
