@@ -58,21 +58,57 @@ class Solution:
             nums[:k], nums[k:] = nums[-k:], nums[:-k]
         
         '''
-
+    
         # Solution 3: Juggling Algorithm Space Optimized
         # One Pass Solution:
 
+        # Note: If rotating by left then the next element would
+        # be available at (curr_idx + d or k) % n
+        # If rotating by right then next element will be
+        # available at (curr_idx + n - d or n - k) % n
+        # Length of cycle will be equal to the smallest m
+        # that satisfies the multiple of n let's suppose if we
+        # had k = 3 and n = 7 then the smallest m would be 7
+        # cause k * m % n should be 0 => 7 * 3 => 21 which is divisible
+        # Number of cycles will be derived by the length of the cycle
+        # let's generalize it:
+        # so we have k * m % n to figure out the length of the cycle
+        # so if I want to make both sides equal then I would need 
+        # some integer x to balance both the sides, right
+        # (k * m) = (x * n): here m is the smallest m that satisfies
+        # (k * m) % n == 0 && x is the values that makes both sides equal
+        # so x can be calculated as (k * m) // n
+        # Now, we have this equation (k * m) == (x * n)
+        # then we can say smallest m = (x * n) // k
+        # (x * n) is the least common multiple of n and k
+        # i.e length of one cycle = LCM(n, k) / k
+        # Total cycles => total number of elements divided by length of one cycle
+        # Total Cycles => n // LCM(n, k) / k
+        # or total_cycles => (n * k) // LCM(n, k)
+        # since Multple of (a, b) / LCM(a, b) is nothing but GCD so
+        # Total_Cycles => GCD(n, k)
+        from math import gcd
         n = len(nums)
-        k %= n
 
-        def nexti(i):
-            dist = n - k
-            return (i + dist) % n
+        k = k % n # to keep k within bounds;
+
+        # Juggling Algo; Rotate elements in cycles;
+        for cycle_idx in range(gcd(n, k)):
+            curr_idx = cycle_idx
+            cycle_strt_el = nums[curr_idx]
+
+            while True:
+                next_idx = (curr_idx + n - k) % n
+
+                if next_idx == cycle_idx:
+                    break
+
+                # rotate the next_idx element to its kth pos to the right;
+                nums[curr_idx] = nums[next_idx]
+                curr_idx = next_idx
+            
+            # rotate the strt_el to its kth pos to the right;
+            nums[curr_idx] = cycle_strt_el
         
-        for s in range(gcd(k, n)):
-            first = nums[s]
-            i, j = s, nexti(s)
-            while j != s:
-                nums[i] = nums[j]
-                i, j = nexti(i), nexti(j)
-            nums[i] = first
+        # return nums; but we are doing it in-place so no need;
+
