@@ -50,8 +50,29 @@ class Solution:
 
         return nums
         '''
-
+        
+        '''
         # Solution 2: Using Extra Space - 
         k = k % len(nums)
         if k != 0:
             nums[:k], nums[k:] = nums[-k:], nums[:-k]
+        
+        '''
+
+        # Solution 3: Juggling Algorithm Space Optimized
+        # One Pass Solution:
+
+        n = len(nums)
+        k %= n
+
+        def nexti(i):
+            dist = n - k
+            return (i + dist) % n
+        
+        for s in range(gcd(k, n)):
+            first = nums[s]
+            i, j = s, nexti(s)
+            while j != s:
+                nums[i] = nums[j]
+                i, j = nexti(i), nexti(j)
+            nums[i] = first
