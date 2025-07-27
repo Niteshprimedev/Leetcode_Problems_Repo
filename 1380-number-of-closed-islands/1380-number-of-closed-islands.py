@@ -179,6 +179,7 @@ class Solution:
         return total_closed_islands
         '''
 
+        '''
         # Solution 4: Discovering open islands and then finding closed islands;
         m_rows = len(grid)
         n_cols = len(grid[0])
@@ -250,5 +251,49 @@ class Solution:
             
             total_closed_islands += 1
 
+        
+        return total_closed_islands
+        '''
+
+        # Solution 5: Discovering open islands and then finding closed islands;
+        m_rows = len(grid)
+        n_cols = len(grid[0])
+
+        total_closed_islands = 0
+
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+        visited_cells = [[False for _ in range(n_cols)] for _ in range(m_rows)]
+
+        def graphDFSIve(curr_pos):
+            stack = [curr_pos]
+
+            is_island_edge_not_connected = True
+
+            while len(stack) > 0:
+                row_idx, col_idx = stack.pop()
+
+                for direction in directions:
+                    new_row_idx = row_idx + direction[0]
+                    new_col_idx = col_idx + direction[1]
+
+                    if (row_idx == 0 or col_idx == 0 or row_idx == m_rows - 1 or col_idx == n_cols - 1):
+                        is_island_edge_not_connected = False
+
+                    if new_row_idx >= 0 and new_row_idx < m_rows and new_col_idx >= 0 and new_col_idx < n_cols and grid[new_row_idx][new_col_idx] == 0 and not visited_cells[new_row_idx][new_col_idx]:
+                        visited_cells[new_row_idx][new_col_idx] = True
+                        stack.append((new_row_idx, new_col_idx))
+            
+            return is_island_edge_not_connected
+
+        # Discover open islands first;
+        for row_idx in range(m_rows):
+            for col_idx in range(n_cols):
+                if grid[row_idx][col_idx] == 0 and not visited_cells[row_idx][col_idx]:
+                    visited_cells[row_idx][col_idx] = True
+                    is_island_edge_not_connected = graphDFSIve((row_idx, col_idx))
+
+                    if is_island_edge_not_connected:
+                        total_closed_islands += 1
         
         return total_closed_islands
