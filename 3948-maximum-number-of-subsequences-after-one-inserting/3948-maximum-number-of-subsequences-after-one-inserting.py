@@ -49,7 +49,7 @@ class Solution:
         insert_L = 0
         insert_C = 0
         insert_T = 0
-        max_subseq = 0
+        not_insert_C = 0
         
         for idx in range(n):
             char = s[idx]
@@ -63,11 +63,11 @@ class Solution:
             if char == "C":
                 insert_L += (prefix_L + 1) * (suffix_T)
                 insert_T += (prefix_L) * (suffix_T + 1)
-                max_subseq += prefix_L * suffix_T
+                not_insert_C += prefix_L * suffix_T
             else:
                 insert_C = max(insert_C, prefix_L * suffix_T)
         
-        return max(insert_L, insert_T, max_subseq + insert_C)
+        return max(insert_L, insert_T, not_insert_C + insert_C)
 
         # Wrong Solution:
         '''
