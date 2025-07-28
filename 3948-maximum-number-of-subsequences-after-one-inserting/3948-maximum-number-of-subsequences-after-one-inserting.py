@@ -1,5 +1,7 @@
 class Solution:
     def numOfSubsequences(self, s: str) -> int:
+
+        '''
         # Peers Solution:
         n = len(s)
 
@@ -34,6 +36,36 @@ class Solution:
                 max_subseq += prefix_L[idx] * suffix_T[idx]
             else:
                 insert_C = max(insert_C, prefix_L[idx] * suffix_T[idx])
+        
+        return max(insert_L, insert_T, max_subseq + insert_C)
+        '''
+
+        # Constant Space Solution: Peers Solution:
+        n = len(s)
+
+        prefix_L = 0
+        suffix_T = s.count('T')
+        
+        insert_L = 0
+        insert_C = 0
+        insert_T = 0
+        max_subseq = 0
+        
+        for idx in range(n):
+            char = s[idx]
+            end_idx = n - 1 - idx
+
+            if s[idx] == "L":
+                prefix_L += 1 
+            elif s[idx] == "T":
+                suffix_T -= 1 
+
+            if char == "C":
+                insert_L += (prefix_L + 1) * (suffix_T)
+                insert_T += (prefix_L) * (suffix_T + 1)
+                max_subseq += prefix_L * suffix_T
+            else:
+                insert_C = max(insert_C, prefix_L * suffix_T)
         
         return max(insert_L, insert_T, max_subseq + insert_C)
 
