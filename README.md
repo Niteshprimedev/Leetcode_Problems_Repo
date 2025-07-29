@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Interactive
 |  |
 | ------- |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -443,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1813-maximum-erasure-value) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
 ## Prefix Sum
 |  |
@@ -584,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0222-count-complete-tree-nodes) |
+| [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Binary Search Tree
 |  |
 | ------- |
