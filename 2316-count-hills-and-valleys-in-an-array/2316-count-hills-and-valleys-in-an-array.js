@@ -29,6 +29,8 @@ var countHillValley = function(nums) {
         const currEl = nums[idxI];
         const nextNonDuplicateEl = nums[nonDuplicateElIdx];
 
+        // console.log(prevNonDuplicateEl, currEl, nextNonDuplicateEl)
+
         const isHillNeighborsSmaller = (currEl > prevNonDuplicateEl) && (currEl > nextNonDuplicateEl);
         const isValleyNeighborsLarger = (currEl < prevNonDuplicateEl) && (currEl < nextNonDuplicateEl);
 
