@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0018-4sum) |
+| [0035-search-insert-position](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0035-search-insert-position) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0053-maximum-subarray) |
