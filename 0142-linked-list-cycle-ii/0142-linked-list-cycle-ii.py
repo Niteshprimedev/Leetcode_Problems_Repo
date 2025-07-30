@@ -6,6 +6,7 @@
 
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        '''
         # Solved during DSA Session 7:
         slow = head
         fast = head
@@ -33,5 +34,32 @@ class Solution:
             cyclic_node = fast
         
         return cyclic_node
+        '''
+
+        # Solved during DSA Session 7:
+        slow = head
+        fast = head
+
+        is_cycle_present = False
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                is_cycle_present = True
+                break
+            
+        if is_cycle_present == False:
+            return None
+
+        slow = head
+
+        # Find the first node of the cycle;
+        while slow != fast:
+            slow = slow.next
+            fast = fast.next
+        
+        return fast
 
         
