@@ -5,7 +5,6 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        '''
         # Solution 1: Using min_heap and priority queue 
         sorted_list_head = ListNode(-1)
         sorted_list_p = sorted_list_head
@@ -32,8 +31,8 @@ class Solution:
 
         sorted_list_head = sorted_list_head.next
         return sorted_list_head
-        '''
 
+        '''
         # Solution 2: Using Divide and conquer Method;
         # Merge Two Sorted lists method;
         def merge_two_lists(list1, list2):
@@ -72,4 +71,4 @@ class Solution:
             lists = merged_lists
         
         return lists[0]
-        
+        '''
