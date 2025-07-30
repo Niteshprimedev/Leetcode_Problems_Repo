@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0160-intersection-of-two-linked-lists) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0160-intersection-of-two-linked-lists) |
@@ -551,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
