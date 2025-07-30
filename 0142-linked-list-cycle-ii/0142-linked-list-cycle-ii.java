@@ -34,6 +34,8 @@ public class Solution {
 			fastNode = fastNode.next;
 		}
 		
-		return slowNode;
+		// return slowNode;
+        // OR
+		return fastNode;
     }
 }
