@@ -37,7 +37,7 @@ class Solution:
         return root
         '''
 
-        '''
+        # Solution 1: Stack & Pointers SOLUTION
         current_node = root
         tree_nodes_stack = []
 
@@ -54,8 +54,8 @@ class Solution:
             current_node = current_node.right
         
         return root
-        '''
 
+        '''
         # Solution 2: Recursive Version:
 
         if not root:
@@ -82,5 +82,4 @@ class Solution:
         flatten_pre_dfs_traverse(root)
 
         return root
-
-        
+        '''       
