@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0138-copy-list-with-random-pointer](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0142-linked-list-cycle-ii) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0086-partition-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0138-copy-list-with-random-pointer](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
