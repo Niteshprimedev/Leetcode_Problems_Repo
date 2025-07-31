@@ -251,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
@@ -592,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0222-count-complete-tree-nodes) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Binary Search Tree
