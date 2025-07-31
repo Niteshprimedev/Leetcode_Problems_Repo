@@ -10,7 +10,7 @@ var singleNumber = function(nums) {
 
     for (let numKey in numberObj) {
         if(numberObj[numKey] === 1) {
-            return numKey;
+            return +numKey;
         }
     }
 };
