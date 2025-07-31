@@ -10,6 +10,7 @@ class Solution:
         Do not return anything, modify root in-place instead.
         """
         
+        '''
         if not root:
             return root
 
@@ -34,3 +35,52 @@ class Solution:
         traverse(root)
 
         return root
+        '''
+
+        '''
+        current_node = root
+        tree_nodes_stack = []
+
+        while current_node:
+            if current_node.right:
+                tree_nodes_stack.append(current_node.right)
+            if current_node.left:
+                tree_nodes_stack.append(current_node.left)
+            if tree_nodes_stack:
+                new_node = tree_nodes_stack.pop()
+                current_node.left = None
+                current_node.right = new_node
+
+            current_node = current_node.right
+        
+        return root
+        '''
+
+        # Solution 2: Recursive Version:
+
+        if not root:
+            return root
+
+        right_nodes_stack = []
+
+        def flatten_pre_dfs_traverse(current_node):
+            if current_node and current_node.right:
+                right_nodes_stack.append(current_node.right)
+            
+            if current_node and current_node.left:
+                current_node.right = current_node.left
+                current_node.left = None
+
+                flatten_pre_dfs_traverse(current_node.right)
+
+            if right_nodes_stack:
+                right_node = right_nodes_stack.pop()
+                current_node.right = right_node
+
+                flatten_pre_dfs_traverse(current_node.right)
+
+        flatten_pre_dfs_traverse(root)
+
+        return root
+
+        
