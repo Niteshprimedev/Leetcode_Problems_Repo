@@ -6,7 +6,6 @@
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
-        '''
         intersect_node = None
 
         # nodesA_map = dict()
@@ -29,8 +28,8 @@ class Solution:
 
         # nodeA => 4 5 9 8 6 null so it resets to headB 3 2 8 and boom they intersect at node 8
         # nodeB => 3 2 8 6 null 4 so it resets to headA 5 9 8 and bam they intersect at node 8
-        '''
 
+        '''
         intersect_node = None
 
         nodesA_map = dict()
@@ -51,6 +50,7 @@ class Solution:
             current_nodeB = current_nodeB.next
         
         return intersect_node
+        '''
 
         
 
