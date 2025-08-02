@@ -60,10 +60,14 @@ class Solution:
             elif s[idx] == "T":
                 suffix_T -= 1 
 
+            # when char is C then you insert either L, C, T
+            # cause we are calculating the LCT subsequences at each C;
             if char == "C":
                 insert_L += (prefix_L + 1) * (suffix_T)
                 insert_C += prefix_L * suffix_T
                 insert_T += (prefix_L) * (suffix_T + 1)
+            # when char is not C then you can only insert C
+            # cause the char is either LT or any other char
             else:
                 option_C = max(option_C, prefix_L * suffix_T)
         
