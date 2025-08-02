@@ -9,6 +9,7 @@
  * }
  */
 class Solution {
+    /*
     private static ListNode reverseList(ListNode subHead, int left, int right){
         ListNode prevNode = null;
         ListNode currNode = subHead;
@@ -30,8 +31,9 @@ class Solution {
 
         return prevNode;
     }
-
+    */
     public ListNode reverseBetween(ListNode head, int left, int right) {
+        /*
         if(left == right){
             return head;
         }
@@ -54,5 +56,42 @@ class Solution {
         }
 
         return head;
+    }
+    */
+    
+        ListNode prevNode = null;
+		ListNode currNode = head;
+		
+		int idx;
+		
+		for(idx = 1; idx < left; idx++){
+			prevNode = currNode;
+			currNode = currNode.next;
+		}
+		
+		ListNode reverseNode = null;
+		ListNode nextNode = currNode;
+		
+		for(idx = left; idx <= right; idx++){
+			nextNode = currNode.next;
+			
+			currNode.next = reverseNode;
+			reverseNode = currNode;
+			currNode = nextNode;
+		}
+		
+		if(prevNode == null){
+			nextNode = head;
+			prevNode = reverseNode;
+			head = prevNode;
+		}
+		else{
+			nextNode = prevNode.next;
+			prevNode.next = reverseNode;
+		}
+		
+		nextNode.next = currNode;
+		
+		return head;
     }
 }
