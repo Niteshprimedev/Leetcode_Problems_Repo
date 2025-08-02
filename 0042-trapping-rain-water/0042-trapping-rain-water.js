@@ -55,6 +55,7 @@ var trap = function(height) {
     return totalTrappedRainWaterUnits;
     */
 
+    /** 
     // Solution 2: Using only suffix Max 
     const heightLen = height.length;
 
@@ -92,8 +93,8 @@ var trap = function(height) {
     }
 
     return totalTrappedRainWaterUnits;
+    */
     
-    /** 
     // Logic: First, we calculate the maxLeft Boundary 
     // traversing from the left, and the maxRight Boundary
     // traversing from the right
@@ -134,5 +135,4 @@ var trap = function(height) {
     }
 
     return totalTrappedRainWaterUnits;
-    */
 };
