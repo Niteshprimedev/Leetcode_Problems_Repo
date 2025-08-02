@@ -11,7 +11,7 @@ class Solution:
         insert_L = 0
         insert_C = 0
         insert_T = 0
-        max_subseq = 0
+        option_C = 0
 
         for idx in range(n):
             char = s[idx]
@@ -32,12 +32,12 @@ class Solution:
             char = s[idx]
             if char == "C":
                 insert_L += (prefix_L[idx] + 1) * (suffix_T[idx])
+                insert_C += prefix_L[idx] * suffix_T[idx]
                 insert_T += (prefix_L[idx]) * (suffix_T[idx] + 1)
-                max_subseq += prefix_L[idx] * suffix_T[idx]
             else:
-                insert_C = max(insert_C, prefix_L[idx] * suffix_T[idx])
+                option_C = max(option_C, prefix_L[idx] * suffix_T[idx])
         
-        return max(insert_L, insert_T, max_subseq + insert_C)
+        return max(insert_L, insert_T, insert_C + option_C)
         '''
 
         # Constant Space Solution: Peers Solution:
