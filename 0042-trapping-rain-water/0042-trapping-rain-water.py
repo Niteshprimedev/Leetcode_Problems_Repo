@@ -1,5 +1,6 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
+        '''
         # DSA May 4 Question solution by DK Sir!
         # Logic: Reasoning for moving smaller height pointer is
         # if I move my larger height pointer then I might miss on
@@ -34,5 +35,31 @@ class Solution:
             water_trapped_units = max(curr_boundary - curr_height, 0)
 
             total_trapped_water_units += water_trapped_units
+
+        return total_trapped_water_units
+        '''
+
+        # Solution 2: Two pointers Logic;
+
+        height_len = len(height)
+
+        total_trapped_water_units = 0
+
+        leftIdx = 0
+        rightIdx = height_len - 1
+
+        max_left = float('-inf')
+        max_right = float('-inf')
+
+        while leftIdx < rightIdx:
+            max_left = max(max_left, height[leftIdx])
+            max_right = max(max_right, height[rightIdx])
+
+            if max_left <= max_right:
+                total_trapped_water_units += max_left - height[leftIdx]
+                leftIdx += 1
+            else:
+                total_trapped_water_units += max_right - height[rightIdx]
+                rightIdx -= 1
 
         return total_trapped_water_units
