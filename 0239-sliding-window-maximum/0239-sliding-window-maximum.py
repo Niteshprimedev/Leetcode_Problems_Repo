@@ -23,7 +23,6 @@ class QueueDS:
 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        '''
         # Login: maintain a queue with max value at the front
         # minimum value at the rear end;
 
@@ -56,7 +55,6 @@ class Solution:
             sliding_window_maxms.append(nums[queue[0]])
 
         return sliding_window_maxms
-        '''
        
         '''
         # Login: maintain a queue with max value at the front
@@ -95,6 +93,7 @@ class Solution:
         return sliding_window_maxms
         '''
 
+        '''
         # Solution 3: Doing the TO-DO; The while loop takes care of 
         # any elements that goes beyond our window so the pq can't have
         # more than k elements;
@@ -129,6 +128,4 @@ class Solution:
             sliding_window_maxms.append(-priority_q[0][0])
 
         return sliding_window_maxms
-
-
-        
+        '''        
