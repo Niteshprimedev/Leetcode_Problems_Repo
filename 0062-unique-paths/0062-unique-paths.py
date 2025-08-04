@@ -1,5 +1,6 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
+        '''
         # Top Down Approach:
 
         m_rows = m
@@ -27,6 +28,7 @@ class Solution:
         all_possible_paths(m_rows - 1, n_cols - 1)
 
         return memo_dp[m_rows - 1][n_cols - 1]
+        '''
 
         '''
         # Bottom Up Approach Solution:
@@ -60,7 +62,6 @@ class Solution:
         return memo_dp[m_rows - 1][n_cols - 1]
         '''
 
-        '''
         # Bottom Up Approach: Optimized Solution 
         # Notes: Robot can move up, and left only
         # Base Case: when the robot is reached (0,0) cell
@@ -95,4 +96,3 @@ class Solution:
             prev_dp = curr_dp
             
         return prev_dp[n_cols - 1]
-        '''
