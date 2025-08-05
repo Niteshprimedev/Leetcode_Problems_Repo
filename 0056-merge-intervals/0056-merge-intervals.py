@@ -1,6 +1,5 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        '''
         # Solution 1: Using the stack pop and push for 
         # last interval;
 
@@ -22,8 +21,8 @@ class Solution:
                 merged_intervals.append(curr_interval)
         
         return merged_intervals
-        '''
 
+        '''
         # Solution 2: Minimum Operations on array;
         intervals.sort(key=lambda x:x[0])
 
@@ -43,3 +42,4 @@ class Solution:
         merged_intervals.append(prev_interval)
 
         return merged_intervals
+        '''
