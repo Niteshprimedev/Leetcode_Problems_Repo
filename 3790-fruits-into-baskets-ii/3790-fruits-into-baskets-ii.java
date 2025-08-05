@@ -1,6 +1,5 @@
 class Solution {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
-        int unplacedFruits = 0;
 
         HashSet<Integer> placed = new HashSet<>();
 
@@ -13,6 +12,7 @@ class Solution {
             }
         }
 
-        return baskets.length - placed.size();
+        int unplacedFruits = baskets.length - placed.size();
+        return unplacedFruits;
     }
 }
