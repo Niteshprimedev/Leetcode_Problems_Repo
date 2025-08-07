@@ -1,7 +1,7 @@
 class MedianFinder {
 
-    PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b)->b - a);
-    PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b)->a - b);
+    PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b)->b - a);
+    PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b)->a - b);
 
     public MedianFinder() {
         
