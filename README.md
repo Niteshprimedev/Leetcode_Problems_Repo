@@ -250,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
@@ -570,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0078-subsets) |
