@@ -45,6 +45,7 @@ class Solution:
         return zig_zag_level_traversal
         '''
 
+        '''
         # Logic: BFS Traversal with each alternate level nodes reversed
         def reverse_arr(nodes_arr):
             strt_idx = 0
@@ -93,8 +94,8 @@ class Solution:
             zig_zag_level_traversal.append(curr_level_nodes)
         
         return zig_zag_level_traversal
-
         '''
+
         # Logic: BFS Traversal with each alternate level nodes reversed
         # Solution 2: Strategic Traversal from left & right when 
         # we are at odd and even levels in our traversal;
@@ -140,4 +141,3 @@ class Solution:
                 queue.append(curr_level_stack.pop())
         
         return zig_zag_level_traversal
-        '''
