@@ -230,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0173-binary-search-tree-iterator) |
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0937-online-stock-span) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0713-subarray-product-less-than-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0713-subarray-product-less-than-k) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0739-daily-temperatures](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0792-binary-search) |
 | [0797-rabbits-in-forest](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0797-rabbits-in-forest) |
@@ -703,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0937-online-stock-span) |
 ## Trie
 |  |
