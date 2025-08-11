@@ -46,7 +46,6 @@ class Solution:
         '''
 
         # Logic: BFS Traversal with each alternate level nodes reversed
-
         def reverse_arr(nodes_arr):
             strt_idx = 0
             end_idx = len(nodes_arr) - 1
