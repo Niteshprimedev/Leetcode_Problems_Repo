@@ -18,6 +18,7 @@ def helper(root):
 
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
+        '''
         # Solution 1: Using DFS
         if root == None:
             return 0
@@ -25,13 +26,12 @@ class Solution:
         max_depth = 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
         
         return max_depth
-        
         '''
+        
         # Solution 2: Using DFS
         # Solved during DSA Session 11 on June 7
 
         return helper(root)
-        '''
 
         '''
         # Solution 3: Using DFS
