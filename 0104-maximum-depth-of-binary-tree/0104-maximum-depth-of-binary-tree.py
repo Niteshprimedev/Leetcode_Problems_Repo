@@ -18,7 +18,6 @@ def helper(root):
 
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        '''
         # Solution 1: Using DFS
         if root == None:
             return 0
@@ -26,7 +25,6 @@ class Solution:
         max_depth = 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
         
         return max_depth
-        '''
         
         '''
         # Solution 2: Using DFS
@@ -100,6 +98,7 @@ class Solution:
         return max_tree_depth
         '''
 
+        '''
         # Solution 6: Using BFS
         # Optimized Queue & Time Complexity;
 
@@ -127,3 +126,4 @@ class Solution:
                     queue.append(curr_node.right)
         
         return max_tree_depth
+        '''
