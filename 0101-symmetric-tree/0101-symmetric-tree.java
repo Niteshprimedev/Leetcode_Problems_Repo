@@ -18,9 +18,9 @@ class Solution {
 		if(currNode != null){
 			TreeNode leftSubTree = currNode.left;
 			currNode.left = currNode.right;
-			swapNodes(currNode.left);
-			
 			currNode.right = leftSubTree;
+			
+			swapNodes(currNode.left);
 			swapNodes(currNode.right);
 		}
 	}
@@ -45,7 +45,7 @@ class Solution {
 	}
 
     public boolean isSymmetric(TreeNode root) {
-        if(root == null){
+        if(root == null || (root.left == null && root.right == null)){
 			return true;
 		}
 		
