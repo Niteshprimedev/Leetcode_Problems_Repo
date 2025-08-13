@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0937-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0937-online-stock-span) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 ## Heap (Priority Queue)
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0543-diameter-of-binary-tree) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
@@ -206,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0516-longest-palindromic-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
@@ -527,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0543-diameter-of-binary-tree) |
@@ -560,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0437-path-sum-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0543-diameter-of-binary-tree) |
@@ -654,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0173-binary-search-tree-iterator) |
+| [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0975-range-sum-of-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0975-range-sum-of-bst) |
 ## Iterator
