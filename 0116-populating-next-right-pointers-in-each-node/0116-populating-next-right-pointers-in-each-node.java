@@ -61,6 +61,7 @@ class Solution {
         
          */
 
+        /*
         // Solution 2: Balanced Tree;
         if(root == null){
             return null;
@@ -89,6 +90,36 @@ class Solution {
 
                     rightNode.next = currNode.right;
                     rightNode = rightNode.next;
+                    queue.addLast(currNode.right);
+                }
+            }
+        }
+
+        return root;
+        */
+        
+        // Solution 3: Balanced Tree;
+        if(root == null){
+            return null;
+        }
+
+        Deque<Node> queue = new ArrayDeque<>();
+
+        queue.addLast(root);
+
+        while(queue.size() > 0){
+            int levelSize = queue.size();
+
+            for(int idx = 0; idx < levelSize; idx++){
+                Node currNode = queue.removeFirst();
+                // System.out.println(queue.peek());
+
+                if(idx < levelSize - 1){
+                    currNode.next = queue.peek();
+                }
+
+                if(currNode.right != null){
+                    queue.addLast(currNode.left);
                     queue.addLast(currNode.right);
                 }
             }
