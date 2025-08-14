@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0129-sum-root-to-leaf-numbers) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0086-partition-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0092-reverse-linked-list-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0138-copy-list-with-random-pointer](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0141-linked-list-cycle) |
@@ -525,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0129-sum-root-to-leaf-numbers) |
@@ -560,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0113-path-sum-ii) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0129-sum-root-to-leaf-numbers) |
