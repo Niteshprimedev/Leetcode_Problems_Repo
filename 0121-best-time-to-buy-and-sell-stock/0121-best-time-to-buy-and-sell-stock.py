@@ -36,6 +36,7 @@ class Solution:
         return all_days_buy_sell_profits(0, 1)
         '''
 
+        '''
         # solution using monotonic stack:
 
         monotonic_stack = []
@@ -61,8 +62,8 @@ class Solution:
             max_profit = max(max_profit, new_max_profit)
 
         return max_profit
-
         '''
+
         # Solution2: Calculate the max_stock_price seen so far
         # and the curr_buy_price is where you can maximize the profit;
 
@@ -82,4 +83,3 @@ class Solution:
             max_stock_buy_sell_profit = max(max_stock_buy_sell_profit, new_max_stock_buy_sell_profit)
         
         return max_stock_buy_sell_profit
-        '''
