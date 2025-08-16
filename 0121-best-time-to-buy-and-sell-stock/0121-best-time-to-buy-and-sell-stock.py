@@ -1,5 +1,6 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        '''
         # Top Down Approach Solution:
         total_days = len(prices)
 
@@ -33,3 +34,52 @@ class Solution:
             return memo_dp[curr_price_idx][buy_flag]
 
         return all_days_buy_sell_profits(0, 1)
+        '''
+
+        # solution using monotonic stack:
+
+        monotonic_stack = []
+        max_profit = 0
+
+        for price_idx in range(len(prices)):
+            price = prices[price_idx]
+            buy_price = prices[price_idx]
+
+            new_max_profit = 0
+
+            if len(monotonic_stack) == 0:
+                monotonic_stack.append(price_idx)
+
+            prev_buy_price = prices[monotonic_stack[0]]
+
+            if prev_buy_price < buy_price:
+                new_max_profit = price - prev_buy_price
+            else:
+                new_max_profit = price - buy_price
+                monotonic_stack[0] = price_idx
+                
+            max_profit = max(max_profit, new_max_profit)
+
+        return max_profit
+
+        '''
+        # Solution2: Calculate the max_stock_price seen so far
+        # and the curr_buy_price is where you can maximize the profit;
+
+        total_days = len(prices)
+        last_day_price_idx = total_days - 1
+
+        max_stock_sell_price = prices[last_day_price_idx]
+        max_stock_buy_sell_profit = 0
+
+        for price_idx in range(total_days - 1, -1, -1):
+            curr_stock_buy_price = prices[price_idx]
+            new_max_stock_sell_price = curr_stock_buy_price
+
+            max_stock_sell_price = max(max_stock_sell_price, new_max_stock_sell_price)
+            new_max_stock_buy_sell_profit = max_stock_sell_price - curr_stock_buy_price
+
+            max_stock_buy_sell_profit = max(max_stock_buy_sell_profit, new_max_stock_buy_sell_profit)
+        
+        return max_stock_buy_sell_profit
+        '''
