@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0516-longest-palindromic-subsequence) |
+| [0649-dota2-senate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0649-dota2-senate) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -653,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0502-ipo) |
 | [0605-can-place-flowers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
+| [0649-dota2-senate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0649-dota2-senate) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -758,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
+| [0649-dota2-senate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0649-dota2-senate) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0954-maximum-sum-circular-subarray) |
 ## Monotonic Queue
 |  |
