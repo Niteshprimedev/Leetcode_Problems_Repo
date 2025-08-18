@@ -95,6 +95,7 @@ class Solution:
         return memo_dp[0][1]
         '''
 
+        '''
         # Space Optimized Bottom Up Approach Solution::
         total_days = len(prices)
 
@@ -140,6 +141,7 @@ class Solution:
             prev_dp = curr_dp
             
         return prev_dp[1]
+        '''
 
         '''
         # Space Optimized Variables Optional Bottom Up Approach Solution:
@@ -182,7 +184,6 @@ class Solution:
         return ahead_buy
         '''
 
-        '''
         # Space Optimized Variables Optional Bottom Up Approach Solution:
         # with buy_flag and above is without buy_flag;
         total_days = len(prices)
@@ -220,7 +221,6 @@ class Solution:
                     ahead_not_buy = max(chose_to_sell, skip_to_sell)
         
         return ahead_buy
-        '''
 
         '''
         # Peek and Valley Solution:
