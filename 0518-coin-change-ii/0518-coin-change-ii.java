@@ -24,6 +24,7 @@ class Solution {
 	}
 	
     public int change(int amount, int[] coins) {
+        /*
         // add you logic here
 		Arrays.sort(coins);
 		int totalCoins = coins.length;
@@ -35,5 +36,45 @@ class Solution {
         }
 		
 		return allCoinsCombos(0, coins, amount, memoDP);
+        */
+
+        // Solution 2: Bottom Up Approach:
+        Arrays.sort(coins);
+		int totalCoins = coins.length;
+		
+		int[][] memoDP = new int[totalCoins + 1][amount + 1];
+		
+		for(int[] currRow : memoDP){
+            Arrays.fill(currRow, -1);
+        }
+
+        // Base Case:
+        for(int idx = totalCoins; idx >= 0; idx--){
+            for(int amountIdx = 0; amountIdx <= amount; amountIdx++){
+                if(amountIdx == 0){
+                    memoDP[idx][0] = 1;
+                }
+                else if(idx >= totalCoins){
+                    memoDP[idx][amountIdx] = 0;
+                }
+                // else{
+                //     memoDP[idx][amountIdx] = 0;
+                // }
+            }
+        }
+		
+        for(int idx = totalCoins - 1; idx >= 0; idx--){
+            for(int amountIdx = 0; amountIdx <= amount; amountIdx++){
+                int pickCase = 0;
+                if(coins[idx] <= amountIdx){
+                    pickCase = memoDP[idx][amountIdx - coins[idx]];
+                }
+                
+                int notPickCase = memoDP[idx + 1][amountIdx];
+                
+                memoDP[idx][amountIdx] = pickCase + notPickCase;
+            }
+        }
+		return memoDP[0][amount];
     }
 }
