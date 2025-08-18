@@ -57,9 +57,6 @@ class Solution {
                 else if(idx >= totalCoins){
                     memoDP[idx][amountIdx] = 0;
                 }
-                // else{
-                //     memoDP[idx][amountIdx] = 0;
-                // }
             }
         }
 		
