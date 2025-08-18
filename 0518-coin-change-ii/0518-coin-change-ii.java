@@ -38,6 +38,7 @@ class Solution {
 		return allCoinsCombos(0, coins, amount, memoDP);
         */
 
+        /*
         // Solution 2: Bottom Up Approach:
         Arrays.sort(coins);
 		int totalCoins = coins.length;
@@ -73,5 +74,42 @@ class Solution {
             }
         }
 		return memoDP[0][amount];
+        */
+
+        // Solution 3: Bottom Up Space Optimized Approach:
+        Arrays.sort(coins);
+		int totalCoins = coins.length;
+		
+		int[] prevDP = new int[amount + 1];
+		
+		Arrays.fill(prevDP, -1);
+
+        // Base Case:
+        for(int amountIdx = 0; amountIdx <= amount; amountIdx++){
+            if(amountIdx == 0){
+                prevDP[amountIdx] = 1;
+            }
+            else{
+                prevDP[amountIdx] = 0;
+            }
+        }
+		
+        for(int idx = totalCoins - 1; idx >= 0; idx--){
+            int[] currDP = new int[amount + 1];
+            for(int amountIdx = 0; amountIdx <= amount; amountIdx++){
+                int pickCase = 0;
+                if(coins[idx] <= amountIdx){
+                    pickCase = currDP[amountIdx - coins[idx]];
+                }
+                
+                int notPickCase = prevDP[amountIdx];
+                
+                currDP[amountIdx] = pickCase + notPickCase;
+            }
+
+            prevDP = currDP;
+        }
+
+		return prevDP[amount];
     }
 }
