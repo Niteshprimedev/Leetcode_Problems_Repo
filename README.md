@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0502-ipo](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0374-guess-number-higher-or-lower) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0713-subarray-product-less-than-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0334-increasing-triplet-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0334-increasing-triplet-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0435-non-overlapping-intervals) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0502-ipo) |
@@ -721,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
