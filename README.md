@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0036-valid-sudoku](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0076-minimum-window-substring) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0035-search-insert-position) |
+| [0036-valid-sudoku](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0047-permutations-ii) |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0073-set-matrix-zeroes) |
