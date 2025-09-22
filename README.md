@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0516-longest-palindromic-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0516-longest-palindromic-subsequence) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0940-fruit-into-baskets) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1034-subarrays-with-k-different-integers) |
