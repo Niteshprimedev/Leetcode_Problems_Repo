@@ -309,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
+| [0204-count-primes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0258-add-digits) |
 | [0279-perfect-squares](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0279-perfect-squares) |
@@ -635,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0204-count-primes) |
 | [0900-reordered-power-of-2](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1656-count-good-triplets) |
 | [2998-count-symmetric-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2998-count-symmetric-integers) |
@@ -778,6 +781,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0258-add-digits) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2491-smallest-even-multiple](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2491-smallest-even-multiple) |
