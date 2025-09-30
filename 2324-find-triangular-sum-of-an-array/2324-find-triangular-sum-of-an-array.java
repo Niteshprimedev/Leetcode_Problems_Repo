@@ -1,5 +1,6 @@
 class Solution {
     public int triangularSum(int[] nums) {
+        /*
         int n = nums.length;
         int[] numsCopy = nums;
 
@@ -15,6 +16,24 @@ class Solution {
             }
 
             numsCopy = newNums;
+            n -= 1;
+        }
+
+        return numsCopy[0];
+        */
+
+        // Hint2: Solution;
+        int n = nums.length;
+        int[] numsCopy = nums;
+
+        while(n > 1){
+            int i = 0;
+
+            while(i < n - 1){
+                numsCopy[i] = (numsCopy[i] + numsCopy[i + 1]) % 10;
+                i += 1;
+            }
+            
             n -= 1;
         }
 
