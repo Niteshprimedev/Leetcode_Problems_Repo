@@ -15,29 +15,35 @@ class Node {
 
 class Solution {
     public Node copyRandomList(Node head) {
+        HashMap<Node, Node> nodesKeyCopiedNodesMap = new HashMap<>();
+
         Node currNode = head;
-		
-		HashMap<Node, Node> nodesKeyCopiedNodesMap = new HashMap<>();
-		
-		while(currNode != null){
-			int nodeVal = currNode.val;
-			Node newNode = new Node(nodeVal);
-			
-			nodesKeyCopiedNodesMap.put(currNode, newNode);
-			currNode = currNode.next;
-		}
-		
-		currNode = head;
-		while(currNode != null){
-			Node copiedNode = nodesKeyCopiedNodesMap.get(currNode);
-			Node copiedNextNode = nodesKeyCopiedNodesMap.get(currNode.next);
-			Node copiedRandomNode = nodesKeyCopiedNodesMap.get(currNode.random);
-			
-			copiedNode.next = copiedNextNode;
-			copiedNode.random = copiedRandomNode;
-			currNode = currNode.next;
-		}
-		
-		return nodesKeyCopiedNodesMap.get(head);
+
+        while(currNode != null){
+            Node copiedNode = new Node(currNode.val);
+            nodesKeyCopiedNodesMap.put(currNode, copiedNode);
+
+            currNode = currNode.next;
+        }
+
+        currNode = head;
+        Node clonedHead = new Node(-1);
+        Node clonedNodeP = clonedHead;
+
+        while(currNode != null){
+            Node copiedNode = nodesKeyCopiedNodesMap.get(currNode);
+            Node copiedNodeNextNode = nodesKeyCopiedNodesMap.get(currNode.next);
+            Node copiedNodeRandomNode = nodesKeyCopiedNodesMap.get(currNode.random);
+
+            copiedNode.next = copiedNodeNextNode;
+            copiedNode.random = copiedNodeRandomNode;
+
+            clonedNodeP.next = copiedNode;
+            clonedNodeP = copiedNode;
+            currNode = currNode.next;
+        }
+
+        clonedHead = clonedHead.next;
+        return clonedHead;
     }
 }
