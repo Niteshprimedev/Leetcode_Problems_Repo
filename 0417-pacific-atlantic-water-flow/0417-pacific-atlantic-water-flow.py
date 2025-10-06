@@ -41,6 +41,7 @@ class Solution:
         return list(pacific & atlantic)
         '''
 
+        '''
         # BFS Solution:
         directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
 
@@ -52,6 +53,56 @@ class Solution:
 
             while queue:
                 r, c = queue.pop(0)
+
+                for d in directions:
+                    nr = r + d[0]
+                    nc = c + d[1]
+
+                    if nr >= 0 and nr < m and nc >= 0 and nc < n and heights[nr][nc] >= heights[r][c]:
+                        if (nr, nc) in visited:
+                            continue
+
+                        visited.add((nr, nc))
+                        queue.append((nr, nc))
+        
+        m = len(heights)
+        n = len(heights[0])
+
+        pacific = set()
+        atlantic = set()
+
+        for r in range(m):
+            # pacific water reaching cells reverse:
+            # first col
+            graphBFSIve((r, 0), pacific)
+            
+            # atlantic water reaching cells reverse:
+            # last col
+            graphBFSIve((r, n - 1), atlantic)
+
+        for c in range(n):
+            # pacific water reaching cells reverse:
+            # top row
+            graphBFSIve((0, c), pacific)
+            
+            # atlantic water reaching cells reverse:
+            # bottom row
+            graphBFSIve((m - 1, c), atlantic)
+        
+        return list(pacific & atlantic)
+        '''
+        
+        # BFS Solution: Deque Solution
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+        def graphBFSIve(cell, visited):
+            queue = deque()
+
+            queue.append(cell)
+            visited.add(cell)
+
+            while queue:
+                r, c = queue.popleft()
 
                 for d in directions:
                     nr = r + d[0]
