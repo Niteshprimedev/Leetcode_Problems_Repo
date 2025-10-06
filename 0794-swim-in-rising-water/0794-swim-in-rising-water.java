@@ -21,9 +21,9 @@ class Solution {
         PriorityQueue<Cell> minHeap = new PriorityQueue<>(Comparator.comparingInt(c -> c.time));
         boolean[][] visited = new boolean[n][n];
 
-        for(boolean[] currRow : visited){
-            Arrays.fill(currRow, false);
-        }
+        // for(boolean[] currRow : visited){
+        //     Arrays.fill(currRow, false);
+        // }
 
         minHeap.add(new Cell(0, 0, grid[0][0]));
         visited[0][0] = true;
