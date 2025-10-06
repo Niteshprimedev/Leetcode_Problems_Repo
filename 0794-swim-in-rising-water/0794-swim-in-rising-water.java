@@ -30,8 +30,8 @@ class Solution {
 
         int minTime = Integer.MAX_VALUE;
 
-        int[] dx = new int[]{1, 0, -1, 0};
-        int[] dy = new int[]{0, 1, 0, -1};
+        int[] dc = {1, 0, -1, 0};
+        int[] dr = {0, 1, 0, -1};
 
         while(!minHeap.isEmpty()){
             Cell currCell = minHeap.poll();
@@ -45,8 +45,8 @@ class Solution {
             }
 
             for(int i = 0; i < 4; i++){
-                int nr = r + dy[i];
-                int nc = c + dx[i];
+                int nr = r + dr[i];
+                int nc = c + dc[i];
 
                 if(nr >= 0 && nr < n && nc >= 0 && nc < n && !visited[nr][nc]){
                     visited[nr][nc] = true;
