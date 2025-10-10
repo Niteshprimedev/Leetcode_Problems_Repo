@@ -407,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
@@ -602,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0966-binary-subarrays-with-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 ## Tree
 |  |
 | ------- |
