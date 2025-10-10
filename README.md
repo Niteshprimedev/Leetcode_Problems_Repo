@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0226-invert-binary-tree) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0794-swim-in-rising-water](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0794-swim-in-rising-water) |
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0204-count-primes) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0213-house-robber-ii) |
@@ -820,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
