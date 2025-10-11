@@ -24,8 +24,15 @@ class Solution {
         int[][] rottenOrangesMap = new int[mRows][nCols];
 
         // right, bottom, left, and top;
-        int[] dx = new int[] {1, 0, -1, 0};
-        int[] dy = new int[] {0, 1, 0, -1};
+        // int[] dx = new int[] {1, 0, -1, 0};
+        // int[] dy = new int[] {0, 1, 0, -1};
+
+        int[][] directions = {
+            {0, 1},
+            {1, 0},
+            {0, -1},
+            {-1, 0}
+        };
 
         for(int[] currRow : rottenOrangesMap){
             Arrays.fill(currRow, 2);
@@ -52,9 +59,9 @@ class Solution {
 
             minMinutesCount = minutesCount;
 
-            for(int idx = 0; idx < 4; idx++){
-                int newRowIdx = rowIdx + dx[idx];
-                int newColIdx = colIdx + dy[idx];
+            for(int[] direction : directions){
+                int newRowIdx = rowIdx + direction[0];
+                int newColIdx = colIdx + direction[1];
 
                 if(newRowIdx >= 0 && newRowIdx < mRows && newColIdx >= 0 && newColIdx < nCols && grid[newRowIdx][newColIdx] == 1 && rottenOrangesMap[newRowIdx][newColIdx] == 1){
                     rottenOrangesMap[newRowIdx][newColIdx] = 2;
