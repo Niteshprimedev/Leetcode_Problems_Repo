@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0260-single-number-iii) |
+| [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -745,6 +747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
@@ -794,6 +797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0260-single-number-iii) |
+| [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 ## Binary Search Tree
 |  |
