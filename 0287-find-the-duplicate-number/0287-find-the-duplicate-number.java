@@ -1,5 +1,6 @@
 class Solution {
     public int findDuplicate(int[] nums) {
+        /*
         // Binary Search Solution: On Answer
         // Logic: Counting the numbers <= mid if count
         // is greater than the mid then our ans is mid &
@@ -36,5 +37,13 @@ class Solution {
         }
 
         return left;
+        */
+
+        // Using stream API;
+        Set<Integer> seen = new HashSet<>();
+
+        Integer duplicateNum = Arrays.stream(nums).filter(n -> !seen.add(n)).boxed().findFirst().orElse(null);
+
+        return duplicateNum.intValue();
     }
 }
