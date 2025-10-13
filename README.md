@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1034-subarrays-with-k-different-integers) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1370-count-number-of-nice-subarrays) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1500-count-largest-group](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1500-count-largest-group) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1502-construct-k-palindrome-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -389,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1370-count-number-of-nice-subarrays) |
 | [1380-number-of-closed-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1380-number-of-closed-islands) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -448,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0900-reordered-power-of-2) |
 | [1018-largest-perimeter-triangle](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1018-largest-perimeter-triangle) |
 | [1019-squares-of-a-sorted-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1019-squares-of-a-sorted-array) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
