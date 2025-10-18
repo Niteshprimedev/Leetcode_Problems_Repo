@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1612-avoid-flood-in-the-city) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1813-maximum-erasure-value) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0449-serialize-and-deserialize-bst) |
 | [0937-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0937-online-stock-span) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 ## Heap (Priority Queue)
 |  |
@@ -410,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1813-maximum-erasure-value) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1995-finding-pairs-with-a-certain-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
