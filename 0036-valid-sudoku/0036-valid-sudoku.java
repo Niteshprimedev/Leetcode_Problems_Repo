@@ -1,5 +1,6 @@
 class Solution {
     private boolean isValid(char[] arr){
+        /*
         List<Character> charList = new String(arr).chars()
                                     .mapToObj(c -> (char) c)
                                     .filter(c -> c != '.')
@@ -9,6 +10,14 @@ class Solution {
                                     .filter(c -> c != '.')
                                     .collect(Collectors.toSet());
         return charList.size() == charSet.size();
+        */
+        // OR;
+        List<Character> charsList = new String(arr).chars()
+                                        .mapToObj(c -> (char) c)
+                                        .filter(c -> c != '.')
+                                        .collect(Collectors.toList());
+
+        return charsList.size() == new HashSet<>(charsList).size();
     }
 
     private boolean isValidRow(char[][] board){
@@ -38,6 +47,28 @@ class Solution {
         return true;
     }
     private boolean isValidSquare(char[][] board){
+        int[] squares = new int[]{0, 3, 6};
+
+        for(int i : squares){
+            for(int j : squares){
+
+                char[] currSquare = new char[9];
+                int k = 0;
+
+                for(int x = i; x < i + 3; x++){
+                    for(int y = j; y < j + 3; y++){
+                        currSquare[k++] = board[x][y];
+                    }
+                }
+
+                if(!isValid(currSquare)){
+                    return false;
+                }
+            }
+        }
+
+        return true;
+        /*
         int sqVal = 3;
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
@@ -56,6 +87,7 @@ class Solution {
         }
 
         return true;
+        */
     }
     public boolean isValidSudoku(char[][] board) {
         boolean isValidRow = isValidRow(board);
