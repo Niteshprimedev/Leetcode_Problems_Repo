@@ -1,5 +1,6 @@
 class Solution {
     public int maxDistinctElements(int[] nums, int k) {
+        /*
         Arrays.sort(nums);
 
         // System.out.println(Arrays.toString(nums));
@@ -34,6 +35,45 @@ class Solution {
             //System.out.println("idxI" + idxI + " prevRangeVal" + prevRangeVal + " res" + currDistVals);
 
             distElsCount += currDistVals;
+            idxI += 1;
+        }
+
+        return distElsCount;
+        */
+
+        // Reviewed Code Solution:
+        Arrays.sort(nums);
+
+        // System.out.println(Arrays.toString(nums));
+
+        int distElsCount = 0;
+        int n = nums.length;
+        int idxI = 0;
+        long prevRangeVal = Long.MIN_VALUE;
+
+        while(idxI < n){
+            long startRange = (long) nums[idxI] - k;
+            long endRange = (long) nums[idxI] + k;
+
+            int freqCount = 1;
+            while(idxI + 1 < n && nums[idxI] == nums[idxI + 1]){
+                freqCount += 1;
+                idxI += 1;
+            }
+
+            prevRangeVal = Math.max(prevRangeVal, startRange);
+
+            if(prevRangeVal > endRange){
+                idxI += 1;
+                continue;
+            }
+
+            long available = endRange - prevRangeVal + 1;
+            int used = (int) Math.min((long) freqCount, available);
+
+            prevRangeVal += used;
+            
+            distElsCount += used;
             idxI += 1;
         }
 
