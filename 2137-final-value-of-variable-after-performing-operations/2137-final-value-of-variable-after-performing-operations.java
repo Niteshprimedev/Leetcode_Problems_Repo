@@ -19,6 +19,7 @@ class Solution {
         return xValue.get();
         */
 
+        /*
         // Using Method Refs:
         Optional<Integer> xValue = Arrays.stream(operations).map(currOp -> {
             if(currOp.charAt(0) == '+'){
@@ -36,6 +37,25 @@ class Solution {
         }).reduce(Integer::sum);
 
         return xValue.get();
+        */
+        
+        // Using reduce Identity 0 => then no Optional<Integer> only int
+        int xValue = Arrays.stream(operations).map(currOp -> {
+            if(currOp.charAt(0) == '+'){
+                return 1;
+            }
+            else if(currOp.charAt(0) == '-'){
+                return -1;
+            }
+            else if(currOp.charAt(2) == '+'){
+                return 1;
+            }
+            else{
+                return -1;
+            }
+        }).reduce(0, Integer::sum);
+
+        return xValue;
 
         /*
         // Performance Better Solution:
