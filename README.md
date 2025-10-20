@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
 | [0794-swim-in-rising-water](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0794-swim-in-rising-water) |
+| [1127-last-stone-weight](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1612-avoid-flood-in-the-city](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1612-avoid-flood-in-the-city) |
 | [1753-path-with-minimum-effort](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1753-path-with-minimum-effort) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1046-max-consecutive-ones-iii) |
+| [1127-last-stone-weight](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1127-last-stone-weight) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1370-count-number-of-nice-subarrays) |
