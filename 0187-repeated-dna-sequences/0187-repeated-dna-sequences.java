@@ -1,5 +1,6 @@
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
+        /*
         int n = s.length();
         HashMap<String, Integer> map = new HashMap<>();
         List<String> repeatedDNASeqs = new ArrayList<>();
@@ -23,5 +24,30 @@ class Solution {
         }
 
         return repeatedDNASeqs;
+        */
+        
+        int n = s.length();
+        HashSet<String> dnasSet = new HashSet<>();
+        HashSet<String> repeatedDNASeqs = new HashSet<>();
+
+        int strt = 0;
+        int end = 9;
+
+        while(end < n){
+            String currDNASeq = s.substring(strt, end + 1);
+
+            if(dnasSet.contains(currDNASeq)){
+                repeatedDNASeqs.add(currDNASeq);
+            }
+
+            dnasSet.add(currDNASeq);
+            int windowSize = end - strt + 1;
+            if(windowSize == 10){
+                strt += 1;
+            }
+            end += 1;
+        }
+
+        return repeatedDNASeqs.stream().collect(Collectors.toList());
     }
 }
