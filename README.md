@@ -284,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Stack
 |  |
 | ------- |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
 ## Array
 |  |
@@ -516,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -866,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Matrix
 |  |
 | ------- |
@@ -926,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0258-add-digits) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2491-smallest-even-multiple](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2491-smallest-even-multiple) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Data Stream
 |  |
 | ------- |
