@@ -989,4 +989,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
