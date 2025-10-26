@@ -1,4 +1,5 @@
 class Bank {
+    /*
     private long[] balances;
     public Bank(long[] balance) {
         this.balances = balance;
@@ -27,6 +28,46 @@ class Bank {
 
         this.balances[account - 1] -= money;
         return true;
+    }
+    */
+
+    private long[] balances;
+    private int totalAccounts;
+
+    public Bank(long[] balance) {
+        this.balances = balance;
+        this.totalAccounts = balance.length;
+    }
+    
+    public boolean transfer(int account1, int account2, long money) {
+        if(account1 - 1 < this.totalAccounts && account2 - 1 < this.totalAccounts){
+            if(this.balances[account1 - 1] >= money){
+                this.balances[account1 - 1] -= money;
+                this.balances[account2 - 1] += money;
+
+                return true;
+            }
+        }
+
+        return false;
+    }
+    
+    public boolean deposit(int account, long money) {
+        if(account - 1 < this.totalAccounts){
+            this.balances[account - 1] += money;
+            return true;
+        }
+
+        return false;
+    }
+    
+    public boolean withdraw(int account, long money) {
+        if(account - 1 < this.totalAccounts && this.balances[account - 1] >= money){
+            this.balances[account - 1] -= money;
+            return true;
+        }
+
+        return false;
     }
 }
 
