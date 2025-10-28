@@ -996,4 +996,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0619-biggest-single-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0619-biggest-single-number) |
 | [1258-article-views-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1258-article-views-i) |
 | [1827-invalid-tweets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1827-invalid-tweets) |
+| [1908-recyclable-and-low-fat-products](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
