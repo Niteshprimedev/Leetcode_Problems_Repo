@@ -526,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Dynamic Programming
 |  |
@@ -846,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Binary Search Tree
 |  |
 | ------- |
