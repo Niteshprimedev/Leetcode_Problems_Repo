@@ -994,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0197-rising-temperature](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0197-rising-temperature) |
 | [0577-employee-bonus](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0577-employee-bonus) |
 | [0595-big-countries](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0595-big-countries) |
 | [0619-biggest-single-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0619-biggest-single-number) |
