@@ -14,6 +14,7 @@ ON s.user_id = c.user_id
 GROUP BY s.user_id;
 */
 
+/*
 SELECT 
   s.user_id,
   ROUND(
@@ -26,3 +27,20 @@ FROM Signups AS s
 LEFT JOIN Confirmations AS c
 ON s.user_id = c.user_id
 GROUP BY s.user_id;
+*/
+
+WITH confirmed_users AS (
+    SELECT 
+        user_id,
+        SUM(action = 'confirmed') AS confirmed,
+        COUNT(*) AS total
+    FROM Confirmations
+    GROUP BY user_id
+)
+
+SELECT 
+    s.user_id,
+    ROUND(IFNULL(c.confirmed / c.total, 0), 2) AS confirmation_rate
+FROM Signups AS s
+LEFT JOIN confirmed_users AS c
+ON s.user_id = c.user_id;
