@@ -452,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2491-smallest-even-multiple](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2491-smallest-even-multiple) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2998-count-symmetric-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2998-count-symmetric-integers) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
