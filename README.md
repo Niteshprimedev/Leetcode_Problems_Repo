@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Design
@@ -463,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
+| [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Dynamic Programming
@@ -995,6 +998,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0830-largest-triangle-area) |
+| [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 ## Rolling Hash
 |  |
 | ------- |
