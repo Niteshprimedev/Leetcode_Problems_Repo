@@ -1051,6 +1051,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-find-followers-count](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1877-find-followers-count) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1908-recyclable-and-low-fat-products) |
+| [1934-confirmation-rate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1934-confirmation-rate) |
 | [1942-primary-department-for-each-employee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1942-primary-department-for-each-employee) |
 | [2087-confirmation-rate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2127-employees-whose-manager-left-the-company) |
