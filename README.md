@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
@@ -100,11 +101,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Ordered Set
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
 | [2434-design-a-number-container-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2434-design-a-number-container-system) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
 ## Graph
 |  |
@@ -326,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
 ## Array
@@ -464,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -646,10 +651,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1765-merge-in-between-linked-lists](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0146-lru-cache) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Sliding Window
 |  |
 | ------- |
