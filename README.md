@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
+| [0594-longest-harmonious-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0502-ipo](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0540-single-element-in-a-sorted-array) |
+| [0594-longest-harmonious-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0594-longest-harmonious-subsequence) |
 | [0605-can-place-flowers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0605-can-place-flowers) |
 | [0611-valid-triangle-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
@@ -496,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0502-ipo) |
+| [0594-longest-harmonious-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
@@ -618,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0387-first-unique-character-in-a-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
@@ -673,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0594-longest-harmonious-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0966-binary-subarrays-with-sum) |
