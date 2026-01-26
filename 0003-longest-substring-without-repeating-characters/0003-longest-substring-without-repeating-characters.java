@@ -2,7 +2,6 @@ import java.util.Arrays;
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        /*
         int n = s.length();
         int[] charsArrMap = new int[256];
 
@@ -30,8 +29,8 @@ class Solution {
         }
 
         return longestSubStrLen;
-        */
 
+        /*
         // Solution 2: HashMap & Sliding Window;
         int n = s.length();
         HashMap<Character, Integer> charsMap = new HashMap<>();
@@ -57,5 +56,6 @@ class Solution {
         }
 
         return longestSubStrLen;
+        */
     }
 }
