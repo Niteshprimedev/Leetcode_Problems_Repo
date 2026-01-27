@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Ordered Set
 |  |
 | ------- |
@@ -1022,6 +1023,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0803-cheapest-flights-within-k-stops) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Geometry
 |  |
 | ------- |
@@ -1085,4 +1087,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2087-confirmation-rate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2127-employees-whose-manager-left-the-company) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
