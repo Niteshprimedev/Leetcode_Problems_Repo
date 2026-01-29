@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2592-minimum-total-cost-to-make-arrays-unequal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2592-minimum-total-cost-to-make-arrays-unequal) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -1029,6 +1031,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0803-cheapest-flights-within-k-stops) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Geometry
 |  |
@@ -1096,5 +1099,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
