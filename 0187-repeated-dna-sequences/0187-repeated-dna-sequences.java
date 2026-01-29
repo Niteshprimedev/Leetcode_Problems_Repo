@@ -41,10 +41,11 @@ class Solution {
             }
 
             dnasSet.add(currDNASeq);
-            int windowSize = end - strt + 1;
-            if(windowSize == 10){
-                strt += 1;
-            }
+            // int windowSize = end - strt + 1;
+            // if(windowSize == 10){
+            //     strt += 1;
+            // }
+            strt += 1;
             end += 1;
         }
 
