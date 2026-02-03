@@ -60,6 +60,7 @@ class Solution {
         int idxJ = 1;
         int n = nums.length;
 
+        // Increasing First;
         for(int i = idxJ; i < n; i++){
             if(nums[idxJ] > nums[idxJ - 1]){
                 idxJ += 1;
@@ -70,6 +71,7 @@ class Solution {
             }
         }
 
+        // Decreasing Next;
         for(int i = idxJ; i < n; i++){
             if(nums[idxJ] < nums[idxJ - 1]){
                 idxJ += 1;
@@ -80,6 +82,7 @@ class Solution {
             }
         }
 
+        // Increasing Again;
         for(int i = idxJ; i < n; i++){
             if(nums[idxJ] > nums[idxJ - 1]){
                 idxJ += 1;
