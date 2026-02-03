@@ -1,5 +1,7 @@
 class Solution {
     public boolean isTrionic(int[] nums) {
+        /* 
+        // Solution 1:
         boolean isPTrue = false;
         boolean isQTrue = false;
         boolean isNTrue = false;
@@ -48,5 +50,47 @@ class Solution {
         }
 
         return (isPTrue && isQTrue && isNTrue);
+        */
+
+        // Solution 2:
+        boolean isPInc = false;
+        boolean isQDec = false;
+        boolean isNInc = false;
+
+        int idxJ = 1;
+        int n = nums.length;
+
+        for(int i = idxJ; i < n; i++){
+            if(nums[idxJ] > nums[idxJ - 1]){
+                idxJ += 1;
+                isPInc = true;
+            }
+            else{
+                break;
+            }
+        }
+
+        for(int i = idxJ; i < n; i++){
+            if(nums[idxJ] < nums[idxJ - 1]){
+                idxJ += 1;
+                isQDec = true;
+            }
+            else{
+                break;
+            }
+        }
+
+        for(int i = idxJ; i < n; i++){
+            if(nums[idxJ] > nums[idxJ - 1]){
+                idxJ += 1;
+                isNInc = true;
+            }
+            else{
+                isNInc = false;
+                break;
+            }
+        }
+
+        return (isPInc && isQDec && isNInc);
     }
 }
