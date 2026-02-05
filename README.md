@@ -339,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
+| [3379-transformed-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3379-transformed-array) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3314-construct-the-minimum-bitwise-array-i) |
+| [3379-transformed-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3379-transformed-array) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
