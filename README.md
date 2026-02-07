@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1483-rank-teams-by-votes](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1483-rank-teams-by-votes) |
 | [1502-construct-k-palindrome-strings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1502-construct-k-palindrome-strings) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0937-online-stock-span) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
@@ -630,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2262-solving-questions-with-brainpower](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
