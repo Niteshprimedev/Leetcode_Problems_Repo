@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3713-longest-balanced-substring-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3721-longest-balanced-subarray-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
+| [3713-longest-balanced-substring-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3713-longest-balanced-substring-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Stack
 |  |
@@ -674,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2592-minimum-total-cost-to-make-arrays-unequal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2592-minimum-total-cost-to-make-arrays-unequal) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3713-longest-balanced-substring-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3713-longest-balanced-substring-i) |
 ## Linked List
 |  |
 | ------- |
@@ -867,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3713-longest-balanced-substring-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3713-longest-balanced-substring-i) |
 ## Two Pointers
 |  |
 | ------- |
