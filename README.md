@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0649-dota2-senate) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
+| [0696-count-binary-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0696-count-binary-substrings) |
 | [0742-to-lower-case](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0742-to-lower-case) |
 | [0778-reorganize-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0778-reorganize-string) |
 | [1250-longest-common-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1250-longest-common-subsequence) |
@@ -900,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0443-string-compression) |
 | [0611-valid-triangle-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0611-valid-triangle-number) |
 | [0680-valid-palindrome-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0680-valid-palindrome-ii) |
+| [0696-count-binary-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0696-count-binary-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1019-squares-of-a-sorted-array) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1798-max-number-of-k-sum-pairs) |
