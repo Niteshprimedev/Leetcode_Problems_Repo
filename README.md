@@ -968,6 +968,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0287-find-the-duplicate-number) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0693-binary-number-with-alternating-bits) |
 | [0868-binary-gap](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0868-binary-gap) |
+| [1009-complement-of-base-10-integer](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1009-complement-of-base-10-integer) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
