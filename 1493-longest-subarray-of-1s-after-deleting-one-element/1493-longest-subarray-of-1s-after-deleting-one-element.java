@@ -1,5 +1,20 @@
 class Solution {
     public int longestSubarray(int[] nums) {
+        // Solution 1: Meta Prep Time Practice
+        // Dry Run:
+        // [1, 1, 0, 1] => longestSubarrLen
+        // strt = 0
+        // end = 3
+        // flips = 1 
+        // longestLen = 3
+
+        // Dry Run:
+        // [0, 1, 1, 1, 0, 1, 1, 0, 1] => longestSubarrLen
+        // strt = 3
+        // end = 8
+        // flips = 2
+        // longestLen = 5
+
         int longestSubarrLen = 0;
         
         int n = nums.length;
