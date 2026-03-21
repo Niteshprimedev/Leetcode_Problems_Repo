@@ -11,6 +11,7 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
+        /*
         ListNode slowNode = head;
         ListNode fastNode = head;
 
@@ -21,6 +22,22 @@ public class Solution {
             if(slowNode == fastNode){
                 return true;
             }
+        }
+
+        return false;
+        */
+
+        // Using HashMap
+        // Meta Prep Time Practice
+        HashMap<ListNode, Boolean> seenMap = new HashMap<>();
+
+        ListNode currNode = head;
+
+        while(currNode != null){
+            seenMap.put(currNode, true);
+            currNode = currNode.next;
+
+            if(seenMap.containsKey(currNode)) return true;
         }
 
         return false;
