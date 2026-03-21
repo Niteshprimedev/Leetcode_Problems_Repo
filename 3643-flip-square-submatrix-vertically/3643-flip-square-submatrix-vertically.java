@@ -32,6 +32,13 @@ class Solution {
                 int strtRowVal = grid[strtRow][colIdx];
                 grid[strtRow][colIdx] = grid[endRow][colIdx];
                 grid[endRow][colIdx] = strtRowVal;
+                
+                // OR
+                int firstVal = grid[strtRow][colIdx];
+                int lastVal = grid[endRow][colIdx];
+                
+                grid[strtRow][colIdx] = firstVal;
+                grid[endRow][colIdx] = lastVal;
 
                 endRow -= 1;
             }
