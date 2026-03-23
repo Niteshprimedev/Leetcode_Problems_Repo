@@ -4,13 +4,12 @@ class Solution {
         int prefixSum = 0;
 
         HashMap<Integer, Integer> prefixSumFreqMap = new HashMap<>();
-
         prefixSumFreqMap.put(0, 1);
 
         for(int num : nums){
             prefixSum += num;
 
-            int hashKey = prefixSum - goal;
+            int hashKey = prefixSum - goal; // prefixSum[i] = prefixSum[j] - k;
 
             if(prefixSumFreqMap.containsKey(hashKey)){
                 totalNiceSubarrs += prefixSumFreqMap.get(hashKey);
