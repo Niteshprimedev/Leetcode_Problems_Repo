@@ -1,5 +1,6 @@
 class StockSpanner:
 
+    '''
     # Solution 1:
     # Logic: Previous Greater Element
     # Note: I did it without maintaining a price array using els_stack
@@ -33,8 +34,8 @@ class StockSpanner:
         self.prev_greater_els_stack.append(price)
 
         return max_stock_span
-
     '''
+
     # Solution2: Updated the conditions: and removed else condition
     # Logic: Previous Greater Element
     # Note: I did it without maintaining a price array using els_stack
@@ -68,7 +69,6 @@ class StockSpanner:
         self.prev_greater_els_stack.append(price)
 
         return max_stock_span
-    '''
 
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
