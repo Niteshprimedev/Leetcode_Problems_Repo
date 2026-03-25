@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0433-minimum-genetic-mutation) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0901-online-stock-span) |
@@ -909,6 +911,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1013-fibonacci-number) |
 ## Backtracking
 |  |
