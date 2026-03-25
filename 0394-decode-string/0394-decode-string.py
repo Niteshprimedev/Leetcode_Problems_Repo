@@ -188,6 +188,8 @@ class Solution:
 '''
 
 # Solution 3:
+# Meta Prep Time Practice
+# Moved curr_str inside the while loop instead of global variable
 
 class Solution:
     def decodeString(self, s: str) -> str:
