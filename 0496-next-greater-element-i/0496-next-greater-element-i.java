@@ -27,11 +27,21 @@ class Solution {
 
         int idx = 0;
         for(int num : nums1){
+            // nums1 is a subset so no need of else & if;
             if(nums2GreaterElsMap.containsKey(num)){
                 nextGreaterEls[idx++] = nums2GreaterElsMap.get(num);
             }
         }
 		
 		return nextGreaterEls;
+
+        // Dry Run:
+        // nums2Map = {2: -1, 4: -1, 3: 4, 1: 3}
+        // nums2Stack = []
+        // nums2Stack = [2] => [] then 4 
+        // numsStack = [4] => [4, 3] => [4, 3, 1]
+        // nums1 => 4 in map => ans is -1,
+        // nums1 => 1 in map => ans is 3
+        // nums1 => 2 in map => ans is -1
     }
 }
