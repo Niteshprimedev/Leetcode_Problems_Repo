@@ -25,12 +25,19 @@ class Solution {
 			nextGreaterStack.push(currEl);
 		}
 
+        // int idx = 0;
+        // for(int num : nums1){
+        //     // nums1 is a subset so no need of else & if;
+        //     if(nums2GreaterElsMap.containsKey(num)){
+        //         nextGreaterEls[idx++] = nums2GreaterElsMap.get(num);
+        //     }
+        // }
+
+        // OR;
         int idx = 0;
         for(int num : nums1){
             // nums1 is a subset so no need of else & if;
-            if(nums2GreaterElsMap.containsKey(num)){
-                nextGreaterEls[idx++] = nums2GreaterElsMap.get(num);
-            }
+            nextGreaterEls[idx++] = nums2GreaterElsMap.get(num);
         }
 		
 		return nextGreaterEls;
