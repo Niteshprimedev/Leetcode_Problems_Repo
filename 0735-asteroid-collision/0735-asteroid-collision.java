@@ -1,5 +1,6 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
+        // Meta Prep Time Practice
         // Logic: Keep the asteroids in the stack
         // both negative and positive if negative comes first;
 
