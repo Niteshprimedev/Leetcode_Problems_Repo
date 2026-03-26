@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0151-reverse-words-in-a-string) |
 | [0187-repeated-dna-sequences](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0187-repeated-dna-sequences) |
 | [0212-word-search-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0212-word-search-ii) |
+| [0242-valid-anagram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0345-reverse-vowels-of-a-string) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
