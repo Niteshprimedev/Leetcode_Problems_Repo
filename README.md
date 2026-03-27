@@ -337,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2977-minimum-cost-to-convert-string-ii) |
+| [3174-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3174-clear-digits) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [3174-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3174-clear-digits) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
+| [3174-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3174-clear-digits) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3379-transformed-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3379-transformed-array) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
