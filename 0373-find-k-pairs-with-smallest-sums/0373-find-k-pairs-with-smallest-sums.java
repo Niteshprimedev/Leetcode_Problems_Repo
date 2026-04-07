@@ -22,7 +22,8 @@ class Solution {
 
         Set<Pair> visitedPairs = new HashSet<>();
 
-        PriorityQueue<Element> minHeap = new PriorityQueue<>((el1, el2) -> el1.sum - el2.sum);
+        // PriorityQueue<Element> minHeap = new PriorityQueue<>((el1, el2) -> el1.sum - el2.sum);
+        PriorityQueue<Element> minHeap = new PriorityQueue<>((el1, el2) -> Integer.compare(el1.sum, el2.sum));
         minHeap.add(new Element(nums1[idxI] + nums2[idxJ], idxI, idxJ));
         visitedPairs.add(new Pair<>(idxI, idxJ));
 
