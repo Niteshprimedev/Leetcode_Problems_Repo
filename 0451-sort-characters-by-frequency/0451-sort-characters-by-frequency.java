@@ -54,13 +54,15 @@ class Solution {
 
         int n = s.length();
         HashMap<Character, Integer> map = new HashMap<>();
+        int maxFreq = 0;
 
         for(char curr_char : s.toCharArray()){
             map.put(curr_char, map.getOrDefault(curr_char, 0) + 1);
+            maxFreq = Math.max(maxFreq, map.get(curr_char));
         }
 
-        List<Character>[] freq_arr = new ArrayList[n + 1];
-        for (int i = 0; i <= n; i++) {
+        List<Character>[] freq_arr = new ArrayList[maxFreq + 1];
+        for (int i = 0; i <= maxFreq; i++) {
             freq_arr[i] = new ArrayList<>();
         }
 
@@ -71,7 +73,7 @@ class Solution {
             freq_arr[freq].add(hashKey);
         }
 
-        for(int idx = n; idx >= 0; idx--){
+        for(int idx = maxFreq; idx >= 0; idx--){
             if(freq_arr[idx].size() > 0){
                 for(int j = 0; j < freq_arr[idx].size(); j++){
                     char curr_char = freq_arr[idx].get(j);
