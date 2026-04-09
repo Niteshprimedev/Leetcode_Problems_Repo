@@ -1293,6 +1293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1971-find-if-path-exists-in-graph) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2976-minimum-cost-to-convert-string-i) |
@@ -1302,5 +1303,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1971-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
