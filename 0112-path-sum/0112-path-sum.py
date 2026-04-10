@@ -7,7 +7,6 @@
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         
-        '''
         # Post Order Traversal
         def traverse(current_node, curr_path_sum):
             if current_node is None:
@@ -26,8 +25,8 @@ class Solution:
             return is_left_tree_path_sum or is_right_tree_path_sum
         
         return traverse(root, 0)
-        '''
 
+        '''
         # Morris Traversal:
 
         current_node = root
@@ -65,5 +64,5 @@ class Solution:
                     curr_path_sum -= depth
                     current_node = current_node.right
         
-
         return False
+        '''
