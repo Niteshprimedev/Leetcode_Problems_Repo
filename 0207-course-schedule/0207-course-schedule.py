@@ -29,6 +29,7 @@ class Solution:
         
         while len(queue) > 0:
             curr_vertex = queue.pop(0)
+            # print(curr_vertex)
             topo_sort_list.append(curr_vertex)
 
             if curr_vertex in adj_list:
