@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3714-longest-balanced-substring-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3721-longest-balanced-subarray-ii) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Design
 |  |
@@ -584,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3719-longest-balanced-subarray-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3721-longest-balanced-subarray-ii) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
 ## Sorting
