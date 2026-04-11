@@ -40,6 +40,7 @@ class Solution {
         return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
         */
 
+        /*
         // Meta Prep Time Practice:
         int minDistance = Integer.MAX_VALUE;
         int n = nums.length;
@@ -59,6 +60,36 @@ class Solution {
 
             hashValue.offer(idxI);
             map.put(nums[idxI], hashValue);
+        }
+
+        return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
+        */
+
+        // Solution 3:
+        Map<Integer, int[]> map = new HashMap<>();
+
+        int n = nums.length;
+        int minDistance = Integer.MAX_VALUE;
+
+        for(int idxI = 0; idxI < n; idxI++){
+            if(!map.containsKey(nums[idxI])){
+                map.put(nums[idxI], new int[]{-1, idxI});
+            }
+            else{
+                int[] pair = map.get(nums[idxI]);
+                int prev = pair[0];
+                int second = pair[1];
+
+                if(prev != -1){
+                    int a = prev, b = second, c = idxI;
+
+                    int newMinDistance = Math.abs(a - b) + Math.abs(b - c) + Math.abs(c - a);
+                    minDistance = Math.min(minDistance, newMinDistance);
+                }
+
+                pair[0] = second;
+                pair[1] = idxI;
+            }
         }
 
         return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
