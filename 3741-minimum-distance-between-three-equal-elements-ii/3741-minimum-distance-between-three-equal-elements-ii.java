@@ -65,6 +65,7 @@ class Solution {
         return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
         */
 
+        /*
         // Solution 3:
         Map<Integer, int[]> map = new HashMap<>();
 
@@ -92,6 +93,56 @@ class Solution {
             }
         }
 
+        return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
+        */
+
+        // ChatGPT Commented Code:
+        // Solution 3: Track last two occurrences of each number
+        Map<Integer, int[]> map = new HashMap<>();
+
+        int n = nums.length;
+
+        // Initialize min distance as max possible
+        int minDistance = Integer.MAX_VALUE;
+
+        for (int idxI = 0; idxI < n; idxI++) {
+
+            // If this number is seen for the first time
+            if (!map.containsKey(nums[idxI])) {
+                // Store as: {previous index, latest index}
+                // -1 means no previous occurrence yet
+                map.put(nums[idxI], new int[]{-1, idxI});
+            } 
+            else {
+                // Retrieve last two occurrences
+                int[] pair = map.get(nums[idxI]);
+                int prev = pair[0];    // older index
+                int second = pair[1];  // most recent index
+
+                // If we already have 2 previous occurrences
+                if (prev != -1) {
+                    int a = prev;
+                    int b = second;
+                    int c = idxI;
+
+                    // Compute total pairwise distance
+                    // |a-b| + |b-c| + |c-a|
+                    int newMinDistance = Math.abs(a - b) 
+                                    + Math.abs(b - c) 
+                                    + Math.abs(c - a);
+
+                    // Update minimum distance
+                    minDistance = Math.min(minDistance, newMinDistance);
+                }
+
+                // Shift window:
+                // second becomes previous, current becomes second
+                pair[0] = second;
+                pair[1] = idxI;
+            }
+        }
+
+        // If no valid triplet found → return -1
         return minDistance == Integer.MAX_VALUE ? -1 : minDistance;
     }
 }
