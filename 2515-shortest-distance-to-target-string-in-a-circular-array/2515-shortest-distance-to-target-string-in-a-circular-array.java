@@ -1,11 +1,12 @@
 class Solution {
     public int closestTarget(String[] words, String target, int startIndex) {
+        /*
         // Pure Logical;
 
         int n = words.length;
 
         int shortestDist = Integer.MAX_VALUE;
-        
+
         for(int i = 0; i < n; i++){
             String currWord = words[i];
 
@@ -27,5 +28,29 @@ class Solution {
         }
 
         return shortestDist == Integer.MAX_VALUE ? -1 : shortestDist;
+        */
+
+        // Meta Prep Time Practice:
+        int totalWords = words.length;
+        int minimumDistance = Integer.MAX_VALUE;
+
+        for (int currentIndex = 0; currentIndex < totalWords; currentIndex++) {
+
+            if (words[currentIndex].equals(target)) {
+
+                // Direct distance between indices
+                int directDistance = Math.abs(currentIndex - startIndex);
+
+                // Circular distance (wrap around)
+                int circularDistance = totalWords - directDistance;
+
+                // Best possible distance
+                int bestDistance = Math.min(directDistance, circularDistance);
+
+                minimumDistance = Math.min(minimumDistance, bestDistance);
+            }
+        }
+
+        return minimumDistance == Integer.MAX_VALUE ? -1 : minimumDistance;
     }
 }
