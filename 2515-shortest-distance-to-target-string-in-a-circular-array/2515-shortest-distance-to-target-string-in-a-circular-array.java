@@ -30,6 +30,59 @@ class Solution {
         return shortestDist == Integer.MAX_VALUE ? -1 : shortestDist;
         */
 
+        // Commented and Readable Code:
+        int totalWords = words.length;
+
+        // Stores the minimum distance found so far
+        int minimumDistance = Integer.MAX_VALUE;
+        
+        for(int currentIndex = 0; currentIndex < totalWords; currentIndex++){
+            String currentWord = words[currentIndex];
+
+            // Check if current word matches target
+            if(currentWord.equals(target)){
+
+                // -------- DIRECT DISTANCES (WITHOUT WRAP) --------
+
+                // Distance if moving left from startIndex to currentIndex
+                int distanceMovingLeft = startIndex - currentIndex;
+
+                // Distance if moving right from startIndex to currentIndex
+                int distanceMovingRight = currentIndex - startIndex;
+
+                // Invalidate negative distances (wrong direction)
+                distanceMovingLeft = distanceMovingLeft < 0 ? Integer.MAX_VALUE : distanceMovingLeft;
+                distanceMovingRight = distanceMovingRight < 0 ? Integer.MAX_VALUE : distanceMovingRight;
+
+                // Best direct (non-circular) distance
+                int directDistance = Math.min(distanceMovingLeft, distanceMovingRight);
+
+
+                // -------- CIRCULAR DISTANCES (WITH WRAP) --------
+
+                // Move right circularly: start → end → 0 → currentIndex
+                int circularRightDistance = startIndex + (totalWords - currentIndex);
+
+                // Move left circularly: start → 0 → end → currentIndex
+                int circularLeftDistance = (totalWords - 1 - startIndex) + (currentIndex + 1);
+
+                // Best circular distance
+                int circularDistance = Math.min(circularRightDistance, circularLeftDistance);
+
+
+                // -------- FINAL DECISION --------
+
+                int bestDistanceForThisMatch = Math.min(directDistance, circularDistance);
+
+                // Update global minimum
+                minimumDistance = Math.min(minimumDistance, bestDistanceForThisMatch);
+            }
+        }
+
+        // If target not found
+        return minimumDistance == Integer.MAX_VALUE ? -1 : minimumDistance;
+
+        /*
         // Meta Prep Time Practice:
         int totalWords = words.length;
         int minimumDistance = Integer.MAX_VALUE;
@@ -52,5 +105,6 @@ class Solution {
         }
 
         return minimumDistance == Integer.MAX_VALUE ? -1 : minimumDistance;
+        */
     }
 }
