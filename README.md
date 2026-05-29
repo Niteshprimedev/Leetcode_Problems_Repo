@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3379-transformed-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3379-transformed-array) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3336-water-bottles-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3336-water-bottles-ii) |
 | [3548-find-the-count-of-good-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3548-find-the-count-of-good-integers) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
