@@ -1,18 +1,17 @@
 class Solution {
     public boolean asteroidsDestroyed(int mass, int[] asteroids) {
-        /*
         PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> Integer.compare(a, b));
 
         for(int asteroid : asteroids){
             minHeap.add(asteroid);
         }
 
-        int planetMass = mass;
+        long planetMass = mass;
 
         while(!minHeap.isEmpty()){
             int currAsteroid = minHeap.poll();
 
-            if(planetMass >= currAsteroid){
+            if(planetMass >= (long) currAsteroid){
                 planetMass += currAsteroid;
             }
             else{
@@ -21,8 +20,9 @@ class Solution {
         }
 
         return true;
-        */
 
+        /*
+        Type issue int to long;
         Arrays.sort(asteroids);
 
         long planetMass = mass;
@@ -37,5 +37,6 @@ class Solution {
         }
 
         return true;
+        */
     }
 }
