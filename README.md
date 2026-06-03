@@ -287,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3488-closest-equal-element-queries](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3488-closest-equal-element-queries) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
 ## Interactive
 |  |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3623-count-number-of-trapezoids-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3623-count-number-of-trapezoids-i) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3634-minimum-removals-to-balance-array) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3637-trionic-array-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3637-trionic-array-i) |
 | [3640-trionic-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3640-trionic-array-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3643-flip-square-submatrix-vertically) |
@@ -647,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3634-minimum-removals-to-balance-array) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Math
 |  |
 | ------- |
@@ -1029,6 +1032,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2553-total-cost-to-hire-k-workers) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3643-flip-square-submatrix-vertically) |
 ## Greedy
 |  |
@@ -1062,6 +1066,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2592-minimum-total-cost-to-make-arrays-unequal](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2592-minimum-total-cost-to-make-arrays-unequal) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Bit Manipulation
 |  |
