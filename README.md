@@ -1299,6 +1299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1625-group-sold-products-by-the-date](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1625-group-sold-products-by-the-date) |
 | [1661-average-time-of-process-per-machine](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1661-average-time-of-process-per-machine) |
 | [1670-patients-with-a-condition](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1670-patients-with-a-condition) |
+| [1683-invalid-tweets](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1683-invalid-tweets) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1757-recyclable-and-low-fat-products](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1757-recyclable-and-low-fat-products) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1773-percentage-of-users-attended-a-contest) |
