@@ -29,6 +29,7 @@ class Solution {
     }
 
     public int maxProfit(int[] prices) {
+        /*
         // Solution 1: Peek & Valley;
         int n = prices.length;
         int maxProfit = 0;
@@ -58,6 +59,7 @@ class Solution {
         }
 
         return maxProfit;
+        */
 
         /*
         // SOlution 2: Top Down Approach:
@@ -73,6 +75,7 @@ class Solution {
 
         return memoDP[0][1];
         */
+
         
         /*
         // SOlution 3: Bottom Up Approach:
@@ -112,7 +115,6 @@ class Solution {
         return memoDP[0][1];
         */
 
-        /*
         // SOlution 3: Bottom Up Space Optimized Approach:
         int totalDays = prices.length;
 
@@ -151,6 +153,5 @@ class Solution {
         }
 
         return prevDP[1];
-        */
     }
 }
