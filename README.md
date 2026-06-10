@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Ordered Set
 |  |
 | ------- |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3721-longest-balanced-subarray-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -1069,6 +1071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3689-maximum-total-subarray-value-i) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Bit Manipulation
 |  |
@@ -1167,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2280-count-good-triplets-in-an-array) |
+| [3691-maximum-total-subarray-value-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3721-longest-balanced-subarray-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
