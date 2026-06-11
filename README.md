@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0424-longest-repeating-character-replacement) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0407-trapping-rain-water-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0407-trapping-rain-water-ii) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0334-increasing-triplet-subsequence](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0334-increasing-triplet-subsequence) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -617,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0435-non-overlapping-intervals](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0435-non-overlapping-intervals) |
@@ -763,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0451-sort-characters-by-frequency) |
@@ -1117,6 +1122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0918-maximum-sum-circular-subarray) |
 | [0954-maximum-sum-circular-subarray](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0954-maximum-sum-circular-subarray) |
 | [1382-balance-a-binary-search-tree](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1382-balance-a-binary-search-tree) |
@@ -1236,6 +1242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 ## Hash Function
 |  |
 | ------- |
@@ -1263,6 +1270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0692-top-k-frequent-words) |
 ## Database
