@@ -22,10 +22,14 @@ class Solution {
             fastNode = fastNode.next.next;
         }
 
-        if(prevNode != null){
-            prevNode.next = slowNode.next;
-            slowNode.next = null;
-        }
+        // if(prevNode != null){
+        //     prevNode.next = slowNode.next;
+        //     slowNode.next = null;
+        // }
+
+        // OR:
+        prevNode.next = slowNode.next;
+        slowNode.next = null;
 
         return head;
     }
