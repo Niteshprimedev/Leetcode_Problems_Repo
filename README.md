@@ -362,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3396-valid-word) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
+| [3614-process-string-with-special-operations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3614-process-string-with-special-operations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3714-longest-balanced-substring-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3379-transformed-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3379-transformed-array) |
 | [3447-clear-digits](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3447-clear-digits) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+| [3614-process-string-with-special-operations-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3614-process-string-with-special-operations-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/3790-fruits-into-baskets-ii) |
