@@ -1340,6 +1340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1942-primary-department-for-each-employee](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1942-primary-department-for-each-employee) |
 | [2087-confirmation-rate](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2127-employees-whose-manager-left-the-company) |
+| [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Graph Theory
 |  |
