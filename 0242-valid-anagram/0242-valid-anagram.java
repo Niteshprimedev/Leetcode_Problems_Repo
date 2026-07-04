@@ -55,6 +55,7 @@ class Solution {
         return true;
         */
 
+        /*
         // OR:
         if(s.length() != t.length()) return false;
         
@@ -76,7 +77,7 @@ class Solution {
         }
 
         return true;
-        /*
+        */
 
         // Meta Prep Time Practice 2:
         if(s.length() != t.length()) return false;
@@ -99,6 +100,5 @@ class Solution {
         }
 
         return true;
-        */
     }
 }
