@@ -76,5 +76,29 @@ class Solution {
         }
 
         return true;
+        /*
+
+        // Meta Prep Time Practice 2:
+        if(s.length() != t.length()) return false;
+
+        int[] freq1 = new int[26];
+        int[] freq2 = new int[26];
+
+        for(char curr : s.toCharArray()){
+            freq1[curr - 'a'] += 1;
+        }
+
+        for(char curr : t.toCharArray()){
+            freq2[curr - 'a'] += 1;
+        }
+
+        for(int i = 0; i < 26; i++){
+            if(freq1[i] != freq2[i]){
+                return false;
+            }
+        }
+
+        return true;
+        */
     }
 }
