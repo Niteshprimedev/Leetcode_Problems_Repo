@@ -2,12 +2,18 @@ class Solution {
     private boolean isAlphaNum(char currChar){
         int charVal = currChar;
 
+        // char is between 'a-z' & 'A-Z' (65 to 90) & 48 to 57 for '0-9'
         if((charVal >= 97 && charVal <= 122) || (charVal >= 65 && charVal <= 90) || (charVal >= 48 && charVal <= 57)){
             return true;
         }
 
         return false;
     }
+
+    private boolean isSameChar(char strtChar, char endChar){
+        return Character.toLowerCase(strtChar) == Character.toLowerCase(endChar);
+    }
+
     public boolean isPalindrome(String s) {
         int strt = 0;
         int end = s.length() - 1;
@@ -16,7 +22,7 @@ class Solution {
 
         while(strt < end){
             // System.out.println(Character.toLowerCase(s.charAt(strt)));
-            if(Character.toLowerCase(s.charAt(strt)) == Character.toLowerCase(s.charAt(end))){
+            if(isSameChar(s.charAt(strt), s.charAt(end))){
                 strt += 1;
                 end -= 1;
             }
