@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1657-determine-if-two-strings-are-close](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1657-determine-if-two-strings-are-close) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1927-sum-game](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1927-sum-game) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -704,6 +705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1500-count-largest-group) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1642-water-bottles](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1642-water-bottles) |
+| [1927-sum-game](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1927-sum-game) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2383-add-two-integers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2383-add-two-integers) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -1098,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1612-avoid-flood-in-the-city](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1612-avoid-flood-in-the-city) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1927-sum-game](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1927-sum-game) |
 | [2126-destroying-asteroids](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2126-destroying-asteroids) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -1380,4 +1383,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1971-find-if-path-exists-in-graph) |
+## Game Theory
+|  |
+| ------- |
+| [1927-sum-game](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1927-sum-game) |
 <!---LeetCode Topics End-->
