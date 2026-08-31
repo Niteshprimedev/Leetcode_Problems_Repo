@@ -1387,4 +1387,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1927-sum-game](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/1927-sum-game) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Niteshprimedev/Leetcode_Problems_Repo/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
